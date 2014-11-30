@@ -48,6 +48,7 @@ float referenceTensionSolaire = 4.0;
 int ledTemoin = 4;
 int leda = 5;
 int ledb = 6;
+int ledc = 7;
 float compteurVague=0.0;
 float compteurTour=0.0;
 
@@ -110,16 +111,23 @@ void blinkLed(int i, int intensite)//faire clignoter les LEDs
   {
     analogWrite(leda, intensite);
     analogWrite(ledb, 0);
+    analogWrite(ledc, 0);
     delay(temps/i);
     analogWrite(leda, 0);
     analogWrite(ledb, intensite);
+    analogWrite(ledc, 0);
+    delay(temps/i);
+    analogWrite(leda, 0);
+    analogWrite(ledb, 0);
+    analogWrite(ledc, intensite);
     delay(temps/i);
     j++;
   }
     digitalWrite(leda, 0);
     digitalWrite(ledb, 0);
+    digitalWrite(ledc, 0);
+    
 }
-
 
 
 int estimationVie(float temperature, float pression, float soleil, int alerteVague) //estimer le temps de survie de l utilisateur
