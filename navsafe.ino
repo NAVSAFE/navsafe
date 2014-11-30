@@ -44,13 +44,16 @@ float referenceTensionSolaire = 4.0;
 #define WHO_AM_I 0x0D
 #define CTRL_REG1 0x2A
 #define GSCALE 2 // Sets full-scale range to +/-2, 4, or 8g. Used to calc real g values.
+float compteurVague=0.0;
+float compteurTour=0.0;
+
+//_________________________________________________________________________________________Definition LEDs_____
 
 int ledTemoin = 4;
 int leda = 5;
 int ledb = 6;
 int ledc = 7;
-float compteurVague=0.0;
-float compteurTour=0.0;
+
 
 //______________________________________________________________________________________________Definition capteur Pression_____
 #define NWS_BARO 29.92 
@@ -96,6 +99,11 @@ int VRaw; //This will store our raw ADC data
 int IRaw;
 float VFinal; //This will store the converted data
 float IFinal;
+
+
+//_____________________________________________________________________________________________Declaration GPS___________________________________________________________
+
+
 
 
 
@@ -565,7 +573,8 @@ void writeRegister(byte addressToWrite, byte dataToWrite)
 
 
 
- 
+
+//_______________________________________________________________________________________________Fonctions GPS___ 
  
  
  
@@ -585,8 +594,13 @@ void setup()
   
   
   
-  pinMode(ledTemoin, OUTPUT);
-  pinMode(boutonPin, OUTPUT);
+    pinMode(boutonPin, OUTPUT);
+//_________________________________________________________________________________________________Initialiation LEDs____
+
+    pinMode(leda, OUTPUT);  
+    pinMode(ledb, OUTPUT);
+    pinMode(ledc, OUTPUT);
+    pinMode(ledTemoin, OUTPUT);
 
 //_________________________________________________________________________________________________Initialiation capteur Pression____
     // initialize SPI interface
@@ -596,8 +610,7 @@ void setup()
     pinMode(MPL115A1_SELECT_PIN, OUTPUT);
     pinMode(MPL115A1_ENABLE_PIN, OUTPUT);
     
-    pinMode(leda, OUTPUT);  
-    pinMode(ledb, OUTPUT);
+    
     
     // sleep the MPL115A1
     digitalWrite(MPL115A1_ENABLE_PIN, LOW);
@@ -608,7 +621,12 @@ void setup()
     Wire.begin(); //Join the bus as a master
 
   initMMA8452(); //Test and intialize the MMA8452
- 
+
+//___________________________________________________________________________________________Initialisation GPS____
+
+
+
+
 }
 
 
@@ -820,6 +838,11 @@ blinkLed(1,50);
       }
   }
   Serial.println();
+
+//___________________________________________________________________________________________________Loop GPS_______
+
+
+
 
 //____________________________________________________________________________________________________________________________________
   
