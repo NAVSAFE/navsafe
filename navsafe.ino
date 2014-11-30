@@ -2,6 +2,10 @@
 #include <SPI.h>
 //Library accelerometre
 #include <Wire.h>
+//Library GPS
+#include <TinyGPS++.h>
+#include <SoftwareSerial.h>
+
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -49,11 +53,10 @@ float compteurTour=0.0;
 
 //_________________________________________________________________________________________Definition LEDs_____
 
-int ledTemoin = 4;
 int leda = 5;
 int ledb = 6;
 int ledc = 7;
-
+int ledTemoin = 8;
 
 //______________________________________________________________________________________________Definition capteur Pression_____
 #define NWS_BARO 29.92 
@@ -102,6 +105,12 @@ float IFinal;
 
 
 //_____________________________________________________________________________________________Declaration GPS___________________________________________________________
+static const int RXPin = 4, TXPin = 3;
+static const uint32_t GPSBaud = 9600;
+// The TinyGPS++ object
+TinyGPSPlus gps;
+// The serial connection to the GPS device
+SoftwareSerial ss(RXPin, TXPin);
 
 
 
@@ -623,7 +632,16 @@ void setup()
   initMMA8452(); //Test and intialize the MMA8452
 
 //___________________________________________________________________________________________Initialisation GPS____
-
+Serial.begin(9600);
+  ss.begin(GPSBaud);
+  Serial.println(F("FullExample.ino"));
+  Serial.println(F("An extensive example of many interesting TinyGPS++ features"));
+  Serial.print(F("Testing TinyGPS++ library v. ")); Serial.println(TinyGPSPlus::libraryVersion());
+  Serial.println(F("by Mikal Hart"));
+  Serial.println();
+  Serial.println(F("Sats HDOP Latitude   Longitude   Fix  Date       Time     Date Alt    Course Speed Card  Distance Course Card  Chars Sentences Checksum"));
+  Serial.println(F("          (deg)      (deg)       Age                      Age  (m)    --- from GPS ----  ---- to London  ----  RX    RX        Fail"));
+  Serial.println(F("---------------------------------------------------------------------------------------------------------------------------------------"));
 
 
 
