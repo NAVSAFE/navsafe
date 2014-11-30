@@ -30,7 +30,6 @@ void loop()
 
 void displayInfo()
 {
-  Serial.print(F("Location: ")); 
   if (gps.location.isValid())
   {
     Serial.print(gps.location.lat(), 6);
@@ -41,8 +40,7 @@ void displayInfo()
   {
     Serial.print(F("INVALID"));
   }
-
-  Serial.print(F("  Date/Time: "));
+Serial.print(F(", "));
   if (gps.date.isValid())
   {
     Serial.print(gps.date.month());
@@ -55,8 +53,8 @@ void displayInfo()
   {
     Serial.print(F("INVALID"));
   }
-
-  Serial.print(F(" "));
+Serial.print(F(", "));
+  
   if (gps.time.isValid())
   {
     if (gps.time.hour() < 10) Serial.print(F("0"));
