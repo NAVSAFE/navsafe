@@ -13,7 +13,7 @@
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 boolean veille = true;
-int boutonPin = 7;
+int bouton = 7;
 int buttonState = 0;
 int compteurBouton = 0;
 float ratio = 0.0;
@@ -56,7 +56,7 @@ float compteurTour=0.0;
 int leda = 5;
 int ledb = 6;
 int ledc = 7;
-int ledTemoin = 8;
+int ledBouton = 8;
 
 //______________________________________________________________________________________________Definition capteur Pression_____
 #define NWS_BARO 29.92 
@@ -646,13 +646,13 @@ void setup()
   
   
   
-    pinMode(boutonPin, OUTPUT);
+    pinMode(bouton, OUTPUT);
 //_________________________________________________________________________________________________Initialiation LEDs____
 
     pinMode(leda, OUTPUT);  
     pinMode(ledb, OUTPUT);
     pinMode(ledc, OUTPUT);
-    pinMode(ledTemoin, OUTPUT);
+    pinMode(ledBouton, OUTPUT);
 
 //_________________________________________________________________________________________________Initialiation capteur Pression____
     // initialize SPI interface
@@ -690,9 +690,9 @@ Serial.begin(9600);
 void loop()
 { 
 
-  digitalWrite(ledTemoin, LOW);//eteindre led temoin
+  digitalWrite(ledBouton, LOW);//eteindre la LED du bouton
   
-  buttonState = digitalRead(boutonPin);
+  buttonState = digitalRead(bouton);
   
   
   if((buttonState == HIGH) && (compteurBouton==1))//eteindre
@@ -717,7 +717,7 @@ void loop()
   
   if(veille==false)
   {
-    digitalWrite(ledTemoin, HIGH);//allumer led temoin
+    digitalWrite(ledBouton, HIGH);//allumer la LED du bouton
   
   
   
