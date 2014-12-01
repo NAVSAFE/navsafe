@@ -43,7 +43,7 @@ void loop()
   
   Serial.print("Awake for ");
   Serial.print(seconds, DEC);
-  Serial.println(" second");
+  Serial.println(" seconds");
   
   if(seconds == 3)
   {
