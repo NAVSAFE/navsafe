@@ -5,6 +5,12 @@
 //Library GPS
 #include <TinyGPS++.h>
 #include <SoftwareSerial.h>
+//Library current sensor
+#include <Wire.h>
+#include <Adafruit_INA219.h>
+//Library Sleep Mode
+#include <avr/sleep.h>
+#include <avr/power.h>
 
 
 
@@ -12,34 +18,35 @@
 //___________________________________________________________DECLARATION_______________________________________________________________
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-boolean veille = true;
-int bouton = 7;
-int buttonState = 0;
-int compteurBouton = 0;
 float ratio = 0.0;
 float temps = 180.0;
 float  voltageBatterie = 0.0;
 int niveauAlerte = 0;
 int batterie = -1;
 int estimationSurvie = -1;
-
 const int analog_pin=2;
 const int r1=3000;
 const int r2=1000;
 const int refVolt =5;
 const int resistorFactor = 255 / (r2/(r1 + r2));
 float referenceVoltBatterie = 1023.0;
-
 const int vSolaire_pin=0;
 float referenceTensionSolaire = 4.0;
 
-//_______________________________________________________________________________________________Definition niveau batterie____
+//_______________________________________________________________________________________________Declaration Bouton Navsafe____
+int bouton = 9;
+
+//_______________________________________________________________________________________________Declaration Sleep Mode____
+  int sleepmode=0;
+
+
+//_______________________________________________________________________________________________Declaration niveau batterie____
 
 #define ADC_TO_VOLTS(value) ((value / 1023.0) * 5.0 )
 
 
 
-//_________________________________________________________________________________________Definition capteur Accelerometre_____
+//_________________________________________________________________________________________Declaration capteur Accelerometre_____
 #define MMA8452_ADDRESS 0x1D // 0x1D if SA0 is high, 0x1C if low
 
 //Define a few of the registers that we will be accessing on the MMA8452
@@ -51,14 +58,14 @@ float referenceTensionSolaire = 4.0;
 float compteurVague=0.0;
 float compteurTour=0.0;
 
-//_________________________________________________________________________________________Definition LEDs_____
+//_________________________________________________________________________________________Declaration LEDs_____
 
 int leda = 5;
 int ledb = 6;
 int ledc = 7;
 int ledBouton = 8;
 
-//______________________________________________________________________________________________Definition capteur Pression_____
+//______________________________________________________________________________________________Declaration capteur Pression_____
 #define NWS_BARO 29.92 
 
 // Pin definitions
@@ -97,7 +104,9 @@ int ledBouton = 8;
 #define INHG_TO_PSIA(x) ((x)*(0.49109778))
 #define DEGC_TO_DEGF(x) ((x)*(9.0/5.0)+32)
 
-//_____________________________________________________________________________________________Declaration capteur Voltage___________________________________________________________
+//_____________________________________________________________________________________________Declaration current sensor___________________________________________________________
+Adafruit_INA219 ina219;
+
 int VRaw; //This will store our raw ADC data
 int IRaw;
 float VFinal; //This will store the converted data
@@ -120,8 +129,32 @@ SoftwareSerial ss(RXPin, TXPin);
 //___________________________________________________________FONCTIONS_______________________________________________________________
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+//___________________________________________________________________________________________________________Fonction pour le Sleep Mode____
+void Light(void)
+{
+  //Allumer la LED du bouton
+  digitalWrite(ledBouton, HIGH);
+  
+}
 
-void blinkLed(int i, int intensite)//faire clignoter les LEDs
+
+void enterSleep(void)
+{
+  /* Setup pin2 as an interrupt and attach handler. */
+  attachInterrupt(bouton, Light, LOW);
+  delay(100);
+  set_sleep_mode(SLEEP_MODE_PWR_DOWN);
+  sleep_enable();
+  sleep_mode();
+  /* The program will continue from here.
+  First thing to do is disable sleep. */
+  detachInterrupt(0);
+  sleep_disable(); 
+}
+
+
+//___________________________________________________________________________________________________________Fonction Clignoter LEDs____
+void blinkLed(int i, int intensite)
 {
   int j=0;
   while(j<i)
@@ -146,6 +179,7 @@ void blinkLed(int i, int intensite)//faire clignoter les LEDs
     
 }
 
+//___________________________________________________________________________________________________________Fonction estimation de survie____
 
 int estimationVie(float temperature, float pression, float soleil, int alerteVague) //estimer le temps de survie de l utilisateur
 {
@@ -638,23 +672,23 @@ Serial.print(F(", "));
 //___________________________________________________________SETUP_______________________________________________________________
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-
-
 void setup()
 {
   Serial.begin(9600); 
+
+//______________________________________________________________________________________________________Setup Sleep Mode____  
+  pinMode(ledBouton, OUTPUT);
   
-  
-  
-    pinMode(bouton, OUTPUT);
-//_________________________________________________________________________________________________Initialiation LEDs____
+//______________________________________________________________________________________________________Setup Bouton____  
+    pinMode(bouton, INPUT);
+//_______________________________________________________________________________________________________Setup LEDs____
 
     pinMode(leda, OUTPUT);  
     pinMode(ledb, OUTPUT);
     pinMode(ledc, OUTPUT);
     pinMode(ledBouton, OUTPUT);
 
-//_________________________________________________________________________________________________Initialiation capteur Pression____
+//_____________________________________________________________________________________________________Setup capteur Pression____
     // initialize SPI interface
     SPI.begin();
     
@@ -669,12 +703,17 @@ void setup()
     
     // set the chip select inactive, select signal is CS LOW
     digitalWrite(MPL115A1_SELECT_PIN, HIGH);
-//___________________________________________________________________________________________Initialisation capteur Accelerometre____
+//_______________________________________________________________________________________________________Setup capteur Accelerometre____
     Wire.begin(); //Join the bus as a master
 
   initMMA8452(); //Test and intialize the MMA8452
 
-//___________________________________________________________________________________________Initialisation GPS____
+//_____________________________________________________________________________________________________Setup current sensor____
+  uint32_t currentFrequency;
+  ina219.begin();
+  pinMode(13, OUTPUT);
+
+//_____________________________________________________________________________________________________Setup GPS____
 Serial.begin(9600);
   ss.begin(GPSBaud);
 
@@ -689,64 +728,36 @@ Serial.begin(9600);
 
 void loop()
 { 
-
-  digitalWrite(ledBouton, LOW);//eteindre la LED du bouton
-  
-  buttonState = digitalRead(bouton);
-  
-  
-  if((buttonState == HIGH) && (compteurBouton==1))//eteindre
+  //________________________________________________________________________________________________________Loop Sleep Mode______ 
+  if(sleepmode==0)
   {
-    Serial.println("Bouton");
-    veille=true;
-    compteurBouton=0;
-    compteurTour=0;
-    compteurVague=0;
-    delay(10000);
+    Serial.print("Entering Sleep mode in: 3 seconds");
+    delay(1000);
+    Serial.print("Entering Sleep mode in: 2 seconds");
+    delay(1000);
+    Serial.print("Entering Sleep mode in: 1 seconds");
+    delay(1000);
+    Serial.print("Entering Sleep mode...");
+    delay(1000);
+    sleepmode++;
+    enterSleep();
   }
+  //________________________________________________________________________________________________________Loop current sensor______ 
+  float busvoltage = 0;
+  busvoltage = ina219.getBusVoltage_V();
+  if (busvoltage<=3,30) {Serial.print("Batterie restante: <5%");}
+  if (3.30<busvoltage<=3,60) {Serial.print("Batterie restante: 10%");}
+  if (3.60<busvoltage<=3,70) {Serial.print("Batterie restante: 20%");}
+  if (3.70<busvoltage<=3,75) {Serial.print("Batterie restante: 30%");}
+  if (3.75<busvoltage<=3,79) {Serial.print("Batterie restante: 40%");}
+  if (3.79<busvoltage<=3,83) {Serial.print("Batterie restante: 50%");}
+  if (3.83<busvoltage<=3,87) {Serial.print("Batterie restante: 60%");}
+  if (3.87<busvoltage<=3,92) {Serial.print("Batterie restante: 70%");}
+  if (3.92<busvoltage<=3,97) {Serial.print("Batterie restante: 80%");}
+  if (3.97<busvoltage<=4,10) {Serial.print("Batterie restante: 90%");}
+  if (busvoltage>4.10) {Serial.print("Batterie restante: 100%");}
   
-
-  
-  else if((buttonState == HIGH) && (compteurBouton==0))//allumer
-  {
-    Serial.println("Bouton");
-    veille=false;
-    compteurBouton=1;
-  }
-  
-  
-  if(veille==false)
-  {
-    digitalWrite(ledBouton, HIGH);//allumer la LED du bouton
-  
-  
-  
-  //________________________________________________________________________________________________________Loop capteur Voltage______ 
-  //Measurement
-  VRaw = analogRead(0);
-  IRaw = analogRead(1);
-  
-  //Conversion
-  //VFinal = VRaw/49.44; //45 Amp board
-  VFinal = VRaw/12.99; //90 Amp board
-  //VFinal = VRaw/12.99; //180 Amp board  
-  
-  //IFinal = IRaw/14.9; //45 Amp board
-  IFinal = IRaw/7.4; //90 Amp board
-  
-  //IFinal = IRaw/3.7; //180 Amp board
-
-  Serial.println(" ");
-  Serial.print("Voltage: ");
-  Serial.print(VFinal);
-  Serial.println("   Volts");
- 
-  Serial.print("Amperage: ");
-  Serial.print(IFinal);
-  Serial.println("   Amps");
-  Serial.println(" ");
-
-  //delay(200);
+  //delay(2000);
 
   
   //________________________________________________________________________________________________________Loop capteur Pression____
@@ -795,7 +806,7 @@ void loop()
 
 
   digitalWrite(ledb, LOW);//eteindre led b  //test LED
-  digitalWrite(leda, LOW);//eteindre led b
+  digitalWrite(leda, LOW);//eteindre led a
   
   if(temperature_c>19)//si temperature > 20
   {
@@ -947,7 +958,7 @@ blinkLed(1,50);
   Serial.println("_____________________________________________");
   delay(200);
   Serial.println(" ");
-  }
+  
 }
 
 
