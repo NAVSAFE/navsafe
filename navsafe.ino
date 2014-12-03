@@ -20,30 +20,24 @@
 
 float ratio = 0.0;
 float temps = 180.0;
-float  voltageBatterie = 0.0;
 int niveauAlerte = 0;
 int batterie = -1;
 int estimationSurvie = -1;
-const int analog_pin=2;
 const int r1=3000;
 const int r2=1000;
 const int refVolt =5;
-const int resistorFactor = 255 / (r2/(r1 + r2));
 float referenceVoltBatterie = 1023.0;
 const int vSolaire_pin=0;
 float referenceTensionSolaire = 4.0;
+
+//_______________________________________________________________________________________________Declaration Induction____
+int inductionState = 2;
 
 //_______________________________________________________________________________________________Declaration Bouton Navsafe____
 int bouton = 9;
 
 //_______________________________________________________________________________________________Declaration Sleep Mode____
   int sleepmode=0;
-
-
-//_______________________________________________________________________________________________Declaration niveau batterie____
-
-#define ADC_TO_VOLTS(value) ((value / 1023.0) * 5.0 )
-
 
 
 //_________________________________________________________________________________________Declaration capteur Accelerometre_____
@@ -104,14 +98,11 @@ int ledBouton = 8;
 #define INHG_TO_PSIA(x) ((x)*(0.49109778))
 #define DEGC_TO_DEGF(x) ((x)*(9.0/5.0)+32)
 
-//_____________________________________________________________________________________________Declaration current sensor___________________________________________________________
+//_____________________________________________________________________________________________Declaration current sensor + batteries___________________________________________________________
 Adafruit_INA219 ina219;
-
-int VRaw; //This will store our raw ADC data
-int IRaw;
-float VFinal; //This will store the converted data
-float IFinal;
-
+int currentSensor = 13;
+int batterieArduino = 0;
+int batterieEmission = 0;
 
 //_____________________________________________________________________________________________Declaration GPS___________________________________________________________
 static const int RXPin = 4, TXPin = 3;
@@ -252,47 +243,6 @@ float voltageSolaire()
   
   return voltage;
 }
-
-
-//________________________________________________________________________________________________________________Fonction batterie______
-//V>4.0      =>  batterie chargee
-//4.0>V>3.5  =>  batterie moyenne
-//3.5>V>3.3  =>  batterie decargee
-//3.3>V>3.0  => batterie critique
-
-int niveauBatterie()//évaluer le niveau de charge de la batterie
-{
-  int niveau=-1;
-  
-  
-  int val = analogRead(analog_pin);
-  float volts = (val / resistorFactor) * refVolt ;
-  Serial.print("Voltage batterie: ");
-  volts = (volts / 1023.0) * 5.0;
-  Serial.println(volts); // print the value in volts
-//  volts = (volts/1023.0)*5.0;
-  
-  if(volts>=4.0)
-  {
-    niveau=3;
-  }
-  else if(volts<4.0&&volts>=3.5)
-  {
-    niveau=2;
-  }
-  else if(volts<3.5&&volts>=3.3)
-  {
-    niveau=1;
-  }
-  else if(volts<=3.3)
-  {
-    niveau=0;
-  }
-  
-  return niveau; 
-}
-
-
 
 
 
@@ -674,7 +624,10 @@ Serial.print(F(", "));
 
 void setup()
 {
-  Serial.begin(9600); 
+  Serial.begin(9600);
+  
+//______________________________________________________________________________________________________Setup Induction____
+pinMode(inductionState, INPUT);
 
 //______________________________________________________________________________________________________Setup Sleep Mode____  
   pinMode(ledBouton, OUTPUT);
@@ -711,7 +664,7 @@ void setup()
 //_____________________________________________________________________________________________________Setup current sensor____
   uint32_t currentFrequency;
   ina219.begin();
-  pinMode(13, OUTPUT);
+  pinMode(currentSensor, OUTPUT);
 
 //_____________________________________________________________________________________________________Setup GPS____
 Serial.begin(9600);
@@ -742,22 +695,27 @@ void loop()
     sleepmode++;
     enterSleep();
   }
-  //________________________________________________________________________________________________________Loop current sensor______ 
+  //________________________________________________________________________________________________________Loop current sensor batterie Arduino______ 
   float busvoltage = 0;
   busvoltage = ina219.getBusVoltage_V();
+  // Détermination du niveau de charge de la batterie Arduino
   if (busvoltage<=3,30) {Serial.print("Batterie restante: <5%");}
-  if (3.30<busvoltage<=3,60) {Serial.print("Batterie restante: 10%");}
-  if (3.60<busvoltage<=3,70) {Serial.print("Batterie restante: 20%");}
-  if (3.70<busvoltage<=3,75) {Serial.print("Batterie restante: 30%");}
-  if (3.75<busvoltage<=3,79) {Serial.print("Batterie restante: 40%");}
-  if (3.79<busvoltage<=3,83) {Serial.print("Batterie restante: 50%");}
-  if (3.83<busvoltage<=3,87) {Serial.print("Batterie restante: 60%");}
-  if (3.87<busvoltage<=3,92) {Serial.print("Batterie restante: 70%");}
-  if (3.92<busvoltage<=3,97) {Serial.print("Batterie restante: 80%");}
-  if (3.97<busvoltage<=4,10) {Serial.print("Batterie restante: 90%");}
-  if (busvoltage>4.10) {Serial.print("Batterie restante: 100%");}
+  if (3.30<busvoltage<=3,60) {Serial.print("Batterie Arduino restante: 10%");}
+  if (3.60<busvoltage<=3,70) {Serial.print("Batterie Arduino restante: 20%");}
+  if (3.70<busvoltage<=3,75) {Serial.print("Batterie Arduino restante: 30%");}
+  if (3.75<busvoltage<=3,79) {Serial.print("Batterie Arduino restante: 40%");}
+  if (3.79<busvoltage<=3,83) {Serial.print("Batterie Arduino restante: 50%");}
+  if (3.83<busvoltage<=3,87) {Serial.print("Batterie Arduino restante: 60%");}
+  if (3.87<busvoltage<=3,92) {Serial.print("Batterie Arduino restante: 70%");}
+  if (3.92<busvoltage<=3,97) {Serial.print("Batterie Arduino restante: 80%");}
+  if (3.97<busvoltage<=4,10) {Serial.print("Batterie Arduino restante: 90%");}
+  if (busvoltage>4.10) {Serial.print("Batterie Arduino restante: 100%");}
+  // Détermination du niveau critique de la batterie (<20%)
+  if (busvoltage <= 3.70) {batterieArduino == 1;}
+  if (busvoltage > 3.70) {batterieArduino == 0;}
   
-  //delay(2000);
+  
+  delay(2000);
 
   
   //________________________________________________________________________________________________________Loop capteur Pression____
@@ -801,27 +759,10 @@ void loop()
     Serial.print(temperature_c, 1);
     Serial.println("   Celcius");
 //  Serial.print(DEGC_TO_DEGF(temperature_c), 1);
-//  Serial.print(" F\n");
-
-
-
-  digitalWrite(ledb, LOW);//eteindre led b  //test LED
-  digitalWrite(leda, LOW);//eteindre led a
-  
-  if(temperature_c>19)//si temperature > 20
-  {
-    digitalWrite(leda, HIGH);//allumer led a
-  }
-  
-  if(temperature_c>22)//si temperature > 25
-  {
-    digitalWrite(ledb, HIGH);//allumer led b
-  }
-    
+//  Serial.print(" F\n");    
     Serial.println("");
-    
-    // wait a few seconds before looping
-   // delay(5000);
+
+    delay(2000);
   
   
 //___________________________________________________________________________________________________Loop capteur Accelerometre_______
@@ -900,6 +841,7 @@ blinkLed(1,50);
       }
   }
   Serial.println();
+  delay (2000);
 
 //___________________________________________________________________________________________________Loop GPS_______
 // This sketch displays information every time a new sentence is correctly encoded.
@@ -915,49 +857,60 @@ blinkLed(1,50);
 
 
 
-//____________________________________________________________________________________________________________________________________
+//_______________________________________________________________________________________________________________________Loop LEDs______
   
   estimationVie(temperature_c, pressure_pKa, 1.0, niveauAlerte);
   Serial.print("Estimation du temps de survie: ");
   Serial.print(estimationVie(temperature_c, pressure_pKa, 1.0, niveauAlerte));
   Serial.println(" H");
   
-  batterie=niveauBatterie();
-  Serial.print("Niveau batterie: ");
-  Serial.print(batterie);
-  Serial.println("");
-  
-  if(batterie<=1)
+  // Si batterie Arduino non en état critique
+  if (batterieArduino == 0)
   {
-    Serial.println("Mode economie energie");
-    //blinkLed(1, 127);
-  }
-  else if(batterie>1)
-  {
-      if(estimationSurvie<=1)
+        if(estimationSurvie<=1)
       {
         Serial.println("Mode performant");
-        //blinkLed(4, 255);
+        blinkLed(4, 255);
         
       }
       else if(estimationSurvie>=4)
       {
         Serial.println("Mode economie energie");
-        //blinkLed(1, 127);
+        blinkLed(1, 127);
       }
       else
       {
         Serial.println("Mode modere");
-        //blinkLed(2, 85);
+        blinkLed(2, 85);
       }
-      
-  }
+  }   
+  
+  // Si batterie Arduino en état critique
+  if (batterieArduino == 1)
+    {
+        Serial.println("Batterie Arduino critique : Mode economie energie");
+        blinkLed(1, 127);
+      }
   
   
   //__________________________________________________________________________________________________________________________________
   Serial.println("_____________________________________________");
   delay(200);
   Serial.println(" ");
+  
+  //_____________________________________________________________________________________________________________________Loop Induction______
+  if (inductionState == HIGH)
+  {
+    Serial.println("Recharge par induction détectée.");
+    delay(1000);
+    Serial.println("La balise est sur son socle, préparation du Sleep Mode...");
+    delay(1000);
+    Serial.println("Activation du Sleep Mode, au revoir.");
+    delay(1000);
+    enterSleep();
+  }
+  delay (2000);
+
   
 }
 
