@@ -99,8 +99,8 @@ int ledBouton = 8;
 #define DEGC_TO_DEGF(x) ((x)*(9.0/5.0)+32)
 
 //_____________________________________________________________________________________________Declaration current sensor + batteries___________________________________________________________
-Adafruit_INA219 ina219;
-int currentSensor = 13;
+Adafruit_INA219 ina219_A; // Current sensor de la batterie Arduino
+Adafruit_INA219 ina219_E(0x41); // Current sensor de la batterie Emission
 int batterieArduino = 0;
 int batterieEmission = 0;
 
@@ -170,8 +170,52 @@ void blinkLed(int i, int intensite)
     
 }
 
-//___________________________________________________________________________________________________________Fonction estimation de survie____
+//___________________________________________________________________________________________________________Fonction Etat de la batterie Arduino____
+void StatebatterieArduino ()
+{
+  float busvoltageA = 0;
+  busvoltageA = ina219_A.getBusVoltage_V();
+  // Détermination du niveau de charge de la batterie Arduino
+  if (busvoltageA<=3,30) {Serial.print("Batterie Arduino restante: <5%");}
+  if (3.30<busvoltageA<=3,60) {Serial.print("Batterie Arduino restante: 10%");}
+  if (3.60<busvoltageA<=3,70) {Serial.print("Batterie Arduino restante: 20%");}
+  if (3.70<busvoltageA<=3,75) {Serial.print("Batterie Arduino restante: 30%");}
+  if (3.75<busvoltageA<=3,79) {Serial.print("Batterie Arduino restante: 40%");}
+  if (3.79<busvoltageA<=3,83) {Serial.print("Batterie Arduino restante: 50%");}
+  if (3.83<busvoltageA<=3,87) {Serial.print("Batterie Arduino restante: 60%");}
+  if (3.87<busvoltageA<=3,92) {Serial.print("Batterie Arduino restante: 70%");}
+  if (3.92<busvoltageA<=3,97) {Serial.print("Batterie Arduino restante: 80%");}
+  if (3.97<busvoltageA<=4,10) {Serial.print("Batterie Arduino restante: 90%");}
+  if (busvoltageA>4.10) {Serial.print("Batterie Arduino restante: 100%");}
+  // Détermination du niveau critique de la batterie (<20%)
+  if (busvoltageA <= 3.70) {batterieArduino == 1;}
+  if (busvoltageA > 3.70) {batterieArduino == 0;}
+}
 
+//___________________________________________________________________________________________________________Fonction Etat de la batterie Emission____
+void StatebatterieEmission ()
+{
+  float busvoltageE = 0;
+  busvoltageE = ina219_E.getBusVoltage_V();
+  // Détermination du niveau de charge de la batterie Arduino
+  if (busvoltageE<=3,30) {Serial.print("Batterie Emission restante: <5%");}
+  if (3.30<busvoltageE<=3,60) {Serial.print("Batterie Emission restante: 10%");}
+  if (3.60<busvoltageE<=3,70) {Serial.print("Batterie Emission restante: 20%");}
+  if (3.70<busvoltageE<=3,75) {Serial.print("Batterie Emission restante: 30%");}
+  if (3.75<busvoltageE<=3,79) {Serial.print("Batterie Emission restante: 40%");}
+  if (3.79<busvoltageE<=3,83) {Serial.print("Batterie Emission restante: 50%");}
+  if (3.83<busvoltageE<=3,87) {Serial.print("Batterie Emission restante: 60%");}
+  if (3.87<busvoltageE<=3,92) {Serial.print("Batterie Emission restante: 70%");}
+  if (3.92<busvoltageE<=3,97) {Serial.print("Batterie Emission restante: 80%");}
+  if (3.97<busvoltageE<=4,10) {Serial.print("Batterie Emission restante: 90%");}
+  if (busvoltageE>4.10) {Serial.print("Batterie Emission restante: 100%");}
+  // Détermination du niveau critique de la batterie (<20%)
+  if (busvoltageE <= 3.70) {batterieEmission == 1;}
+  if (busvoltageE > 3.70) {batterieEmission == 0;}
+}
+
+
+//___________________________________________________________________________________________________________Fonction estimation de survie____
 int estimationVie(float temperature, float pression, float soleil, int alerteVague) //estimer le temps de survie de l utilisateur
 {
   int estimation=0;
@@ -663,8 +707,9 @@ pinMode(inductionState, INPUT);
 
 //_____________________________________________________________________________________________________Setup current sensor____
   uint32_t currentFrequency;
-  ina219.begin();
-  pinMode(currentSensor, OUTPUT);
+  ina219_A.begin(); // Current sensor de la batterie Arduino
+  ina219_E.begin(); // Current sensor de la batterie Emission
+  
 
 //_____________________________________________________________________________________________________Setup GPS____
 Serial.begin(9600);
@@ -695,26 +740,13 @@ void loop()
     sleepmode++;
     enterSleep();
   }
+  
   //________________________________________________________________________________________________________Loop current sensor batterie Arduino______ 
-  float busvoltage = 0;
-  busvoltage = ina219.getBusVoltage_V();
-  // Détermination du niveau de charge de la batterie Arduino
-  if (busvoltage<=3,30) {Serial.print("Batterie restante: <5%");}
-  if (3.30<busvoltage<=3,60) {Serial.print("Batterie Arduino restante: 10%");}
-  if (3.60<busvoltage<=3,70) {Serial.print("Batterie Arduino restante: 20%");}
-  if (3.70<busvoltage<=3,75) {Serial.print("Batterie Arduino restante: 30%");}
-  if (3.75<busvoltage<=3,79) {Serial.print("Batterie Arduino restante: 40%");}
-  if (3.79<busvoltage<=3,83) {Serial.print("Batterie Arduino restante: 50%");}
-  if (3.83<busvoltage<=3,87) {Serial.print("Batterie Arduino restante: 60%");}
-  if (3.87<busvoltage<=3,92) {Serial.print("Batterie Arduino restante: 70%");}
-  if (3.92<busvoltage<=3,97) {Serial.print("Batterie Arduino restante: 80%");}
-  if (3.97<busvoltage<=4,10) {Serial.print("Batterie Arduino restante: 90%");}
-  if (busvoltage>4.10) {Serial.print("Batterie Arduino restante: 100%");}
-  // Détermination du niveau critique de la batterie (<20%)
-  if (busvoltage <= 3.70) {batterieArduino == 1;}
-  if (busvoltage > 3.70) {batterieArduino == 0;}
+  StatebatterieArduino();
+  delay(2000);
   
-  
+//________________________________________________________________________________________________________Loop current sensor batterie Emission______ 
+  StatebatterieEmission();
   delay(2000);
 
   
