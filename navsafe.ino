@@ -51,6 +51,9 @@ int bouton = 9;
 #define GSCALE 2 // Sets full-scale range to +/-2, 4, or 8g. Used to calc real g values.
 float compteurVague=0.0;
 float compteurTour=0.0;
+int accelCount[3]; // Stores the 12-bit signed value
+float accelG[3]; // Stores the real accel value in g's
+float seuilVague=0.6;
 
 //_________________________________________________________________________________________Declaration LEDs_____
 
@@ -98,6 +101,11 @@ int ledBouton = 8;
 #define INHG_TO_PSIA(x) ((x)*(0.49109778))
 #define DEGC_TO_DEGF(x) ((x)*(9.0/5.0)+32)
 
+float pressure_pKa = 0;
+float temperature_c= 0;
+long altitude_ft = 0;
+    
+
 //_____________________________________________________________________________________________Declaration current sensor + batteries___________________________________________________________
 Adafruit_INA219 ina219_A; // Current sensor de la batterie Arduino
 Adafruit_INA219 ina219_E(0x41); // Current sensor de la batterie Emission
@@ -144,7 +152,7 @@ void enterSleep(void)
 }
 
 
-//___________________________________________________________________________________________________________Fonction Clignoter LEDs____
+//___________________________________________________________________________________________________________Fonction LEDs____
 void blinkLed(int i, int intensite)
 {
   int j=0;
@@ -168,6 +176,43 @@ void blinkLed(int i, int intensite)
     digitalWrite(ledb, 0);
     digitalWrite(ledc, 0);
     
+}
+
+void Led ()
+{
+ estimationVie(temperature_c, pressure_pKa, 1.0, niveauAlerte);
+  Serial.print("Estimation du temps de survie: ");
+  Serial.print(estimationVie(temperature_c, pressure_pKa, 1.0, niveauAlerte));
+  Serial.println(" H");
+  
+  // Si batterie Arduino non en état critique
+  if (batterieArduino == 0)
+  {
+        if(estimationSurvie<=1)
+      {
+        Serial.println("Mode performant");
+        blinkLed(4, 255);
+        
+      }
+      else if(estimationSurvie>=4)
+      {
+        Serial.println("Mode economie energie");
+        blinkLed(1, 127);
+      }
+      else
+      {
+        Serial.println("Mode modere");
+        blinkLed(2, 85);
+      }
+  }   
+  
+  // Si batterie Arduino en état critique
+  if (batterieArduino == 1)
+    {
+        Serial.println("Batterie Arduino critique : Mode economie energie");
+        blinkLed(1, 127);
+      } 
+  
 }
 
 //___________________________________________________________________________________________________________Fonction Etat de la batterie Arduino____
@@ -500,6 +545,48 @@ void writeRegisterPression(byte thisRegister, byte thisValue)
     digitalWrite(MPL115A1_SELECT_PIN, HIGH);
 }
 
+void Pression ()
+{
+
+    // wake the MPL115A1
+    digitalWrite(MPL115A1_ENABLE_PIN, HIGH);
+    delay(20);  // give the chip a few ms to wake up
+    
+    pressure_pKa = calculatePressurekPa();
+    pressure_pKa = pressure_pKa*10;//convertir en hPa
+    temperature_c = calculateTemperatureC();
+    altitude_ft = calculateAltitudeFt(pressure_pKa);
+    
+    // put the MPL115A1 to sleep, it has this feature why not use it
+    // while in shutdown the part draws ~1uA
+    digitalWrite(MPL115A1_ENABLE_PIN, LOW);
+    
+    // print table of altitude, pressures, and temperatures to console
+/*  Serial.print("Pression: ");
+    Serial.print(altitude_ft);
+    Serial.print(" ft | ");
+    Serial.print(FT_TO_M(altitude_ft));
+    Serial.print(" m | ");
+    Serial.print(KPA_TO_INHG(pressure_pKa), 2);
+    Serial.print(" in Hg | ");
+    Serial.print(KPA_TO_MMHG(pressure_pKa), 0);
+    Serial.print(" mm Hg | ");
+    Serial.print(KPA_TO_PSIA(pressure_pKa), 2);
+    Serial.print(" psia | ");
+    Serial.print(KPA_TO_KGCM2(pressure_pKa), 3);
+    Serial.print(" kg/cm2 | ");*/
+    Serial.print("Pression: ");
+    Serial.print(pressure_pKa, 1);
+    Serial.println("   hPa");
+    
+    // At a res of -5.35 counts/Â°C, digits lower than 0.1Â°C are not significant
+    Serial.print("Temperature: ");
+    Serial.print(temperature_c, 1);
+    Serial.println("   Celcius");
+//  Serial.print(DEGC_TO_DEGF(temperature_c), 1);
+//  Serial.print(" F\n");    
+    Serial.println("");
+}
 
 
 //_______________________________________________________________________________________________Fonctions capteur Accelerometre___
@@ -607,7 +694,82 @@ void writeRegister(byte addressToWrite, byte dataToWrite)
   Wire.write(dataToWrite);
   Wire.endTransmission(); //Stop transmitting
 }
+void Accelerometre ()
+{
 
+  readAccelData(accelCount); // Read the x/y/z adc values
+
+  // Now we'll calculate the accleration value into actual g's
+  for (int i = 0 ; i < 3 ; i++)
+  {
+    accelG[i] = (float) accelCount[i] / ((1<<12)/(2*GSCALE)); // get actual g value, this depends on scale being set
+  }
+
+  // Print out values
+  Serial.println("Accelerometre: ");
+  for (int i = 0 ; i < 3 ; i++)
+  {
+    Serial.print(accelG[i], 4); // Print g values
+    Serial.print("\t"); // tabs in between axes
+  }
+  
+  if(abs(accelG[0])>seuilVague||abs(accelG[2])>seuilVague)
+  {
+    Serial.println(" ");
+    Serial.println(" ");
+    Serial.println("Vagues!");
+    compteurVague = compteurVague+1;
+  }
+  
+  compteurTour = compteurTour+1;
+  ratio = compteurVague/compteurTour;
+  
+  Serial.print("Nombre de tours: ");
+  Serial.println(compteurTour);
+  Serial.print("Nombre de vagues: ");
+  Serial.println(compteurVague);
+  Serial.print("Ratio: ");
+  Serial.println(ratio);
+  
+  niveauAlerte=0;
+  if(compteurTour>10)//si plus de 10 tours
+  {
+    if(ratio>=0.5)//si rapport vague/tour superieur a  0.8
+      {
+        Serial.println("/////////////////////////////");
+        Serial.println("/// Alerte Vagues force 3 ///");
+        Serial.println("/////////////////////////////");
+blinkLed(4,255);
+        niveauAlerte=3;
+      }
+      
+      else if((ratio>=0.3)&&(ratio<0.5))//si rapport vague/tour superieur a  0.6
+      {
+        Serial.println("/////////////////////////////");
+        Serial.println("/// Alerte Vagues force 2 ///");
+        Serial.println("/////////////////////////////");
+  blinkLed(2,150);
+        niveauAlerte=2;
+      }
+      
+      else if((ratio>=0.1)&&(ratio<0.3))//si rapport vague/tour superieur a  0.4
+      {
+        Serial.println("/////////////////////////////");
+        Serial.println("/// Alerte Vagues force 1 ///");
+        Serial.println("//////////////////////////////");
+blinkLed(1,50);
+        niveauAlerte=1;
+      }
+    
+      else if((compteurVague/compteurTour)<0.1)//si rapport vague/tour inferieur a  0.2
+      {
+        compteurVague=0;//reinitialiser compteurs
+        compteurTour=0;
+        niveauAlerte=0;
+      }
+  }
+  Serial.println();
+}
 
 
 
@@ -659,7 +821,20 @@ Serial.print(F(", "));
   Serial.println();
 }
  
- 
+//_______________________________________________________________________________________________Fonction Induction___
+void CheckInduction ()
+{
+    if (inductionState == HIGH)
+  {
+    Serial.println("Recharge par induction détectée.");
+    delay(1000);
+    Serial.println("La balise est sur son socle, préparation du Sleep Mode...");
+    delay(1000);
+    Serial.println("Activation du Sleep Mode, au revoir.");
+    delay(1000);
+    enterSleep();
+  }
+}
  
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -712,7 +887,6 @@ pinMode(inductionState, INPUT);
   
 
 //_____________________________________________________________________________________________________Setup GPS____
-Serial.begin(9600);
   ss.begin(GPSBaud);
 
 }
@@ -726,7 +900,7 @@ Serial.begin(9600);
 
 void loop()
 { 
-  //________________________________________________________________________________________________________Loop Sleep Mode______ 
+  // Sleep Mode 
   if(sleepmode==0)
   {
     Serial.print("Entering Sleep mode in: 3 seconds");
@@ -739,143 +913,16 @@ void loop()
     delay(1000);
     sleepmode++;
     enterSleep();
-  }
-  
-  //________________________________________________________________________________________________________Loop current sensor batterie Arduino______ 
+  }  
+// Etat de la batterie Arduino 
   StatebatterieArduino();
-  delay(2000);
-  
-//________________________________________________________________________________________________________Loop current sensor batterie Emission______ 
+// Etat de la batterie Emission 
   StatebatterieEmission();
-  delay(2000);
-
-  
-  //________________________________________________________________________________________________________Loop capteur Pression____
-  float pressure_pKa = 0;
-    float temperature_c= 0;
-    long altitude_ft = 0;
-    
-    // wake the MPL115A1
-    digitalWrite(MPL115A1_ENABLE_PIN, HIGH);
-    delay(20);  // give the chip a few ms to wake up
-    
-    pressure_pKa = calculatePressurekPa();
-    pressure_pKa = pressure_pKa*10;//convertir en hPa
-    temperature_c = calculateTemperatureC();
-    altitude_ft = calculateAltitudeFt(pressure_pKa);
-    
-    // put the MPL115A1 to sleep, it has this feature why not use it
-    // while in shutdown the part draws ~1uA
-    digitalWrite(MPL115A1_ENABLE_PIN, LOW);
-    
-    // print table of altitude, pressures, and temperatures to console
-/*  Serial.print("Pression: ");
-    Serial.print(altitude_ft);
-    Serial.print(" ft | ");
-    Serial.print(FT_TO_M(altitude_ft));
-    Serial.print(" m | ");
-    Serial.print(KPA_TO_INHG(pressure_pKa), 2);
-    Serial.print(" in Hg | ");
-    Serial.print(KPA_TO_MMHG(pressure_pKa), 0);
-    Serial.print(" mm Hg | ");
-    Serial.print(KPA_TO_PSIA(pressure_pKa), 2);
-    Serial.print(" psia | ");
-    Serial.print(KPA_TO_KGCM2(pressure_pKa), 3);
-    Serial.print(" kg/cm2 | ");*/
-    Serial.print("Pression: ");
-    Serial.print(pressure_pKa, 1);
-    Serial.println("   hPa");
-    
-    // At a res of -5.35 counts/Â°C, digits lower than 0.1Â°C are not significant
-    Serial.print("Temperature: ");
-    Serial.print(temperature_c, 1);
-    Serial.println("   Celcius");
-//  Serial.print(DEGC_TO_DEGF(temperature_c), 1);
-//  Serial.print(" F\n");    
-    Serial.println("");
-
-    delay(2000);
-  
-  
-//___________________________________________________________________________________________________Loop capteur Accelerometre_______
-  int accelCount[3]; // Stores the 12-bit signed value
-  readAccelData(accelCount); // Read the x/y/z adc values
-
-  // Now we'll calculate the accleration value into actual g's
-  float accelG[3]; // Stores the real accel value in g's
-  float seuilVague=0.6;
-  for (int i = 0 ; i < 3 ; i++)
-  {
-    accelG[i] = (float) accelCount[i] / ((1<<12)/(2*GSCALE)); // get actual g value, this depends on scale being set
-  }
-
-  // Print out values
-  Serial.println("Accelerometre: ");
-  for (int i = 0 ; i < 3 ; i++)
-  {
-    Serial.print(accelG[i], 4); // Print g values
-    Serial.print("\t"); // tabs in between axes
-  }
-  
-  if(abs(accelG[0])>seuilVague||abs(accelG[2])>seuilVague)
-  {
-    Serial.println(" ");
-    Serial.println(" ");
-    Serial.println("Vagues!");
-    compteurVague = compteurVague+1;
-  }
-  
-  compteurTour = compteurTour+1;
-  ratio = compteurVague/compteurTour;
-  
-  Serial.print("Nombre de tours: ");
-  Serial.println(compteurTour);
-  Serial.print("Nombre de vagues: ");
-  Serial.println(compteurVague);
-  Serial.print("Ratio: ");
-  Serial.println(ratio);
-  
-  niveauAlerte=0;
-  if(compteurTour>10)//si plus de 10 tours
-  {
-    if(ratio>=0.5)//si rapport vague/tour superieur a  0.8
-      {
-        Serial.println("/////////////////////////////");
-        Serial.println("/// Alerte Vagues force 3 ///");
-        Serial.println("/////////////////////////////");
-blinkLed(4,255);
-        niveauAlerte=3;
-      }
-      
-      else if((ratio>=0.3)&&(ratio<0.5))//si rapport vague/tour superieur a  0.6
-      {
-        Serial.println("/////////////////////////////");
-        Serial.println("/// Alerte Vagues force 2 ///");
-        Serial.println("/////////////////////////////");
-  blinkLed(2,150);
-        niveauAlerte=2;
-      }
-      
-      else if((ratio>=0.1)&&(ratio<0.3))//si rapport vague/tour superieur a  0.4
-      {
-        Serial.println("/////////////////////////////");
-        Serial.println("/// Alerte Vagues force 1 ///");
-        Serial.println("//////////////////////////////");
-blinkLed(1,50);
-        niveauAlerte=1;
-      }
-    
-      else if((compteurVague/compteurTour)<0.1)//si rapport vague/tour inferieur a  0.2
-      {
-        compteurVague=0;//reinitialiser compteurs
-        compteurTour=0;
-        niveauAlerte=0;
-      }
-  }
-  Serial.println();
-  delay (2000);
-
-//___________________________________________________________________________________________________Loop GPS_______
+// Etat de la pression
+  Pression ();
+// Etat Accelerometre
+  Accelerometre ();
+// Localisation GPS
 // This sketch displays information every time a new sentence is correctly encoded.
   while (ss.available() > 0)
     if (gps.encode(ss.read()))
@@ -886,62 +933,12 @@ blinkLed(1,50);
     Serial.println(F("No GPS detected: check wiring."));
     while(true);
   }
-
-
-
-//_______________________________________________________________________________________________________________________Loop LEDs______
-  
-  estimationVie(temperature_c, pressure_pKa, 1.0, niveauAlerte);
-  Serial.print("Estimation du temps de survie: ");
-  Serial.print(estimationVie(temperature_c, pressure_pKa, 1.0, niveauAlerte));
-  Serial.println(" H");
-  
-  // Si batterie Arduino non en état critique
-  if (batterieArduino == 0)
-  {
-        if(estimationSurvie<=1)
-      {
-        Serial.println("Mode performant");
-        blinkLed(4, 255);
-        
-      }
-      else if(estimationSurvie>=4)
-      {
-        Serial.println("Mode economie energie");
-        blinkLed(1, 127);
-      }
-      else
-      {
-        Serial.println("Mode modere");
-        blinkLed(2, 85);
-      }
-  }   
-  
-  // Si batterie Arduino en état critique
-  if (batterieArduino == 1)
-    {
-        Serial.println("Batterie Arduino critique : Mode economie energie");
-        blinkLed(1, 127);
-      }
-  
-  
-  //__________________________________________________________________________________________________________________________________
-  Serial.println("_____________________________________________");
-  delay(200);
-  Serial.println(" ");
-  
-  //_____________________________________________________________________________________________________________________Loop Induction______
-  if (inductionState == HIGH)
-  {
-    Serial.println("Recharge par induction détectée.");
-    delay(1000);
-    Serial.println("La balise est sur son socle, préparation du Sleep Mode...");
-    delay(1000);
-    Serial.println("Activation du Sleep Mode, au revoir.");
-    delay(1000);
-    enterSleep();
-  }
-  delay (2000);
+// Gérer l'état des LEDs
+  Led();
+// Vérifier si Induction active
+CheckInduction ();
+// Attendre avant nouvel affichage
+delay (3000);
 
   
 }
