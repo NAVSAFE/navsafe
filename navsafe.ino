@@ -31,13 +31,14 @@ const int vSolaire_pin=0;
 float referenceTensionSolaire = 4.0;
 
 //_______________________________________________________________________________________________Declaration Induction____
-int inductionState = 2;
+int inductionState = 9;
 
 //_______________________________________________________________________________________________Declaration Bouton Navsafe____
-int bouton = 9;
+int bouton = 2;
 
 //_______________________________________________________________________________________________Declaration Sleep Mode____
   int sleepmode=0;
+  int pulse = 3;
 
 
 //_________________________________________________________________________________________Declaration capteur Accelerometre_____
@@ -140,7 +141,8 @@ void Light(void)
 void enterSleep(void)
 {
   /* Setup pin2 as an interrupt and attach handler. */
-  attachInterrupt(bouton, Light, LOW);
+  attachInterrupt(0, Light, FALLING);
+  attachInterrupt(1, Light, RISING);
   delay(100);
   set_sleep_mode(SLEEP_MODE_PWR_DOWN);
   sleep_enable();
@@ -148,8 +150,8 @@ void enterSleep(void)
   /* The program will continue from here.
   First thing to do is disable sleep. */
   detachInterrupt(0);
-  sleep_disable(); 
-}
+  detachInterrupt(1);
+  sleep_disable();}
 
 
 //___________________________________________________________________________________________________________Fonction LEDs____
@@ -850,9 +852,11 @@ pinMode(inductionState, INPUT);
 
 //______________________________________________________________________________________________________Setup Sleep Mode____  
   pinMode(ledBouton, OUTPUT);
-  
+  digitalWrite (ledBouton, HIGH);
 //______________________________________________________________________________________________________Setup Bouton____  
+    pinMode(pulse, INPUT);
     pinMode(bouton, INPUT);
+    pinMode(bouton, HIGH);
 //_______________________________________________________________________________________________________Setup LEDs____
 
     pinMode(leda, OUTPUT);  
@@ -903,15 +907,17 @@ void loop()
   // Sleep Mode 
   if(sleepmode==0)
   {
+    delay(1000);
     Serial.print("Entering Sleep mode in: 3 seconds");
     delay(1000);
     Serial.print("Entering Sleep mode in: 2 seconds");
     delay(1000);
-    Serial.print("Entering Sleep mode in: 1 seconds");
+    Serial.print("Entering Sleep mode in: 1 second");
     delay(1000);
     Serial.print("Entering Sleep mode...");
-    delay(1000);
+    delay(200);
     sleepmode++;
+    digitalWrite (ledBouton, LOW);
     enterSleep();
   }  
 // Etat de la batterie Arduino 
