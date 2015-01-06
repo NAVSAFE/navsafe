@@ -2,7 +2,7 @@
 #include "cc1101.h"
 
 // The LED is wired to the Arduino Output 4 (physical panStamp pin 19)
-#define LEDOUTPUT 4
+#define LED 4
 
 // The connection to the hardware chip CC1101 the RF Chip
 CC1101 cc1101;
@@ -17,12 +17,15 @@ byte chan=0;
 boolean packetAvailable = false;
 
 void blinker(){
-digitalWrite(LEDOUTPUT, HIGH);
-delay(100);
-digitalWrite(LEDOUTPUT, LOW);
-delay(100);
+digitalWrite(LED, HIGH);
+delay(500);
+digitalWrite(LED, LOW);
+delay(500);
+digitalWrite(LED, HIGH);
+delay(500);
+digitalWrite(LED, LOW);
+delay(500);
 }
-
 /* Handle interrupt from CC1101 (INT0) gdo0 on pin2 */
 void cc1101signalsInterrupt(void){
 // set the flag that a package is available
@@ -32,31 +35,23 @@ packetAvailable = true;
 void setup()
 {
 Serial.begin(38400);
-Serial.println("start");
+Serial.println("Test recepteur");
 
 // setup the blinker output
-pinMode(LEDOUTPUT, OUTPUT);
-digitalWrite(LEDOUTPUT, LOW);
+pinMode(LED, OUTPUT);
+digitalWrite(LED, LOW);
 
 // blink once to signal the setup
 blinker();
 // initialize the RF Chip
+Serial.println("initializing...");
 cc1101.init();
-
 cc1101.setSyncWord(&syncWord, false);
 cc1101.setCarrierFreq(CFREQ_433);
 cc1101.disableAddressCheck(); //if not specified, will only display "packet received"
 //cc1101.setTxPowerAmp(PA_LowPower);
-
-Serial.print("CC1101_PARTNUM "); //cc1101=0
-Serial.println(cc1101.readReg(CC1101_PARTNUM, CC1101_STATUS_REGISTER));
-Serial.print("CC1101_VERSION "); //cc1101=4
-Serial.println(cc1101.readReg(CC1101_VERSION, CC1101_STATUS_REGISTER));
-Serial.print("CC1101_MARCSTATE ");
-Serial.println(cc1101.readReg(CC1101_MARCSTATE, CC1101_STATUS_REGISTER) & 0x1f);
-
 attachInterrupt(0, cc1101signalsInterrupt, FALLING);
-
+delay(1000);
 Serial.println("device initialized");
 }
 
@@ -99,8 +94,8 @@ Serial.println("packet received");
 // Disable wireless reception interrupt
 detachInterrupt(0);
 
-ReadRSSI();
-ReadLQI();
+//ReadRSSI();
+//ReadLQI();
 // clear the flag
 packetAvailable = false;
 

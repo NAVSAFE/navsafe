@@ -38,7 +38,7 @@ void displayInfo()
   }
   else
   {
-    Serial.print(F("******"));
+    Serial.print(F("******, ******"));
   }
 Serial.print(F(", "));
   if (gps.date.isValid())
@@ -51,7 +51,7 @@ Serial.print(F(", "));
   }
   else
   {
-    Serial.print(F("******"));
+    Serial.print(F("**/**/****"));
   }
 Serial.print(F(", "));
   
@@ -69,7 +69,7 @@ Serial.print(F(", "));
   }
   else
   {
-    Serial.print(F("******"));
+    Serial.print(F("**:**:**"));
   }
 
   Serial.println();
