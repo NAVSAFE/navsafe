@@ -18,8 +18,8 @@ void loop()
 {
   // This sketch displays information every time a new sentence is correctly encoded.
   while (ss.available() > 0)
-    if (gps.encode(ss.read()))
-      displayInfo();
+  if (gps.encode(ss.read()))
+  displayInfo();
 
   if (millis() > 5000 && gps.charsProcessed() < 10)
   {
@@ -32,12 +32,14 @@ void displayInfo()
 {
   if (gps.location.isValid())
   {
-    Serial.print(gps.location.lat(), 6);
-    Serial.print(F(","));
-    Serial.print(gps.location.lng(), 6);
+    Serial.print(gps.location.lat(), 3);
+    Serial.print(",");
+    Serial.print(gps.location.lng(), 3);
+    Serial.print(":");
   }
   else
   {
+<<<<<<< Updated upstream
     Serial.print(F("******, ******"));
   }
 Serial.print(F(", "));
@@ -70,7 +72,9 @@ Serial.print(F(", "));
   else
   {
     Serial.print(F("**:**:**"));
+=======
+    Serial.print(F("****,****:"));
+>>>>>>> Stashed changes
   }
 
-  Serial.println();
 }
