@@ -35,7 +35,7 @@ digitalWrite(LED, LOW);
 blinker();
 
 // reset the counter
-counter=32767;
+counter=0;
 
 // initialize the RF Chip
 Serial.println("initializing...");
@@ -53,13 +53,14 @@ CCPACKET data;
 data.length=10;
 int blinkCount=counter++;
 data.data[0]=5;
-data.data[1]=blinkCount;data.data[2]=0;
-data.data[3]=1;data.data[4]=0;
+data.data[1]=blinkCount;data.data[2]=5;
+data.data[3]=5;data.data[4]=5;
+data.data[5]=5;data.data[6]=5;
+data.data[7]=5;data.data[8]=5;
+data.data[9]=5;
 //cc1101.flushTxFifo ();
 if(cc1101.sendData(data)){
 Serial.print(blinkCount,DEC);
-Serial.println(" sent ok !!");
-Serial.print(blinkCount,HEX);
 Serial.println(" sent ok !!");
 blinker();
 }else{

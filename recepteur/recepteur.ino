@@ -7,11 +7,9 @@
 // The connection to the hardware chip CC1101 the RF Chip
 CC1101 cc1101;
 
-byte b;
-byte i;
 byte syncWord = 199;
 long counter=0;
-byte chan=0;
+
 
 // a flag that a wireless packet has been received
 boolean packetAvailable = false;
@@ -55,47 +53,14 @@ delay(1000);
 Serial.println("device initialized");
 }
 
-void ReadLQI()
-{
-byte lqi=0;
-byte value=0;
-lqi=(cc1101.readReg(CC1101_LQI, CC1101_STATUS_REGISTER));
-value = 0x3F - (lqi & 0x3F);
-Serial.print("CC1101_LQI ");
-Serial.println(value);
-}
-
-void ReadRSSI()
-{
-byte rssi=0;
-byte value=0;
-
-rssi=(cc1101.readReg(CC1101_RSSI, CC1101_STATUS_REGISTER));
-
-if (rssi >= 128)
-{
-value = 255 - rssi;
-value /= 2;
-value += 74;
-}
-else
-{
-value = rssi/2;
-value += 74;
-}
-Serial.print("CC1101_RSSI ");
-Serial.println(value);
-}
-
 void loop()
 {
 if(packetAvailable){
 Serial.println("packet received");
+blinker();
 // Disable wireless reception interrupt
 detachInterrupt(0);
 
-//ReadRSSI();
-//ReadLQI();
 // clear the flag
 packetAvailable = false;
 
@@ -111,7 +76,7 @@ Serial.print("packet: len ");
 Serial.print(packet.length);
 Serial.print(" data: ");
 for(int j=0; j<packet.length; j++){
-Serial.print(packet.data[j],HEX);
+Serial.print(packet.data[j],DEC);
 Serial.print(" ");
 }
 Serial.println(".");
