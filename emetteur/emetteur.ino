@@ -5,7 +5,7 @@
 CC1101 cc1101;
 
 // The LED is wired to the Arduino Output 4 (physical panStamp pin 19)
-#define LED 4
+#define LED 5
 
 // counter to get increment in each loop
 int counter;

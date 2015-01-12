@@ -1,5 +1,3 @@
-//Library pression
-#include <SPI.h>
 //Library accelerometre
 #include <Wire.h>
 //Library GPS
@@ -14,6 +12,8 @@
 //Library emetteur
 #include "EEPROM.h"
 #include "cc1101.h"
+//Library pression
+#include <SPI.h>
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
