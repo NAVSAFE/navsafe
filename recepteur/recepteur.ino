@@ -32,7 +32,7 @@ packetAvailable = true;
 
 void setup()
 {
-Serial.begin(38400);
+Serial.begin(9600);
 Serial.println("Test recepteur");
 
 // setup the blinker output

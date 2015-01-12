@@ -8,7 +8,7 @@ CC1101 cc1101;
 #define LED 5
 
 // counter to get increment in each loop
-int counter;
+float counter;
 byte syncWord = 199;
 
 void blinker(){
@@ -24,7 +24,7 @@ delay(500);
 
 void setup()
 {
-Serial.begin(38400);
+Serial.begin(9600);
 Serial.println("Test emetteur");
 
 // setup the blinker output
@@ -35,7 +35,7 @@ digitalWrite(LED, LOW);
 blinker();
 
 // reset the counter
-counter=0;
+counter=1.9;
 
 // initialize the RF Chip
 Serial.println("initializing...");
@@ -51,7 +51,7 @@ Serial.println("device initialized");
 void send_data() {
 CCPACKET data;
 data.length=10;
-int blinkCount=counter++;
+float blinkCount=counter++;
 data.data[0]=5;
 data.data[1]=blinkCount;data.data[2]=5;
 data.data[3]=5;data.data[4]=5;
@@ -60,7 +60,7 @@ data.data[7]=5;data.data[8]=5;
 data.data[9]=5;
 //cc1101.flushTxFifo ();
 if(cc1101.sendData(data)){
-Serial.print(blinkCount,DEC);
+Serial.print(blinkCount);
 Serial.println(" sent ok !!");
 blinker();
 }else{

@@ -18,8 +18,8 @@ TinyGPSPlus gps;
 // The serial connection to the GPS device
 SoftwareSerial ss(RXPin, TXPin);
 //Declaration variables
-float longitude=0;
-float latitude=0;
+float longitude=1.9;
+float latitude=1.9;
 
 
 
@@ -87,11 +87,11 @@ void displayInfo()
   {
     latitude=gps.location.lat();
     longitude=gps.location.lng();
-    Serial.print("Donnees recuperees");
+    Serial.println("Donnees recuperees");
   }
   else
   {
-    Serial.print(F("******, ******"));
+    Serial.println("Out of Service");
   }
 
 }
@@ -112,6 +112,7 @@ void loop()
   }  
   
 send_data();
+latitude++; longitude++;
 delay(4000);
 }
 
