@@ -22,7 +22,7 @@
  * Creation date: 03/03/2011
  */
 
-#include "spi.h"
+#include "spia.h"
 
 /**
  * init

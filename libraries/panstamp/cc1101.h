@@ -26,7 +26,7 @@
 #define _CC1101_H
 
 #include "Arduino.h"
-#include "spi.h"
+#include "spia.h"
 #include "ccpacket.h"
 
 /**

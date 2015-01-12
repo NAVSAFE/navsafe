@@ -11,7 +11,9 @@
 //Library Sleep Mode
 #include <avr/sleep.h>
 #include <avr/power.h>
-
+//Library emetteur
+#include "EEPROM.h"
+#include "cc1101.h"
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -121,6 +123,10 @@ TinyGPSPlus gps;
 // The serial connection to the GPS device
 SoftwareSerial ss(RXPin, TXPin);
 
+//_______________________________________________________________________________________________Declaration Emetteur____
+CC1101 cc1101;
+int counter;
+byte syncWord = 199;
 
 
 
@@ -562,7 +568,7 @@ void Pression ()
     // put the MPL115A1 to sleep, it has this feature why not use it
     // while in shutdown the part draws ~1uA
     digitalWrite(MPL115A1_ENABLE_PIN, LOW);
-    
+  
     // print table of altitude, pressures, and temperatures to console
 /*  Serial.print("Pression: ");
     Serial.print(altitude_ft);
@@ -837,7 +843,28 @@ void CheckInduction ()
     enterSleep();
   }
 }
- 
+
+//_______________________________________________________________________________________________Fonction Emetteur___
+ void emetteur() {
+CCPACKET data;
+data.length=10;
+int blinkCount=counter++;
+data.data[0]=5;
+data.data[1]=blinkCount;data.data[2]=5;
+data.data[3]=5;data.data[4]=5;
+data.data[5]=5;data.data[6]=5;
+data.data[7]=5;data.data[8]=5;
+data.data[9]=5;
+//cc1101.flushTxFifo ();
+if(cc1101.sendData(data)){
+Serial.print(blinkCount,DEC);
+Serial.println(" sent ok !!");
+blinkLed(4, 255);
+}else{
+Serial.println("sent failed !");
+}
+}
+
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //___________________________________________________________SETUP_______________________________________________________________
@@ -845,7 +872,7 @@ void CheckInduction ()
 
 void setup()
 {
-  Serial.begin(9600);
+  Serial.begin(38400);
   
 //______________________________________________________________________________________________________Setup Induction____
 pinMode(inductionState, INPUT);
@@ -865,7 +892,7 @@ pinMode(inductionState, INPUT);
     pinMode(ledBouton, OUTPUT);
 
 //_____________________________________________________________________________________________________Setup capteur Pression____
-    // initialize SPI interface
+   // initialize SPI interface
     SPI.begin();
     
     // initialize the chip select and enable pins
@@ -879,6 +906,7 @@ pinMode(inductionState, INPUT);
     
     // set the chip select inactive, select signal is CS LOW
     digitalWrite(MPL115A1_SELECT_PIN, HIGH);
+
 //_______________________________________________________________________________________________________Setup capteur Accelerometre____
     Wire.begin(); //Join the bus as a master
 
@@ -892,6 +920,23 @@ pinMode(inductionState, INPUT);
 
 //_____________________________________________________________________________________________________Setup GPS____
   ss.begin(GPSBaud);
+//_____________________________________________________________________________________________________Setup GPS____
+Serial.println("Test emetteur");
+// blink once to signal the setup
+blinkLed(4, 255);
+
+// reset the counter
+counter=0;
+
+// initialize the RF Chip
+Serial.println("initializing...");
+cc1101.init();
+cc1101.setSyncWord(&syncWord, false);
+cc1101.setCarrierFreq(CFREQ_433);
+cc1101.disableAddressCheck();
+//cc1101.setTxPowerAmp(PA_LowPower);
+delay(1000);
+Serial.println("device initialized");
 
 }
 
@@ -941,6 +986,8 @@ void loop()
   }
 // Gérer l'état des LEDs
   Led();
+// Emettre le signal
+emetteur ();
 // Vérifier si Induction active
 CheckInduction ();
 // Attendre avant nouvel affichage

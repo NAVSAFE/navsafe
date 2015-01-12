@@ -1,3 +1,4 @@
+
 #include "EEPROM.h"
 #include "cc1101.h"
 
@@ -8,7 +9,6 @@ CC1101 cc1101;
 
 // counter to get increment in each loop
 int counter;
-byte b;
 byte syncWord = 199;
 
 void blinker(){
