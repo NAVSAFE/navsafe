@@ -72,14 +72,14 @@ Serial.println("crc not ok");
 }
 
 if(packet.length > 0){
-Serial.print("packet: len ");
+/*Serial.print("packet: len ");
 Serial.println(packet.length);
 Serial.print(" data: ");
 for(int j=0; j<packet.length; j++){
 Serial.print(packet.data[j],DEC);
 Serial.print(" ");
 }
-Serial.println(".");
+Serial.println(".");*/
 Serial.print("latitude: ");
 Serial.println(packet.data[1]);
 Serial.print("longitude: ");
