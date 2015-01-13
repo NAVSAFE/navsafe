@@ -230,16 +230,16 @@ void StatebatterieArduino ()
   busvoltageA = ina219_A.getBusVoltage_V();
   // Détermination du niveau de charge de la batterie Arduino
   if (busvoltageA<=3,30) {Serial.print("Batterie Arduino restante: <5%");}
-  if (3.30<busvoltageA<=3,60) {Serial.print("Batterie Arduino restante: 10%");}
-  if (3.60<busvoltageA<=3,70) {Serial.print("Batterie Arduino restante: 20%");}
-  if (3.70<busvoltageA<=3,75) {Serial.print("Batterie Arduino restante: 30%");}
-  if (3.75<busvoltageA<=3,79) {Serial.print("Batterie Arduino restante: 40%");}
-  if (3.79<busvoltageA<=3,83) {Serial.print("Batterie Arduino restante: 50%");}
-  if (3.83<busvoltageA<=3,87) {Serial.print("Batterie Arduino restante: 60%");}
-  if (3.87<busvoltageA<=3,92) {Serial.print("Batterie Arduino restante: 70%");}
-  if (3.92<busvoltageA<=3,97) {Serial.print("Batterie Arduino restante: 80%");}
-  if (3.97<busvoltageA<=4,10) {Serial.print("Batterie Arduino restante: 90%");}
-  if (busvoltageA>4.10) {Serial.print("Batterie Arduino restante: 100%");}
+  if (3.30<busvoltageA<=3,60) {Serial.print("10%");}
+  if (3.60<busvoltageA<=3,70) {Serial.print("20%");}
+  if (3.70<busvoltageA<=3,75) {Serial.print("30%");}
+  if (3.75<busvoltageA<=3,79) {Serial.print("40%");}
+  if (3.79<busvoltageA<=3,83) {Serial.print("50%");}
+  if (3.83<busvoltageA<=3,87) {Serial.print("60%");}
+  if (3.87<busvoltageA<=3,92) {Serial.print("70%");}
+  if (3.92<busvoltageA<=3,97) {Serial.print("80%");}
+  if (3.97<busvoltageA<=4,10) {Serial.print("90%");}
+  if (busvoltageA>4.10) {Serial.print("100%");}
   // Détermination du niveau critique de la batterie (<20%)
   if (busvoltageA <= 3.70) {batterieArduino == 1;}
   if (busvoltageA > 3.70) {batterieArduino == 0;}
@@ -251,17 +251,17 @@ void StatebatterieEmission ()
   float busvoltageE = 0;
   busvoltageE = ina219_E.getBusVoltage_V();
   // Détermination du niveau de charge de la batterie Arduino
-  if (busvoltageE<=3,30) {Serial.print("Batterie Emission restante: <5%");}
-  if (3.30<busvoltageE<=3,60) {Serial.print("Batterie Emission restante: 10%");}
-  if (3.60<busvoltageE<=3,70) {Serial.print("Batterie Emission restante: 20%");}
-  if (3.70<busvoltageE<=3,75) {Serial.print("Batterie Emission restante: 30%");}
-  if (3.75<busvoltageE<=3,79) {Serial.print("Batterie Emission restante: 40%");}
-  if (3.79<busvoltageE<=3,83) {Serial.print("Batterie Emission restante: 50%");}
-  if (3.83<busvoltageE<=3,87) {Serial.print("Batterie Emission restante: 60%");}
-  if (3.87<busvoltageE<=3,92) {Serial.print("Batterie Emission restante: 70%");}
-  if (3.92<busvoltageE<=3,97) {Serial.print("Batterie Emission restante: 80%");}
-  if (3.97<busvoltageE<=4,10) {Serial.print("Batterie Emission restante: 90%");}
-  if (busvoltageE>4.10) {Serial.print("Batterie Emission restante: 100%");}
+  if (busvoltageE<=3,30) {Serial.print("<5%");}
+  if (3.30<busvoltageE<=3,60) {Serial.print("10%");}
+  if (3.60<busvoltageE<=3,70) {Serial.print("20%");}
+  if (3.70<busvoltageE<=3,75) {Serial.print("30%");}
+  if (3.75<busvoltageE<=3,79) {Serial.print("40%");}
+  if (3.79<busvoltageE<=3,83) {Serial.print("50%");}
+  if (3.83<busvoltageE<=3,87) {Serial.print("60%");}
+  if (3.87<busvoltageE<=3,92) {Serial.print("70%");}
+  if (3.92<busvoltageE<=3,97) {Serial.print("80%");}
+  if (3.97<busvoltageE<=4,10) {Serial.print("90%");}
+  if (busvoltageE>4.10) {Serial.print("100%");}
   // Détermination du niveau critique de la batterie (<20%)
   if (busvoltageE <= 3.70) {batterieEmission == 1;}
   if (busvoltageE > 3.70) {batterieEmission == 0;}

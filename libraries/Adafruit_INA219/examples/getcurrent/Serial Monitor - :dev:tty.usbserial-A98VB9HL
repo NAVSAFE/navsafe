@@ -1,0 +1,9580 @@
+Hello!
+Measuring voltage and current with INA219 ...
+Hello!
+Measuring voltage and current with INA219 ...
+Bus VolHello!
+Measuring voltage and current with INA219 ...
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.11 mV
+Load Voltage: 0.93 V
+Current: -0.90 mA
+Power: -0.84 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.13 mV
+Load Voltage: 0.93 V
+Current: -1.10 mA
+Power: -1.02 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.13 mV
+Load Voltage: 0.92 V
+Current: -1.10 mA
+Power: -1.01 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.11 mV
+Load Voltage: 0.93 V
+Current: -1.00 mA
+Power: -0.93 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.11 mV
+Load Voltage: 0.92 V
+Current: -1.00 mA
+Power: -0.92 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.10 mV
+Load Voltage: 0.92 V
+Current: -1.00 mA
+Power: -0.92 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.10 mV
+Load Voltage: 0.93 V
+Current: -1.10 mA
+Power: -1.02 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.13 mV
+Load Voltage: 0.92 V
+Current: -1.00 mA
+Power: -0.92 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.10 mV
+Load Voltage: 0.92 V
+Current: -1.20 mA
+Power: -1.11 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.11 mV
+Load Voltage: 0.92 V
+Current: -1.00 mA
+Power: -0.92 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.08 mV
+Load Voltage: 0.92 V
+Current: -0.80 mA
+Power: -0.74 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.09 mV
+Load Voltage: 0.92 V
+Current: -1.00 mA
+Power: -0.92 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.10 mV
+Load Voltage: 0.92 V
+Current: -1.00 mA
+Power: -0.92 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.11 mV
+Load Voltage: 0.92 V
+Current: -1.00 mA
+Power: -0.92 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.08 mV
+Load Voltage: 0.93 V
+Current: -1.10 mA
+Power: -1.02 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.12 mV
+Load Voltage: 0.92 V
+Current: -1.00 mA
+Power: -0.92 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.10 mV
+Load Voltage: 0.93 V
+Current: -1.20 mA
+Power: -1.11 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.11 mV
+Load Voltage: 0.93 V
+Current: -1.00 mA
+Power: -0.93 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.12 mV
+Load Voltage: 0.92 V
+Current: -0.90 mA
+Power: -0.83 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.13 mV
+Load Voltage: 0.93 V
+Current: -1.20 mA
+Power: -1.11 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.12 mV
+Load Voltage: 0.92 V
+Current: -1.10 mA
+Power: -1.02 mW
+
+Bus Voltage: 0.91 V
+Shunt Voltage: -0.10 mV
+Load Voltage: 0.91 V
+Current: -1.10 mA
+Power: -1.00 mW
+
+Bus Voltage: 0.95 V
+Shunt Voltage: -0.11 mV
+Load Voltage: 0.95 V
+Current: -1.10 mA
+Power: -1.04 mW
+
+Bus Voltage: 0.88 V
+Shunt Voltage: -0.09 mV
+Load Voltage: 0.88 V
+Current: -1.00 mA
+Power: -0.88 mW
+
+Bus Voltage: 0.94 V
+Shunt Voltage: -0.11 mV
+Load Voltage: 0.94 V
+Current: -1.30 mA
+Power: -1.22 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.08 mV
+Load Voltage: 0.92 V
+Current: -1.00 mA
+Power: -0.92 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.11 mV
+Load Voltage: 0.92 V
+Current: -1.10 mA
+Power: -1.01 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.10 mV
+Load Voltage: 0.93 V
+Current: -0.90 mA
+Power: -0.84 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.10 mV
+Load Voltage: 4.16 V
+Current: -1.10 mA
+Power: -4.57 mW
+
+Bus Voltage: 4.22 V
+Shunt Voltage: 16.32 mV
+Load Voltage: 4.24 V
+Current: 163.00 mA
+Power: 691.17 mW
+
+Bus Voltage: 4.22 V
+Shunt Voltage: 16.28 mV
+Load Voltage: 4.24 V
+Current: 163.00 mA
+Power: 691.17 mW
+
+Bus Voltage: 4.22 V
+Shunt Voltage: 16.28 mV
+Load Voltage: 4.24 V
+Current: 163.10 mA
+Power: 690.94 mW
+
+Bus Voltage: 4.22 V
+Shunt Voltage: 16.28 mV
+Load Voltage: 4.24 V
+Current: 162.50 mA
+Power: 689.05 mW
+
+Bus Voltage: 4.22 V
+Shunt Voltage: 16.27 mV
+Load Voltage: 4.24 V
+Current: 163.00 mA
+Power: 691.16 mW
+
+Bus Voltage: 4.22 V
+Shunt Voltage: 16.24 mV
+Load Voltage: 4.24 V
+Current: 162.30 mA
+Power: 688.19 mW
+
+Bus Voltage: 4.22 V
+Shunt Voltage: 16.20 mV
+Load Voltage: 4.24 V
+Current: 161.80 mA
+Power: 686.06 mW
+
+Bus Voltage: 4.22 V
+Shunt Voltage: 16.19 mV
+Load Voltage: 4.24 V
+Current: 161.70 mA
+Power: 685.64 mW
+
+Bus Voltage: 4.22 V
+Shunt Voltage: 16.08 mV
+Load Voltage: 4.24 V
+Current: 161.30 mA
+Power: 683.92 mW
+
+Bus Voltage: 4.22 V
+Shunt Voltage: 16.13 mV
+Load Voltage: 4.24 V
+Current: 160.90 mA
+Power: 682.24 mW
+
+Bus Voltage: 4.22 V
+Shunt Voltage: 16.11 mV
+Load Voltage: 4.24 V
+Current: 160.60 mA
+Power: 680.96 mW
+
+Bus Voltage: 4.22 V
+Shunt Voltage: 16.03 mV
+Load Voltage: 4.24 V
+Current: 160.60 mA
+Power: 680.95 mW
+
+Bus Voltage: 4.22 V
+Shunt Voltage: 16.05 mV
+Load Voltage: 4.24 V
+Current: 160.60 mA
+Power: 680.31 mW
+
+Bus Voltage: 4.22 V
+Shunt Voltage: 16.07 mV
+Load Voltage: 4.24 V
+Current: 159.90 mA
+Power: 677.99 mW
+
+Bus Voltage: 4.22 V
+Shunt Voltage: 16.04 mV
+Load Voltage: 4.24 V
+Current: 160.90 mA
+Power: 682.22 mW
+
+Bus Voltage: 4.22 V
+Shunt Voltage: 16.04 mV
+Load Voltage: 4.24 V
+Current: 160.20 mA
+Power: 678.61 mW
+
+Bus Voltage: 4.22 V
+Shunt Voltage: 16.05 mV
+Load Voltage: 4.24 V
+Current: 160.40 mA
+Power: 679.46 mW
+
+Bus Voltage: 4.22 V
+Shunt Voltage: 16.05 mV
+Load Voltage: 4.24 V
+Current: 160.60 mA
+Power: 680.95 mW
+
+Bus Voltage: 4.22 V
+Shunt Voltage: 16.11 mV
+Load Voltage: 4.24 V
+Current: 161.00 mA
+Power: 682.66 mW
+
+Bus Voltage: 4.22 V
+Shunt Voltage: 16.03 mV
+Load Voltage: 4.24 V
+Current: 160.20 mA
+Power: 679.25 mW
+
+Bus Voltage: 4.22 V
+Shunt Voltage: 15.95 mV
+Load Voltage: 4.24 V
+Current: 159.80 mA
+Power: 676.90 mW
+
+Bus Voltage: 4.22 V
+Shunt Voltage: 15.97 mV
+Load Voltage: 4.24 V
+Current: 160.00 mA
+Power: 678.40 mW
+
+Bus Voltage: 4.22 V
+Shunt Voltage: 16.01 mV
+Load Voltage: 4.24 V
+Current: 160.00 mA
+Power: 677.76 mW
+
+Bus Voltage: 4.22 V
+Shunt Voltage: 15.93 mV
+Load Voltage: 4.24 V
+Current: 159.70 mA
+Power: 676.48 mW
+
+Bus Voltage: 4.22 V
+Shunt Voltage: 15.95 mV
+Load Voltage: 4.24 V
+Current: 159.80 mA
+Power: 677.54 mW
+
+Bus Voltage: 4.22 V
+Shunt Voltage: 15.95 mV
+Load Voltage: 4.24 V
+Current: 159.40 mA
+Power: 675.85 mW
+
+Bus Voltage: 4.22 V
+Shunt Voltage: 16.01 mV
+Load Voltage: 4.24 V
+Current: 159.50 mA
+Power: 676.28 mW
+
+Bus Voltage: 4.22 V
+Shunt Voltage: 15.96 mV
+Load Voltage: 4.24 V
+Current: 159.80 mA
+Power: 677.55 mW
+
+Bus Voltage: 4.22 V
+Shunt Voltage: 15.98 mV
+Load Voltage: 4.24 V
+Current: 159.70 mA
+Power: 676.49 mW
+
+Bus Voltage: 0.87 V
+Shunt Voltage: -0.09 mV
+Load Voltage: 0.87 V
+Current: -13.40 mA
+Power: -11.63 mW
+
+Bus Voltage: 0.96 V
+Shunt Voltage: -0.08 mV
+Load Voltage: 0.96 V
+Current: -0.90 mA
+Power: -0.86 mW
+
+Bus Voltage: 0.89 V
+Shunt Voltage: -0.08 mV
+Load Voltage: 0.89 V
+Current: -1.00 mA
+Power: -0.89 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.09 mV
+Load Voltage: 0.92 V
+Current: -0.90 mA
+Power: -0.83 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.11 mV
+Load Voltage: 0.93 V
+Current: -0.90 mA
+Power: -0.84 mW
+
+Bus Voltage: 0.89 V
+Shunt Voltage: -0.10 mV
+Load Voltage: 0.89 V
+Current: -1.10 mA
+Power: -0.98 mW
+
+Bus Voltage: 0.94 V
+Shunt Voltage: -0.09 mV
+Load Voltage: 0.94 V
+Current: -1.00 mA
+Power: -0.94 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.11 mV
+Load Voltage: 0.93 V
+Current: -1.30 mA
+Power: -1.21 mW
+
+Bus Voltage: 0.89 V
+Shunt Voltage: -0.09 mV
+Load Voltage: 0.89 V
+Current: -1.00 mA
+Power: -0.89 mW
+
+Bus Voltage: 0.96 V
+Shunt Voltage: -0.09 mV
+Load Voltage: 0.96 V
+Current: -1.10 mA
+Power: -1.05 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.11 mV
+Load Voltage: 0.92 V
+Current: -0.80 mA
+Power: -0.73 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.11 mV
+Load Voltage: 0.92 V
+Current: -1.20 mA
+Power: -1.10 mW
+
+Bus Voltage: 0.94 V
+Shunt Voltage: -0.10 mV
+Load Voltage: 0.94 V
+Current: -0.90 mA
+Power: -0.85 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.09 mV
+Load Voltage: 0.92 V
+Current: -1.10 mA
+Power: -1.01 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.09 mV
+Load Voltage: 0.93 V
+Current: -0.90 mA
+Power: -0.84 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.09 mV
+Load Voltage: 0.92 V
+Current: -1.20 mA
+Power: -1.11 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.12 mV
+Load Voltage: 0.92 V
+Current: -0.70 mA
+Power: -0.65 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.11 mV
+Load Voltage: 0.93 V
+Current: -1.10 mA
+Power: -1.02 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.10 mV
+Load Voltage: 0.92 V
+Current: -0.90 mA
+Power: -0.82 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.11 mV
+Load Voltage: 0.93 V
+Current: -0.90 mA
+Power: -0.84 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.11 mV
+Load Voltage: 0.93 V
+Current: -1.00 mA
+Power: -0.93 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.10 mV
+Load Voltage: 0.92 V
+Current: -1.10 mA
+Power: -1.01 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.10 mV
+Load Voltage: 0.92 V
+Current: -0.60 mA
+Power: -0.55 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.10 mV
+Load Voltage: 0.92 V
+Current: -1.20 mA
+Power: -1.11 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.10 mV
+Load Voltage: 0.92 V
+Current: -1.10 mA
+Power: -1.01 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.07 mV
+Load Voltage: 0.93 V
+Current: -0.90 mA
+Power: -0.84 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.12 mV
+Load Voltage: 0.92 V
+Current: -1.00 mA
+Power: -0.92 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.11 mV
+Load Voltage: 0.92 V
+Current: -0.90 mA
+Power: -0.83 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.10 mV
+Load Voltage: 0.93 V
+Current: -1.10 mA
+Power: -1.02 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.09 mV
+Load Voltage: 0.93 V
+Current: -0.90 mA
+Power: -0.84 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.11 mV
+Load Voltage: 0.93 V
+Current: -0.90 mA
+Power: -0.84 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.08 mV
+Load Voltage: 0.92 V
+Current: -1.10 mA
+Power: -1.01 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.11 mV
+Load Voltage: 0.92 V
+Current: -0.90 mA
+Power: -0.83 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.11 mV
+Load Voltage: 0.93 V
+Current: -0.90 mA
+Power: -0.84 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.12 mV
+Load Voltage: 0.92 V
+Current: -1.10 mA
+Power: -1.01 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.10 mV
+Load Voltage: 0.92 V
+Current: -1.00 mA
+Power: -0.92 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.12 mV
+Load Voltage: 0.93 V
+Current: -1.00 mA
+Power: -0.93 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.10 mV
+Load Voltage: 0.92 V
+Current: -1.10 mA
+Power: -1.02 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.11 mV
+Load Voltage: 0.92 V
+Current: -0.80 mA
+Power: -0.74 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.10 mV
+Load Voltage: 0.93 V
+Current: -1.20 mA
+Power: -1.11 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.09 mV
+Load Voltage: 0.92 V
+Current: -1.10 mA
+Power: -1.01 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.14 mV
+Load Voltage: 0.93 V
+Current: -1.00 mA
+Power: -0.93 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.10 mV
+Load Voltage: 0.92 V
+Current: -1.10 mA
+Power: -1.02 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.10 mV
+Load Voltage: 0.92 V
+Current: -1.00 mA
+Power: -0.92 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.10 mV
+Load Voltage: 0.93 V
+Current: -1.00 mA
+Power: -0.93 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.11 mV
+Load Voltage: 0.92 V
+Current: -0.90 mA
+Power: -0.82 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.08 mV
+Load Voltage: 0.92 V
+Current: -1.10 mA
+Power: -1.02 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.12 mV
+Load Voltage: 0.93 V
+Current: -0.80 mA
+Power: -0.74 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.10 mV
+Load Voltage: 0.92 V
+Current: -0.90 mA
+Power: -0.83 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.12 mV
+Load Voltage: 0.93 V
+Current: -1.00 mA
+Power: -0.93 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.12 mV
+Load Voltage: 0.92 V
+Current: -1.00 mA
+Power: -0.92 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.11 mV
+Load Voltage: 0.92 V
+Current: -1.10 mA
+Power: -1.02 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.10 mV
+Load Voltage: 0.93 V
+Current: -1.20 mA
+Power: -1.12 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.09 mV
+Load Voltage: 0.92 V
+Current: -1.10 mA
+Power: -1.01 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.10 mV
+Load Voltage: 0.92 V
+Current: -0.90 mA
+Power: -0.82 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.12 mV
+Load Voltage: 0.93 V
+Current: -1.20 mA
+Power: -1.11 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.10 mV
+Load Voltage: 0.92 V
+Current: -0.90 mA
+Power: -0.83 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.11 mV
+Load Voltage: 0.92 V
+Current: -1.10 mA
+Power: -1.02 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.10 mV
+Load Voltage: 0.93 V
+Current: -1.00 mA
+Power: -0.93 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.11 mV
+Load Voltage: 0.92 V
+Current: -0.80 mA
+Power: -0.73 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.12 mV
+Load Voltage: 0.93 V
+Current: -0.90 mA
+Power: -0.84 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.09 mV
+Load Voltage: 0.92 V
+Current: -0.70 mA
+Power: -0.65 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.11 mV
+Load Voltage: 0.92 V
+Current: -0.70 mA
+Power: -0.64 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.12 mV
+Load Voltage: 0.93 V
+Current: -0.80 mA
+Power: -0.74 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.09 mV
+Load Voltage: 0.92 V
+Current: -9.50 mA
+Power: -8.74 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.09 mV
+Load Voltage: 0.92 V
+Current: -1.10 mA
+Power: -1.01 mW
+
+Bus Voltage: 0.96 V
+Shunt Voltage: -0.11 mV
+Load Voltage: 0.96 V
+Current: -0.90 mA
+Power: -0.87 mW
+
+Bus Voltage: 0.90 V
+Shunt Voltage: -1.01 mV
+Load Voltage: 0.90 V
+Current: -10.10 mA
+Power: -9.08 mW
+
+Bus Voltage: 0.90 V
+Shunt Voltage: -0.11 mV
+Load Voltage: 0.90 V
+Current: -1.00 mA
+Power: -0.90 mW
+
+Bus Voltage: 0.96 V
+Shunt Voltage: -0.99 mV
+Load Voltage: 0.96 V
+Current: -10.00 mA
+Power: -9.59 mW
+
+Bus Voltage: 0.88 V
+Shunt Voltage: -1.00 mV
+Load Voltage: 0.88 V
+Current: -9.90 mA
+Power: -8.74 mW
+
+Bus Voltage: 0.94 V
+Shunt Voltage: -0.99 mV
+Load Voltage: 0.94 V
+Current: -9.90 mA
+Power: -9.34 mW
+
+Bus Voltage: 0.94 V
+Shunt Voltage: -0.98 mV
+Load Voltage: 0.94 V
+Current: -9.90 mA
+Power: -9.30 mW
+
+Bus Voltage: 0.88 V
+Shunt Voltage: -1.02 mV
+Load Voltage: 0.87 V
+Current: -9.80 mA
+Power: -8.57 mW
+
+Bus Voltage: 0.95 V
+Shunt Voltage: -1.00 mV
+Load Voltage: 0.95 V
+Current: -10.10 mA
+Power: -9.56 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -1.00 mV
+Load Voltage: 0.93 V
+Current: -10.10 mA
+Power: -9.36 mW
+
+Bus Voltage: 0.88 V
+Shunt Voltage: -0.98 mV
+Load Voltage: 0.88 V
+Current: -9.90 mA
+Power: -8.74 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.10 mV
+Load Voltage: 0.92 V
+Current: -1.20 mA
+Power: -1.11 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.10 mV
+Load Voltage: 0.92 V
+Current: -0.90 mA
+Power: -0.83 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.11 mV
+Load Voltage: 0.92 V
+Current: -1.00 mA
+Power: -0.92 mW
+
+Bus Voltage: 0.94 V
+Shunt Voltage: -0.11 mV
+Load Voltage: 0.94 V
+Current: -1.00 mA
+Power: -0.94 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.10 mV
+Load Voltage: 0.92 V
+Current: -1.00 mA
+Power: -0.92 mW
+
+Bus Voltage: 0.87 V
+Shunt Voltage: -0.07 mV
+Load Voltage: 0.87 V
+Current: -0.70 mA
+Power: -0.61 mW
+
+Bus Voltage: 0.96 V
+Shunt Voltage: -0.10 mV
+Load Voltage: 0.96 V
+Current: -0.90 mA
+Power: -0.86 mW
+
+Bus Voltage: 0.91 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.91 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.11 mV
+Load Voltage: 0.92 V
+Current: -1.10 mA
+Power: -1.01 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.93 V
+Current: 0.10 mA
+Power: 0.09 mW
+
+Bus Voltage: 0.94 V
+Shunt Voltage: -0.04 mV
+Load Voltage: 0.94 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 0.89 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 0.89 V
+Current: -0.30 mA
+Power: -0.27 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.92 V
+Current: -0.30 mA
+Power: -0.27 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.93 V
+Current: -0.70 mA
+Power: -0.65 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 0.92 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.92 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 0.92 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.92 V
+Current: 0.20 mA
+Power: 0.18 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.92 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.92 V
+Current: -0.30 mA
+Power: -0.28 mW
+
+Bus Voltage: 0.94 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.94 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 0.02 mV
+Load Voltage: 0.92 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 0.92 V
+Current: -0.40 mA
+Power: -0.37 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.93 V
+Current: -0.20 mA
+Power: -0.19 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.92 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 0.05 mV
+Load Voltage: 0.92 V
+Current: 0.60 mA
+Power: 0.55 mW
+
+Bus Voltage: 0.95 V
+Shunt Voltage: 0.05 mV
+Load Voltage: 0.95 V
+Current: 0.70 mA
+Power: 0.67 mW
+
+Bus Voltage: 0.94 V
+Shunt Voltage: 0.06 mV
+Load Voltage: 0.94 V
+Current: 0.80 mA
+Power: 0.75 mW
+
+Bus Voltage: 0.89 V
+Shunt Voltage: 0.07 mV
+Load Voltage: 0.89 V
+Current: 0.70 mA
+Power: 0.62 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 0.09 mV
+Load Voltage: 0.92 V
+Current: 0.70 mA
+Power: 0.64 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 0.06 mV
+Load Voltage: 0.92 V
+Current: 0.70 mA
+Power: 0.64 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: 0.07 mV
+Load Voltage: 0.93 V
+Current: 0.70 mA
+Power: 0.65 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: 0.06 mV
+Load Voltage: 0.93 V
+Current: 0.80 mA
+Power: 0.74 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 0.07 mV
+Load Voltage: 0.92 V
+Current: 0.80 mA
+Power: 0.74 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 0.06 mV
+Load Voltage: 0.92 V
+Current: 0.50 mA
+Power: 0.46 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 0.06 mV
+Load Voltage: 0.92 V
+Current: 0.60 mA
+Power: 0.55 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: 0.05 mV
+Load Voltage: 0.93 V
+Current: 0.80 mA
+Power: 0.74 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: 0.05 mV
+Load Voltage: 0.93 V
+Current: 1.00 mA
+Power: 0.93 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: 0.08 mV
+Load Voltage: 0.93 V
+Current: 0.70 mA
+Power: 0.65 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 0.07 mV
+Load Voltage: 0.92 V
+Current: 0.60 mA
+Power: 0.55 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 0.08 mV
+Load Voltage: 0.92 V
+Current: 0.90 mA
+Power: 0.83 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: 0.06 mV
+Load Voltage: 0.93 V
+Current: 0.50 mA
+Power: 0.46 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: 0.05 mV
+Load Voltage: 0.93 V
+Current: 0.60 mA
+Power: 0.56 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: 0.06 mV
+Load Voltage: 0.93 V
+Current: 0.70 mA
+Power: 0.65 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 0.04 mV
+Load Voltage: 0.92 V
+Current: 1.00 mA
+Power: 0.92 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 0.05 mV
+Load Voltage: 0.92 V
+Current: 0.70 mA
+Power: 0.64 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 0.05 mV
+Load Voltage: 0.92 V
+Current: 0.70 mA
+Power: 0.64 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: 0.04 mV
+Load Voltage: 0.93 V
+Current: 0.50 mA
+Power: 0.46 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: 0.07 mV
+Load Voltage: 0.93 V
+Current: 0.50 mA
+Power: 0.46 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 0.07 mV
+Load Voltage: 0.92 V
+Current: 0.60 mA
+Power: 0.55 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 0.05 mV
+Load Voltage: 0.92 V
+Current: 0.50 mA
+Power: 0.46 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 0.06 mV
+Load Voltage: 0.92 V
+Current: 0.60 mA
+Power: 0.55 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 0.06 mV
+Load Voltage: 0.92 V
+Current: 0.50 mA
+Power: 0.46 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: 0.05 mV
+Load Voltage: 0.93 V
+Current: 0.50 mA
+Power: 0.46 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: 0.07 mV
+Load Voltage: 0.93 V
+Current: 0.80 mA
+Power: 0.74 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 0.05 mV
+Load Voltage: 0.92 V
+Current: 0.70 mA
+Power: 0.64 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 0.07 mV
+Load Voltage: 0.92 V
+Current: 0.80 mA
+Power: 0.74 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 0.08 mV
+Load Voltage: 0.92 V
+Current: 0.40 mA
+Power: 0.37 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: 0.55 mV
+Load Voltage: 0.93 V
+Current: 0.60 mA
+Power: 0.56 mW
+
+Bus Voltage: 0.96 V
+Shunt Voltage: 0.07 mV
+Load Voltage: 0.96 V
+Current: 0.60 mA
+Power: 0.58 mW
+
+Bus Voltage: 0.89 V
+Shunt Voltage: 6.53 mV
+Load Voltage: 0.89 V
+Current: 60.70 mA
+Power: 54.30 mW
+
+Bus Voltage: 0.90 V
+Shunt Voltage: 7.02 mV
+Load Voltage: 0.91 V
+Current: 70.20 mA
+Power: 63.67 mW
+
+Bus Voltage: 0.96 V
+Shunt Voltage: 7.07 mV
+Load Voltage: 0.97 V
+Current: 71.40 mA
+Power: 69.05 mW
+
+Bus Voltage: 0.89 V
+Shunt Voltage: 6.91 mV
+Load Voltage: 0.89 V
+Current: 68.90 mA
+Power: 61.66 mW
+
+Bus Voltage: 0.85 V
+Shunt Voltage: 7.14 mV
+Load Voltage: 0.86 V
+Current: 71.20 mA
+Power: 60.89 mW
+
+Bus Voltage: 0.98 V
+Shunt Voltage: 6.83 mV
+Load Voltage: 0.98 V
+Current: 68.60 mA
+Power: 67.42 mW
+
+Bus Voltage: 0.90 V
+Shunt Voltage: 9.81 mV
+Load Voltage: 0.91 V
+Current: 98.10 mA
+Power: 89.25 mW
+
+Bus Voltage: 0.82 V
+Shunt Voltage: 9.70 mV
+Load Voltage: 0.83 V
+Current: 97.10 mA
+Power: 80.95 mW
+
+Bus Voltage: 0.95 V
+Shunt Voltage: 9.72 mV
+Load Voltage: 0.96 V
+Current: 97.30 mA
+Power: 93.58 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 9.80 mV
+Load Voltage: 0.93 V
+Current: 98.10 mA
+Power: 91.61 mW
+
+Bus Voltage: 0.83 V
+Shunt Voltage: 10.64 mV
+Load Voltage: 0.84 V
+Current: 106.10 mA
+Power: 89.40 mW
+
+Bus Voltage: 0.96 V
+Shunt Voltage: 9.74 mV
+Load Voltage: 0.97 V
+Current: 98.10 mA
+Power: 94.74 mW
+
+Bus Voltage: 0.91 V
+Shunt Voltage: 9.79 mV
+Load Voltage: 0.92 V
+Current: 97.40 mA
+Power: 89.78 mW
+
+Bus Voltage: 0.88 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 0.89 V
+Current: 97.40 mA
+Power: 86.66 mW
+
+Bus Voltage: 0.96 V
+Shunt Voltage: 9.69 mV
+Load Voltage: 0.97 V
+Current: 97.50 mA
+Power: 94.15 mW
+
+Bus Voltage: 0.91 V
+Shunt Voltage: 9.80 mV
+Load Voltage: 0.92 V
+Current: 97.80 mA
+Power: 90.15 mW
+
+Bus Voltage: 0.87 V
+Shunt Voltage: 9.80 mV
+Load Voltage: 0.88 V
+Current: 97.00 mA
+Power: 85.53 mW
+
+Bus Voltage: 0.95 V
+Shunt Voltage: 9.70 mV
+Load Voltage: 0.96 V
+Current: 97.70 mA
+Power: 93.57 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 0.94 V
+Current: 97.70 mA
+Power: 91.62 mW
+
+Bus Voltage: 0.87 V
+Shunt Voltage: 9.74 mV
+Load Voltage: 0.88 V
+Current: 97.10 mA
+Power: 85.62 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: 9.72 mV
+Load Voltage: 0.94 V
+Current: 97.20 mA
+Power: 91.54 mW
+
+Bus Voltage: 0.95 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 0.96 V
+Current: 97.70 mA
+Power: 93.57 mW
+
+Bus Voltage: 0.88 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 0.89 V
+Current: 97.40 mA
+Power: 86.27 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: 9.71 mV
+Load Voltage: 0.94 V
+Current: 97.10 mA
+Power: 91.05 mW
+
+Bus Voltage: 0.95 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 0.96 V
+Current: 97.70 mA
+Power: 93.97 mW
+
+Bus Voltage: 0.88 V
+Shunt Voltage: 9.80 mV
+Load Voltage: 0.89 V
+Current: 97.30 mA
+Power: 86.97 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 9.73 mV
+Load Voltage: 0.93 V
+Current: 97.30 mA
+Power: 90.46 mW
+
+Bus Voltage: 0.96 V
+Shunt Voltage: 9.74 mV
+Load Voltage: 0.97 V
+Current: 97.50 mA
+Power: 94.16 mW
+
+Bus Voltage: 0.89 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 0.90 V
+Current: 97.70 mA
+Power: 88.10 mW
+
+Bus Voltage: 0.89 V
+Shunt Voltage: 9.70 mV
+Load Voltage: 0.90 V
+Current: 97.00 mA
+Power: 87.46 mW
+
+Bus Voltage: 0.96 V
+Shunt Voltage: 9.70 mV
+Load Voltage: 0.97 V
+Current: 97.50 mA
+Power: 94.16 mW
+
+Bus Voltage: 0.91 V
+Shunt Voltage: 9.81 mV
+Load Voltage: 0.92 V
+Current: 97.80 mA
+Power: 89.76 mW
+
+Bus Voltage: 0.88 V
+Shunt Voltage: 9.74 mV
+Load Voltage: 0.89 V
+Current: 97.30 mA
+Power: 86.18 mW
+
+Bus Voltage: 0.95 V
+Shunt Voltage: 9.74 mV
+Load Voltage: 0.96 V
+Current: 97.60 mA
+Power: 93.87 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 0.93 V
+Current: 98.10 mA
+Power: 91.60 mW
+
+Bus Voltage: 0.87 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 0.88 V
+Current: 97.10 mA
+Power: 85.62 mW
+
+Bus Voltage: 0.94 V
+Shunt Voltage: 9.71 mV
+Load Voltage: 0.95 V
+Current: 97.10 mA
+Power: 92.61 mW
+
+Bus Voltage: 0.95 V
+Shunt Voltage: 9.75 mV
+Load Voltage: 0.96 V
+Current: 97.60 mA
+Power: 93.48 mW
+
+Bus Voltage: 0.87 V
+Shunt Voltage: 9.75 mV
+Load Voltage: 0.88 V
+Current: 97.40 mA
+Power: 85.88 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 9.71 mV
+Load Voltage: 0.93 V
+Current: 97.50 mA
+Power: 91.04 mW
+
+Bus Voltage: 0.95 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 0.96 V
+Current: 98.10 mA
+Power: 94.35 mW
+
+Bus Voltage: 0.89 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 0.90 V
+Current: 97.40 mA
+Power: 87.44 mW
+
+Bus Voltage: 0.90 V
+Shunt Voltage: 9.73 mV
+Load Voltage: 0.91 V
+Current: 97.40 mA
+Power: 89.00 mW
+
+Bus Voltage: 0.96 V
+Shunt Voltage: 9.74 mV
+Load Voltage: 0.97 V
+Current: 97.30 mA
+Power: 93.97 mW
+
+Bus Voltage: 0.90 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 0.91 V
+Current: 97.90 mA
+Power: 88.68 mW
+
+Bus Voltage: 0.88 V
+Shunt Voltage: 9.74 mV
+Load Voltage: 0.89 V
+Current: 97.30 mA
+Power: 86.57 mW
+
+Bus Voltage: 0.95 V
+Shunt Voltage: 9.72 mV
+Load Voltage: 0.96 V
+Current: 97.40 mA
+Power: 93.67 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 0.93 V
+Current: 97.80 mA
+Power: 91.32 mW
+
+Bus Voltage: 0.88 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 0.89 V
+Current: 97.30 mA
+Power: 86.58 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: 9.70 mV
+Load Voltage: 0.94 V
+Current: 97.40 mA
+Power: 91.72 mW
+
+Bus Voltage: 0.95 V
+Shunt Voltage: 9.73 mV
+Load Voltage: 0.96 V
+Current: 97.60 mA
+Power: 93.86 mW
+
+Bus Voltage: 0.87 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 0.88 V
+Current: 97.20 mA
+Power: 85.71 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 9.72 mV
+Load Voltage: 0.93 V
+Current: 97.00 mA
+Power: 90.18 mW
+
+Bus Voltage: 0.95 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 0.96 V
+Current: 97.50 mA
+Power: 93.38 mW
+
+Bus Voltage: 0.89 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 0.90 V
+Current: 97.80 mA
+Power: 88.19 mW
+
+Bus Voltage: 0.89 V
+Shunt Voltage: 9.72 mV
+Load Voltage: 0.90 V
+Current: 97.10 mA
+Power: 87.56 mW
+
+Bus Voltage: 0.96 V
+Shunt Voltage: 9.70 mV
+Load Voltage: 0.97 V
+Current: 97.60 mA
+Power: 94.25 mW
+
+Bus Voltage: 0.91 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 0.92 V
+Current: 97.40 mA
+Power: 89.78 mW
+
+Bus Voltage: 0.87 V
+Shunt Voltage: 9.73 mV
+Load Voltage: 0.88 V
+Current: 97.10 mA
+Power: 85.62 mW
+
+Bus Voltage: 0.95 V
+Shunt Voltage: 9.73 mV
+Load Voltage: 0.96 V
+Current: 97.20 mA
+Power: 93.09 mW
+
+Bus Voltage: 0.94 V
+Shunt Voltage: 9.83 mV
+Load Voltage: 0.95 V
+Current: 98.30 mA
+Power: 92.98 mW
+
+Bus Voltage: 0.87 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 0.88 V
+Current: 96.90 mA
+Power: 85.44 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 9.71 mV
+Load Voltage: 0.93 V
+Current: 96.90 mA
+Power: 90.09 mW
+
+Bus Voltage: 0.95 V
+Shunt Voltage: 9.73 mV
+Load Voltage: 0.96 V
+Current: 97.60 mA
+Power: 93.86 mW
+
+Bus Voltage: 0.88 V
+Shunt Voltage: 9.82 mV
+Load Voltage: 0.89 V
+Current: 97.20 mA
+Power: 86.88 mW
+
+Bus Voltage: 0.89 V
+Shunt Voltage: 9.70 mV
+Load Voltage: 0.90 V
+Current: 97.10 mA
+Power: 87.56 mW
+
+Bus Voltage: 0.96 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.96 V
+Current: -0.10 mA
+Power: -0.10 mW
+
+Bus Voltage: 0.90 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.90 V
+Current: -0.30 mA
+Power: -0.27 mW
+
+Bus Voltage: 0.90 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.90 V
+Current: -0.30 mA
+Power: -0.27 mW
+
+Bus Voltage: 0.96 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.96 V
+Current: -0.10 mA
+Power: -0.10 mW
+
+Bus Voltage: 0.88 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 0.88 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.90 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 0.90 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.96 V
+Shunt Voltage: 6.42 mV
+Load Voltage: 0.97 V
+Current: 65.90 mA
+Power: 63.69 mW
+
+Bus Voltage: 0.91 V
+Shunt Voltage: 7.13 mV
+Load Voltage: 0.92 V
+Current: 70.60 mA
+Power: 64.61 mW
+
+Bus Voltage: 0.86 V
+Shunt Voltage: 7.07 mV
+Load Voltage: 0.87 V
+Current: 69.60 mA
+Power: 60.35 mW
+
+Bus Voltage: 0.95 V
+Shunt Voltage: 6.75 mV
+Load Voltage: 0.95 V
+Current: 67.90 mA
+Power: 64.83 mW
+
+Bus Voltage: 0.95 V
+Shunt Voltage: 7.23 mV
+Load Voltage: 0.96 V
+Current: 72.20 mA
+Power: 68.97 mW
+
+Bus Voltage: 0.87 V
+Shunt Voltage: 7.18 mV
+Load Voltage: 0.88 V
+Current: 71.40 mA
+Power: 62.49 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 9.72 mV
+Load Voltage: 0.93 V
+Current: 97.40 mA
+Power: 90.55 mW
+
+Bus Voltage: 0.96 V
+Shunt Voltage: 9.72 mV
+Load Voltage: 0.97 V
+Current: 97.60 mA
+Power: 94.64 mW
+
+Bus Voltage: 0.90 V
+Shunt Voltage: 9.74 mV
+Load Voltage: 0.91 V
+Current: 97.00 mA
+Power: 87.86 mW
+
+Bus Voltage: 0.86 V
+Shunt Voltage: 9.74 mV
+Load Voltage: 0.87 V
+Current: 97.00 mA
+Power: 84.75 mW
+
+Bus Voltage: 0.96 V
+Shunt Voltage: 9.70 mV
+Load Voltage: 0.97 V
+Current: 97.20 mA
+Power: 94.25 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 0.94 V
+Current: 97.60 mA
+Power: 91.53 mW
+
+Bus Voltage: 0.86 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 0.87 V
+Current: 97.20 mA
+Power: 84.93 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 9.69 mV
+Load Voltage: 0.93 V
+Current: 97.10 mA
+Power: 90.66 mW
+
+Bus Voltage: 0.96 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 0.97 V
+Current: 97.80 mA
+Power: 94.84 mW
+
+Bus Voltage: 0.88 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 0.89 V
+Current: 97.50 mA
+Power: 86.75 mW
+
+Bus Voltage: 0.89 V
+Shunt Voltage: 9.72 mV
+Load Voltage: 0.90 V
+Current: 96.80 mA
+Power: 86.90 mW
+
+Bus Voltage: 0.96 V
+Shunt Voltage: 9.68 mV
+Load Voltage: 0.97 V
+Current: 97.30 mA
+Power: 94.35 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 0.93 V
+Current: 97.70 mA
+Power: 91.23 mW
+
+Bus Voltage: 0.87 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 0.88 V
+Current: 97.40 mA
+Power: 85.49 mW
+
+Bus Voltage: 0.94 V
+Shunt Voltage: 9.70 mV
+Load Voltage: 0.95 V
+Current: 97.00 mA
+Power: 92.51 mW
+
+Bus Voltage: 0.96 V
+Shunt Voltage: 9.71 mV
+Load Voltage: 0.97 V
+Current: 97.50 mA
+Power: 94.16 mW
+
+Bus Voltage: 0.87 V
+Shunt Voltage: 9.75 mV
+Load Voltage: 0.88 V
+Current: 97.10 mA
+Power: 85.62 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 9.68 mV
+Load Voltage: 0.93 V
+Current: 96.90 mA
+Power: 89.70 mW
+
+Bus Voltage: 0.96 V
+Shunt Voltage: 9.73 mV
+Load Voltage: 0.97 V
+Current: 97.70 mA
+Power: 94.35 mW
+
+Bus Voltage: 0.89 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 0.89 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 0.84 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.84 V
+Current: -0.20 mA
+Power: -0.17 mW
+
+Bus Voltage: 0.98 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.98 V
+Current: -0.20 mA
+Power: -0.20 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 0.01 mV
+Load Voltage: 0.92 V
+Current: -0.30 mA
+Power: -0.27 mW
+
+Bus Voltage: 0.84 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.84 V
+Current: -0.10 mA
+Power: -0.08 mW
+
+Bus Voltage: 0.96 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.96 V
+Current: -0.20 mA
+Power: -0.19 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.04 mV
+Load Voltage: 0.92 V
+Current: -0.30 mA
+Power: -0.28 mW
+
+Bus Voltage: 0.87 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 0.87 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.93 V
+Current: -0.20 mA
+Power: -0.19 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 0.92 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.04 mV
+Load Voltage: 0.92 V
+Current: -0.30 mA
+Power: -0.28 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.93 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.92 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 0.92 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.04 mV
+Load Voltage: 0.93 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.92 V
+Current: -0.30 mA
+Power: -0.28 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.04 mV
+Load Voltage: 0.92 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.92 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 0.93 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 0.92 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 0.92 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.93 V
+Current: -0.20 mA
+Power: -0.19 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.92 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.92 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 0.93 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.92 V
+Current: -0.30 mA
+Power: -0.28 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 0.92 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 0.93 V
+Current: -0.20 mA
+Power: -0.19 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.92 V
+Current: -0.30 mA
+Power: -0.28 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 0.92 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.92 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 0.92 V
+Current: -0.30 mA
+Power: -0.28 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 0.01 mV
+Load Voltage: 0.92 V
+Current: 0.10 mA
+Power: 0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.92 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.93 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.92 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 0.92 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.93 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.92 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 0.92 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.93 V
+Current: -0.40 mA
+Power: -0.37 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 0.92 V
+Current: -0.40 mA
+Power: -0.37 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 0.92 V
+Current: -0.40 mA
+Power: -0.37 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.93 V
+Current: -0.40 mA
+Power: -0.37 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.04 mV
+Load Voltage: 0.92 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.92 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.92 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.92 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 0.92 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.93 V
+Current: -0.30 mA
+Power: -0.28 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.92 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 0.92 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 0.92 V
+Current: -0.30 mA
+Power: -0.28 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.05 mV
+Load Voltage: 0.93 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.92 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.92 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.92 V
+Current: 0.10 mA
+Power: 0.09 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.93 V
+Current: -0.40 mA
+Power: -0.37 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.92 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.92 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.92 V
+Current: -0.30 mA
+Power: -0.28 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.92 V
+Current: -0.30 mA
+Power: -0.28 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.93 V
+Current: 0.20 mA
+Power: 0.19 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.93 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.92 V
+Current: -0.40 mA
+Power: -0.37 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.92 V
+Current: -0.40 mA
+Power: -0.37 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 0.93 V
+Current: -0.40 mA
+Power: -0.37 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.92 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.92 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 0.93 V
+Current: 0.10 mA
+Power: 0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.92 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.92 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.04 mV
+Load Voltage: 0.92 V
+Current: 0.10 mA
+Power: 0.09 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 0.93 V
+Current: -0.40 mA
+Power: -0.37 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 0.92 V
+Current: 0.10 mA
+Power: 0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 0.01 mV
+Load Voltage: 0.92 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.05 mV
+Load Voltage: 0.93 V
+Current: -0.30 mA
+Power: -0.28 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.92 V
+Current: -0.40 mA
+Power: -0.37 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 0.92 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.04 mV
+Load Voltage: 0.92 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.93 V
+Current: -0.20 mA
+Power: -0.19 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 0.92 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 0.93 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 0.93 V
+Current: -0.20 mA
+Power: -0.19 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.92 V
+Current: -0.30 mA
+Power: -0.28 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.04 mV
+Load Voltage: 0.92 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.93 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.92 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.92 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 0.92 V
+Current: -0.30 mA
+Power: -0.28 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.92 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.93 V
+Current: -0.40 mA
+Power: -0.37 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 0.93 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.92 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.04 mV
+Load Voltage: 0.93 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.93 V
+Current: -0.20 mA
+Power: -0.19 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 0.92 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.92 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.93 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 0.92 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.92 V
+Current: -0.40 mA
+Power: -0.37 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.93 V
+Current: -0.20 mA
+Power: -0.19 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 0.92 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.92 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.93 V
+Current: 0.10 mA
+Power: 0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.92 V
+Current: 0.10 mA
+Power: 0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 0.92 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 0.93 V
+Current: -0.20 mA
+Power: -0.19 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.92 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.92 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.92 V
+Current: -0.30 mA
+Power: -0.28 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.92 V
+Current: 0.10 mA
+Power: 0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 0.92 V
+Current: -0.30 mA
+Power: -0.28 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.92 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.93 V
+Current: -0.30 mA
+Power: -0.28 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.92 V
+Current: -0.40 mA
+Power: -0.37 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 0.92 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.93 V
+Current: -0.40 mA
+Power: -0.37 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.92 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.92 V
+Current: -0.30 mA
+Power: -0.28 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 0.93 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.92 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.92 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.93 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 0.92 V
+Current: 0.10 mA
+Power: 0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.92 V
+Current: 0.10 mA
+Power: 0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.92 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.93 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.92 V
+Current: -0.30 mA
+Power: -0.28 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.05 mV
+Load Voltage: 0.92 V
+Current: -0.40 mA
+Power: -0.37 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 0.93 V
+Current: 0.10 mA
+Power: 0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.92 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.92 V
+Current: -0.40 mA
+Power: -0.37 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: 0.02 mV
+Load Voltage: 0.93 V
+Current: -0.30 mA
+Power: -0.28 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.93 V
+Current: -0.20 mA
+Power: -0.19 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.04 mV
+Load Voltage: 0.92 V
+Current: -0.40 mA
+Power: -0.37 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.93 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.93 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 0.92 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.92 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.93 V
+Current: 0.10 mA
+Power: 0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.92 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.92 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.92 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.93 V
+Current: -0.50 mA
+Power: -0.46 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.92 V
+Current: -0.40 mA
+Power: -0.37 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.93 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.93 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 0.92 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 0.92 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.93 V
+Current: -0.30 mA
+Power: -0.28 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.04 mV
+Load Voltage: 0.92 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 0.92 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.93 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.04 mV
+Load Voltage: 0.93 V
+Current: -0.20 mA
+Power: -0.19 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 0.92 V
+Current: 0.10 mA
+Power: 0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 0.92 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: 0.01 mV
+Load Voltage: 0.93 V
+Current: -0.20 mA
+Power: -0.19 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.92 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.92 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.93 V
+Current: -0.40 mA
+Power: -0.37 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.92 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.92 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.93 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.92 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 0.92 V
+Current: 0.10 mA
+Power: 0.09 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.93 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.92 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.92 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 0.92 V
+Current: -0.40 mA
+Power: -0.37 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.04 mV
+Load Voltage: 0.92 V
+Current: -0.40 mA
+Power: -0.37 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.04 mV
+Load Voltage: 0.92 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.92 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.93 V
+Current: 0.10 mA
+Power: 0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.92 V
+Current: -0.40 mA
+Power: -0.37 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 0.92 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.92 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.92 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.92 V
+Current: -0.40 mA
+Power: -0.37 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 0.93 V
+Current: -0.20 mA
+Power: -0.19 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.92 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.92 V
+Current: -0.30 mA
+Power: -0.28 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.93 V
+Current: -0.20 mA
+Power: -0.19 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.92 V
+Current: -0.40 mA
+Power: -0.37 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.92 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 0.92 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 0.01 mV
+Load Voltage: 0.92 V
+Current: -0.30 mA
+Power: -0.28 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.92 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.92 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.93 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.92 V
+Current: -0.30 mA
+Power: -0.28 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 0.01 mV
+Load Voltage: 0.92 V
+Current: -0.30 mA
+Power: -0.28 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 0.93 V
+Current: -0.30 mA
+Power: -0.28 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 0.92 V
+Current: -0.30 mA
+Power: -0.28 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 0.92 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.93 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 0.92 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 0.01 mV
+Load Voltage: 0.92 V
+Current: -0.40 mA
+Power: -0.37 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 0.93 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: 0.01 mV
+Load Voltage: 0.93 V
+Current: -0.20 mA
+Power: -0.19 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.92 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.92 V
+Current: -0.30 mA
+Power: -0.28 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.04 mV
+Load Voltage: 0.92 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 0.92 V
+Current: 0.20 mA
+Power: 0.18 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.92 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.93 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.92 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 0.92 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 0.93 V
+Current: -0.20 mA
+Power: -0.19 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 0.92 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.92 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 0.93 V
+Current: -0.30 mA
+Power: -0.28 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 0.92 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 0.92 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.92 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 0.93 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 0.92 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 0.92 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.93 V
+Current: -0.20 mA
+Power: -0.19 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 0.92 V
+Current: 0.10 mA
+Power: 0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 0.92 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 0.92 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 0.92 V
+Current: -0.40 mA
+Power: -0.37 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.92 V
+Current: -0.30 mA
+Power: -0.28 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.92 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.93 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.92 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.92 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.93 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 0.92 V
+Current: -0.30 mA
+Power: -0.28 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 0.92 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.92 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.04 mV
+Load Voltage: 0.92 V
+Current: 0.10 mA
+Power: 0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 0.92 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.92 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 0.92 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.92 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.92 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.93 V
+Current: -0.20 mA
+Power: -0.19 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.92 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 0.93 V
+Current: -0.30 mA
+Power: -0.28 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 0.92 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.92 V
+Current: -0.30 mA
+Power: -0.28 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 0.93 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.92 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.92 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.92 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 0.92 V
+Current: -0.30 mA
+Power: -0.28 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 0.92 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.92 V
+Current: 0.10 mA
+Power: 0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 0.92 V
+Current: 0.10 mA
+Power: 0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.92 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 0.92 V
+Current: 0.10 mA
+Power: 0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.04 mV
+Load Voltage: 0.92 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 0.93 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 0.92 V
+Current: -0.30 mA
+Power: -0.28 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 0.92 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.92 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 0.93 V
+Current: -0.20 mA
+Power: -0.19 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.92 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.92 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.92 V
+Current: -0.30 mA
+Power: -0.28 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 0.92 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.92 V
+Current: -0.30 mA
+Power: -0.28 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: 0.01 mV
+Load Voltage: 0.93 V
+Current: -0.20 mA
+Power: -0.19 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 0.92 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 0.92 V
+Current: 0.10 mA
+Power: 0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.92 V
+Current: 0.10 mA
+Power: 0.09 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.93 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 0.01 mV
+Load Voltage: 0.92 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.92 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.92 V
+Current: -0.30 mA
+Power: -0.28 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.93 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.92 V
+Current: -0.30 mA
+Power: -0.28 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 0.92 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 0.92 V
+Current: -0.40 mA
+Power: -0.37 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 0.92 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.92 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 0.93 V
+Current: -0.20 mA
+Power: -0.19 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.92 V
+Current: -0.30 mA
+Power: -0.28 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 0.92 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.92 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 0.93 V
+Current: -0.20 mA
+Power: -0.19 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.92 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 0.92 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.92 V
+Current: -0.40 mA
+Power: -0.37 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 0.01 mV
+Load Voltage: 0.92 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.04 mV
+Load Voltage: 0.92 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 0.93 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 0.93 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 0.92 V
+Current: -0.60 mA
+Power: -0.55 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.92 V
+Current: -0.40 mA
+Power: -0.37 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: 0.03 mV
+Load Voltage: 0.93 V
+Current: -0.30 mA
+Power: -0.28 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.92 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 0.92 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.93 V
+Current: -0.20 mA
+Power: -0.19 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.92 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.92 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.93 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.92 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 0.92 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.93 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.92 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.92 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.93 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 0.01 mV
+Load Voltage: 0.92 V
+Current: -0.30 mA
+Power: -0.28 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 0.92 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.92 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.04 mV
+Load Voltage: 0.93 V
+Current: -0.30 mA
+Power: -0.28 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.92 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 0.92 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 0.93 V
+Current: -0.30 mA
+Power: -0.28 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.92 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.92 V
+Current: -0.40 mA
+Power: -0.37 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 0.92 V
+Current: -0.30 mA
+Power: -0.28 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 0.92 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.92 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.93 V
+Current: -0.40 mA
+Power: -0.37 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 0.92 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.92 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 0.92 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.93 V
+Current: -0.20 mA
+Power: -0.19 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 0.01 mV
+Load Voltage: 0.92 V
+Current: -0.30 mA
+Power: -0.28 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.92 V
+Current: -0.30 mA
+Power: -0.28 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 0.92 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.93 V
+Current: -0.20 mA
+Power: -0.19 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 0.92 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 0.93 V
+Current: -0.20 mA
+Power: -0.19 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 0.93 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.92 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 0.92 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.04 mV
+Load Voltage: 0.93 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.92 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.93 V
+Current: -0.40 mA
+Power: -0.37 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 0.93 V
+Current: -0.20 mA
+Power: -0.19 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 0.01 mV
+Load Voltage: 0.92 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.92 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 0.93 V
+Current: 0.10 mA
+Power: 0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 0.92 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.92 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.92 V
+Current: -0.30 mA
+Power: -0.28 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.93 V
+Current: -0.40 mA
+Power: -0.37 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 0.92 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.93 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 0.92 V
+Current: 0.10 mA
+Power: 0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.92 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 0.93 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.93 V
+Current: -0.20 mA
+Power: -0.19 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 0.92 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: 0.02 mV
+Load Voltage: 0.93 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.93 V
+Current: -0.30 mA
+Power: -0.28 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.92 V
+Current: -0.40 mA
+Power: -0.37 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.93 V
+Current: 0.10 mA
+Power: 0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.92 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 0.92 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.92 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.04 mV
+Load Voltage: 0.93 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.92 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.04 mV
+Load Voltage: 0.92 V
+Current: -0.30 mA
+Power: -0.28 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 0.92 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 0.92 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 0.92 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 0.93 V
+Current: -0.30 mA
+Power: -0.28 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.93 V
+Current: -0.40 mA
+Power: -0.37 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.92 V
+Current: 0.10 mA
+Power: 0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.92 V
+Current: -0.30 mA
+Power: -0.28 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.93 V
+Current: -0.20 mA
+Power: -0.19 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.92 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 0.01 mV
+Load Voltage: 0.92 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.93 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.92 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.93 V
+Current: -0.20 mA
+Power: -0.19 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.93 V
+Current: 0.10 mA
+Power: 0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.92 V
+Current: 0.10 mA
+Power: 0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.92 V
+Current: -0.30 mA
+Power: -0.28 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 0.93 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 0.92 V
+Current: -0.30 mA
+Power: -0.28 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 0.92 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.92 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.92 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 0.92 V
+Current: -0.30 mA
+Power: -0.28 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 0.92 V
+Current: 0.10 mA
+Power: 0.09 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.93 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.93 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 0.01 mV
+Load Voltage: 0.92 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.92 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.04 mV
+Load Voltage: 0.93 V
+Current: -0.20 mA
+Power: -0.19 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.92 V
+Current: -0.30 mA
+Power: -0.28 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.92 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.93 V
+Current: -0.20 mA
+Power: -0.19 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.92 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.92 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 0.93 V
+Current: -0.30 mA
+Power: -0.28 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.92 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.92 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.92 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.92 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.93 V
+Current: -0.20 mA
+Power: -0.19 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.93 V
+Current: -0.30 mA
+Power: -0.28 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.92 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.92 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.92 V
+Current: -0.30 mA
+Power: -0.28 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.92 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 0.93 V
+Current: -0.30 mA
+Power: -0.28 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.92 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.92 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.93 V
+Current: -0.30 mA
+Power: -0.28 mW
+
+Bus Voltage: 0.94 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.94 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.92 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 0.93 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.92 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.92 V
+Current: -0.40 mA
+Power: -0.37 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.92 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 0.93 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.92 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.92 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.04 mV
+Load Voltage: 0.93 V
+Current: -0.30 mA
+Power: -0.28 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 0.92 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.92 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 0.92 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 0.92 V
+Current: 0.10 mA
+Power: 0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 0.92 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 0.93 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.93 V
+Current: -0.20 mA
+Power: -0.19 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.92 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.92 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: 0.01 mV
+Load Voltage: 0.93 V
+Current: -0.20 mA
+Power: -0.19 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 0.92 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 0.93 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 0.93 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.92 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 0.92 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.04 mV
+Load Voltage: 0.93 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 0.92 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 0.92 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 0.92 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.04 mV
+Load Voltage: 0.93 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.92 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 0.93 V
+Current: -0.30 mA
+Power: -0.28 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 0.92 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 0.92 V
+Current: -0.30 mA
+Power: -0.27 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.93 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 0.93 V
+Current: -0.40 mA
+Power: -0.37 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.92 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.92 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.93 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.04 mV
+Load Voltage: 0.92 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.04 mV
+Load Voltage: 0.92 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.93 V
+Current: -0.20 mA
+Power: -0.19 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.92 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 0.92 V
+Current: -0.30 mA
+Power: -0.27 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.04 mV
+Load Voltage: 0.93 V
+Current: 0.10 mA
+Power: 0.09 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 0.93 V
+Current: -0.30 mA
+Power: -0.28 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 0.92 V
+Current: -0.30 mA
+Power: -0.28 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.92 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.93 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 0.92 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.92 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 0.93 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 0.92 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.05 mV
+Load Voltage: 0.92 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.94 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 0.94 V
+Current: -0.20 mA
+Power: -0.19 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.93 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.92 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.92 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 0.93 V
+Current: 0.20 mA
+Power: 0.19 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 0.92 V
+Current: -0.30 mA
+Power: -0.28 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 0.92 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 0.93 V
+Current: -0.20 mA
+Power: -0.19 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.92 V
+Current: -0.40 mA
+Power: -0.37 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.92 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.93 V
+Current: -0.20 mA
+Power: -0.19 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.92 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.92 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 0.92 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.93 V
+Current: -0.20 mA
+Power: -0.19 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.92 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.92 V
+Current: -0.30 mA
+Power: -0.28 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.04 mV
+Load Voltage: 0.92 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.92 V
+Current: -0.30 mA
+Power: -0.28 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 0.92 V
+Current: -0.20 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 0.92 V
+Current: 0.10 mA
+Power: 0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 0.04 mV
+Load Voltage: 0.92 V
+Current: 0.80 mA
+Power: 0.74 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 0.06 mV
+Load Voltage: 0.92 V
+Current: 0.50 mA
+Power: 0.46 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 0.06 mV
+Load Voltage: 0.92 V
+Current: 0.70 mA
+Power: 0.65 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: 0.06 mV
+Load Voltage: 0.93 V
+Current: 0.70 mA
+Power: 0.65 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: 0.05 mV
+Load Voltage: 0.93 V
+Current: 0.70 mA
+Power: 0.65 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 0.06 mV
+Load Voltage: 0.92 V
+Current: 0.70 mA
+Power: 0.65 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 0.06 mV
+Load Voltage: 0.92 V
+Current: 0.60 mA
+Power: 0.55 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: 0.07 mV
+Load Voltage: 0.92 V
+Current: 0.70 mA
+Power: 0.64 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.93 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 0.93 V
+Shunt Voltage: 0.01 mV
+Load Voltage: 0.93 V
+Current: -0.30 mA
+Power: -0.28 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.92 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Bus Voltage: 0.92 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.92 V
+Current: -0.10 mA
+Power: -0.09 mW
+
+Hello!
+Measuring voltage and current with INA219 ...
+Bus VolHello!
+Measuring voltage and current with INA219 ...
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 4.16 V
+Current: -0.10 mA
+Power: -0.42 mW
+
+Bus Voltage: 4.17 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 4.17 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 4.16 V
+Current: -0.20 mA
+Power: -0.83 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 4.16 V
+Current: -0.10 mA
+Power: -0.42 mW
+
+Bus Voltage: 4.17 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 4.17 V
+Current: -0.20 mA
+Power: -0.83 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 4.16 V
+Current: -0.10 mA
+Power: -0.42 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 4.16 V
+Current: 0.10 mA
+Power: 0.42 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: 0.01 mV
+Load Voltage: 4.16 V
+Current: 0.10 mA
+Power: 0.42 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 4.16 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 4.16 V
+Current: -0.20 mA
+Power: -0.83 mW
+
+Bus Voltage: 4.17 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 4.17 V
+Current: -0.30 mA
+Power: -1.25 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 4.16 V
+Current: -0.20 mA
+Power: -0.83 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 4.16 V
+Current: -0.30 mA
+Power: -1.25 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 4.16 V
+Current: 0.10 mA
+Power: 0.42 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 4.16 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 4.17 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 4.17 V
+Current: 0.10 mA
+Power: 0.42 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: 0.01 mV
+Load Voltage: 4.16 V
+Current: -0.20 mA
+Power: -0.83 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 4.16 V
+Current: -0.10 mA
+Power: -0.42 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 4.16 V
+Current: 0.10 mA
+Power: 0.42 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 4.16 V
+Current: -0.20 mA
+Power: -0.83 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 4.16 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 4.16 V
+Current: -0.40 mA
+Power: -1.67 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 4.16 V
+Current: -0.30 mA
+Power: -1.25 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.04 mV
+Load Voltage: 4.16 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 4.16 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 4.16 V
+Current: -0.20 mA
+Power: -0.83 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 4.16 V
+Current: -0.20 mA
+Power: -0.83 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 4.16 V
+Current: 0.10 mA
+Power: 0.42 mW
+
+Bus Voltage: 4.17 V
+Shunt Voltage: -0.04 mV
+Load Voltage: 4.17 V
+Current: -0.10 mA
+Power: -0.42 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.04 mV
+Load Voltage: 4.16 V
+Current: -0.20 mA
+Power: -0.83 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 4.16 V
+Current: -0.20 mA
+Power: -0.83 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 4.16 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 4.16 V
+Current: -0.20 mA
+Power: -0.83 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 4.16 V
+Current: -0.20 mA
+Power: -0.83 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 4.16 V
+Current: 0.30 mA
+Power: 1.25 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 4.16 V
+Current: 0.10 mA
+Power: 0.42 mW
+
+Bus Voltage: 4.17 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 4.17 V
+Current: -0.20 mA
+Power: -0.83 mW
+
+Bus Voltage: 4.17 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 4.17 V
+Current: -0.10 mA
+Power: -0.42 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 4.16 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: 0.01 mV
+Load Voltage: 4.16 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 4.16 V
+Current: -0.20 mA
+Power: -0.83 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 4.16 V
+Current: -0.10 mA
+Power: -0.42 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 4.16 V
+Current: -0.10 mA
+Power: -0.42 mW
+
+Bus Voltage: 4.17 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 4.17 V
+Current: -0.10 mA
+Power: -0.42 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 4.16 V
+Current: -0.30 mA
+Power: -1.25 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 4.16 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 4.17 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 4.17 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 4.16 V
+Current: -0.20 mA
+Power: -0.83 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 4.16 V
+Current: -0.10 mA
+Power: -0.42 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 4.16 V
+Current: -0.20 mA
+Power: -0.83 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 4.16 V
+Current: -0.10 mA
+Power: -0.42 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 4.16 V
+Current: -0.30 mA
+Power: -1.25 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 4.16 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.04 mV
+Load Voltage: 4.16 V
+Current: -0.20 mA
+Power: -0.83 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 4.16 V
+Current: 0.10 mA
+Power: 0.42 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: 0.01 mV
+Load Voltage: 4.16 V
+Current: -0.30 mA
+Power: -1.25 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 4.16 V
+Current: -0.30 mA
+Power: -1.25 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.04 mV
+Load Voltage: 4.16 V
+Current: -0.30 mA
+Power: -1.25 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -6.64 mV
+Load Voltage: 4.15 V
+Current: -65.20 mA
+Power: -270.54 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -7.11 mV
+Load Voltage: 4.15 V
+Current: -71.20 mA
+Power: -295.40 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -7.12 mV
+Load Voltage: 4.15 V
+Current: -71.50 mA
+Power: -296.64 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -6.90 mV
+Load Voltage: 4.15 V
+Current: -69.00 mA
+Power: -286.29 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -7.25 mV
+Load Voltage: 4.15 V
+Current: -72.70 mA
+Power: -301.61 mW
+
+Bus Voltage: 4.15 V
+Shunt Voltage: -7.25 mV
+Load Voltage: 4.14 V
+Current: -72.50 mA
+Power: -300.49 mW
+
+Bus Voltage: 4.15 V
+Shunt Voltage: -9.87 mV
+Load Voltage: 4.14 V
+Current: -98.30 mA
+Power: -407.17 mW
+
+Bus Voltage: 4.15 V
+Shunt Voltage: -9.87 mV
+Load Voltage: 4.14 V
+Current: -98.40 mA
+Power: -407.59 mW
+
+Bus Voltage: 4.15 V
+Shunt Voltage: -9.88 mV
+Load Voltage: 4.14 V
+Current: -98.50 mA
+Power: -408.00 mW
+
+Bus Voltage: 4.15 V
+Shunt Voltage: -10.00 mV
+Load Voltage: 4.14 V
+Current: -99.80 mA
+Power: -413.37 mW
+
+Bus Voltage: 4.15 V
+Shunt Voltage: -9.87 mV
+Load Voltage: 4.14 V
+Current: -98.50 mA
+Power: -408.00 mW
+
+Bus Voltage: 4.15 V
+Shunt Voltage: -9.87 mV
+Load Voltage: 4.14 V
+Current: -98.50 mA
+Power: -408.00 mW
+
+Bus Voltage: 4.15 V
+Shunt Voltage: -9.87 mV
+Load Voltage: 4.14 V
+Current: -98.60 mA
+Power: -408.41 mW
+
+Bus Voltage: 4.15 V
+Shunt Voltage: -9.86 mV
+Load Voltage: 4.14 V
+Current: -98.90 mA
+Power: -409.66 mW
+
+Bus Voltage: 4.15 V
+Shunt Voltage: -9.84 mV
+Load Voltage: 4.14 V
+Current: -98.60 mA
+Power: -408.02 mW
+
+Bus Voltage: 4.15 V
+Shunt Voltage: -9.83 mV
+Load Voltage: 4.14 V
+Current: -98.70 mA
+Power: -408.83 mW
+
+Bus Voltage: 4.15 V
+Shunt Voltage: -9.86 mV
+Load Voltage: 4.14 V
+Current: -98.70 mA
+Power: -408.83 mW
+
+Bus Voltage: 4.15 V
+Shunt Voltage: -9.89 mV
+Load Voltage: 4.14 V
+Current: -98.60 mA
+Power: -408.41 mW
+
+Bus Voltage: 4.15 V
+Shunt Voltage: -9.86 mV
+Load Voltage: 4.14 V
+Current: -98.60 mA
+Power: -408.42 mW
+
+Bus Voltage: 4.15 V
+Shunt Voltage: -9.88 mV
+Load Voltage: 4.14 V
+Current: -98.70 mA
+Power: -408.83 mW
+
+Bus Voltage: 4.15 V
+Shunt Voltage: -9.86 mV
+Load Voltage: 4.14 V
+Current: -98.50 mA
+Power: -408.00 mW
+
+Bus Voltage: 4.15 V
+Shunt Voltage: -9.85 mV
+Load Voltage: 4.14 V
+Current: -98.70 mA
+Power: -408.83 mW
+
+Bus Voltage: 4.15 V
+Shunt Voltage: -9.90 mV
+Load Voltage: 4.14 V
+Current: -98.60 mA
+Power: -408.02 mW
+
+Bus Voltage: 4.15 V
+Shunt Voltage: -9.85 mV
+Load Voltage: 4.14 V
+Current: -98.50 mA
+Power: -407.61 mW
+
+Bus Voltage: 4.15 V
+Shunt Voltage: -9.85 mV
+Load Voltage: 4.14 V
+Current: -98.80 mA
+Power: -409.24 mW
+
+Bus Voltage: 4.15 V
+Shunt Voltage: -9.85 mV
+Load Voltage: 4.14 V
+Current: -98.40 mA
+Power: -407.59 mW
+
+Bus Voltage: 4.15 V
+Shunt Voltage: -9.87 mV
+Load Voltage: 4.14 V
+Current: -98.30 mA
+Power: -407.17 mW
+
+Bus Voltage: 4.15 V
+Shunt Voltage: -9.88 mV
+Load Voltage: 4.14 V
+Current: -98.70 mA
+Power: -408.83 mW
+
+Bus Voltage: 4.15 V
+Shunt Voltage: -9.85 mV
+Load Voltage: 4.14 V
+Current: -98.70 mA
+Power: -408.83 mW
+
+Bus Voltage: 4.15 V
+Shunt Voltage: -9.87 mV
+Load Voltage: 4.14 V
+Current: -98.30 mA
+Power: -407.17 mW
+
+Bus Voltage: 4.15 V
+Shunt Voltage: -9.88 mV
+Load Voltage: 4.14 V
+Current: -98.40 mA
+Power: -407.58 mW
+
+Bus Voltage: 4.15 V
+Shunt Voltage: -9.85 mV
+Load Voltage: 4.14 V
+Current: -98.60 mA
+Power: -408.42 mW
+
+Bus Voltage: 4.15 V
+Shunt Voltage: -9.87 mV
+Load Voltage: 4.14 V
+Current: -98.50 mA
+Power: -407.61 mW
+
+Bus Voltage: 4.15 V
+Shunt Voltage: -9.87 mV
+Load Voltage: 4.14 V
+Current: -98.70 mA
+Power: -408.83 mW
+
+Bus Voltage: 4.15 V
+Shunt Voltage: -9.87 mV
+Load Voltage: 4.14 V
+Current: -98.40 mA
+Power: -407.59 mW
+
+Bus Voltage: 4.15 V
+Shunt Voltage: -9.86 mV
+Load Voltage: 4.14 V
+Current: -98.70 mA
+Power: -408.83 mW
+
+Bus Voltage: 4.15 V
+Shunt Voltage: -9.84 mV
+Load Voltage: 4.14 V
+Current: -98.60 mA
+Power: -408.42 mW
+
+Bus Voltage: 4.15 V
+Shunt Voltage: -9.86 mV
+Load Voltage: 4.14 V
+Current: -98.80 mA
+Power: -409.24 mW
+
+Bus Voltage: 4.15 V
+Shunt Voltage: -9.86 mV
+Load Voltage: 4.14 V
+Current: -98.70 mA
+Power: -408.83 mW
+
+Bus Voltage: 4.15 V
+Shunt Voltage: -9.82 mV
+Load Voltage: 4.14 V
+Current: -98.40 mA
+Power: -407.59 mW
+
+Bus Voltage: 4.15 V
+Shunt Voltage: -9.86 mV
+Load Voltage: 4.14 V
+Current: -98.70 mA
+Power: -408.83 mW
+
+Bus Voltage: 4.15 V
+Shunt Voltage: -9.86 mV
+Load Voltage: 4.14 V
+Current: -98.60 mA
+Power: -408.42 mW
+
+Bus Voltage: 4.15 V
+Shunt Voltage: -9.85 mV
+Load Voltage: 4.14 V
+Current: -98.70 mA
+Power: -408.44 mW
+
+Bus Voltage: 4.15 V
+Shunt Voltage: -9.86 mV
+Load Voltage: 4.14 V
+Current: -98.30 mA
+Power: -406.78 mW
+
+Bus Voltage: 4.15 V
+Shunt Voltage: -9.84 mV
+Load Voltage: 4.14 V
+Current: -98.40 mA
+Power: -407.59 mW
+
+Bus Voltage: 4.15 V
+Shunt Voltage: -9.84 mV
+Load Voltage: 4.14 V
+Current: -98.30 mA
+Power: -407.17 mW
+
+Bus Voltage: 4.15 V
+Shunt Voltage: -9.85 mV
+Load Voltage: 4.14 V
+Current: -98.50 mA
+Power: -407.61 mW
+
+Bus Voltage: 4.15 V
+Shunt Voltage: -9.84 mV
+Load Voltage: 4.14 V
+Current: -98.30 mA
+Power: -407.17 mW
+
+Bus Voltage: 4.15 V
+Shunt Voltage: -9.85 mV
+Load Voltage: 4.14 V
+Current: -98.80 mA
+Power: -409.24 mW
+
+Bus Voltage: 4.15 V
+Shunt Voltage: -9.82 mV
+Load Voltage: 4.14 V
+Current: -98.40 mA
+Power: -407.59 mW
+
+Bus Voltage: 4.15 V
+Shunt Voltage: -9.88 mV
+Load Voltage: 4.14 V
+Current: -98.30 mA
+Power: -407.17 mW
+
+Bus Voltage: 4.15 V
+Shunt Voltage: -9.84 mV
+Load Voltage: 4.14 V
+Current: -98.60 mA
+Power: -408.42 mW
+
+Bus Voltage: 4.15 V
+Shunt Voltage: -9.88 mV
+Load Voltage: 4.14 V
+Current: -98.40 mA
+Power: -407.58 mW
+
+Bus Voltage: 4.15 V
+Shunt Voltage: -9.84 mV
+Load Voltage: 4.14 V
+Current: -98.70 mA
+Power: -408.44 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: -9.89 mV
+Load Voltage: 4.13 V
+Current: -98.50 mA
+Power: -406.82 mW
+
+Bus Voltage: 4.15 V
+Shunt Voltage: -9.85 mV
+Load Voltage: 4.14 V
+Current: -98.50 mA
+Power: -408.00 mW
+
+Bus Voltage: 0.86 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 0.86 V
+Current: -0.20 mA
+Power: -0.17 mW
+
+Bus Voltage: 0.59 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 0.59 V
+Current: -0.30 mA
+Power: -0.18 mW
+
+Bus Voltage: 0.50 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 0.50 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 0.45 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 0.45 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 0.43 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 0.43 V
+Current: -0.40 mA
+Power: -0.17 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 4.16 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 3.38 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 3.38 V
+Current: -0.10 mA
+Power: -0.34 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 4.16 V
+Current: -0.10 mA
+Power: -0.42 mW
+
+Bus Voltage: 1.50 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 1.50 V
+Current: -0.20 mA
+Power: -0.30 mW
+
+Bus Voltage: 4.15 V
+Shunt Voltage: 0.01 mV
+Load Voltage: 4.15 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 4.15 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 4.15 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 4.15 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 4.15 V
+Current: -0.30 mA
+Power: -1.24 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 4.16 V
+Current: -0.20 mA
+Power: -0.83 mW
+
+Bus Voltage: 4.15 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 4.15 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 4.15 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 4.15 V
+Current: -0.10 mA
+Power: -0.42 mW
+
+Bus Voltage: 4.15 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 4.15 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 4.15 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 4.15 V
+Current: 0.10 mA
+Power: 0.41 mW
+
+Bus Voltage: 4.15 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 4.15 V
+Current: -0.10 mA
+Power: -0.42 mW
+
+Bus Voltage: 4.15 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 4.15 V
+Current: 0.20 mA
+Power: 0.83 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: 0.02 mV
+Load Voltage: 4.16 V
+Current: -0.20 mA
+Power: -0.83 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 4.16 V
+Current: 0.10 mA
+Power: 0.42 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 4.16 V
+Current: -0.10 mA
+Power: -0.42 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 4.16 V
+Current: 0.10 mA
+Power: 0.42 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: 0.01 mV
+Load Voltage: 4.16 V
+Current: 0.40 mA
+Power: 1.67 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: 5.83 mV
+Load Voltage: 4.17 V
+Current: -0.10 mA
+Power: -0.42 mW
+
+Bus Voltage: 4.15 V
+Shunt Voltage: 6.01 mV
+Load Voltage: 4.15 V
+Current: 62.70 mA
+Power: 260.46 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 10.99 mV
+Load Voltage: 4.15 V
+Current: 68.40 mA
+Power: 284.20 mW
+
+Bus Voltage: 4.15 V
+Shunt Voltage: 6.42 mV
+Load Voltage: 4.15 V
+Current: 61.70 mA
+Power: 256.33 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 7.00 mV
+Load Voltage: 4.15 V
+Current: 70.30 mA
+Power: 291.82 mW
+
+Bus Voltage: 4.15 V
+Shunt Voltage: 7.02 mV
+Load Voltage: 4.16 V
+Current: 70.60 mA
+Power: 293.34 mW
+
+Bus Voltage: 4.15 V
+Shunt Voltage: 6.82 mV
+Load Voltage: 4.15 V
+Current: 68.00 mA
+Power: 282.53 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 7.22 mV
+Load Voltage: 4.15 V
+Current: 72.00 mA
+Power: 298.89 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 7.20 mV
+Load Voltage: 4.15 V
+Current: 71.70 mA
+Power: 297.64 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 98.10 mA
+Power: 407.09 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 98.20 mA
+Power: 407.51 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.81 mV
+Load Voltage: 4.15 V
+Current: 98.20 mA
+Power: 407.51 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 98.00 mA
+Power: 406.68 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.81 mV
+Load Voltage: 4.15 V
+Current: 98.20 mA
+Power: 407.51 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.84 mV
+Load Voltage: 4.15 V
+Current: 97.90 mA
+Power: 406.27 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.82 mV
+Load Voltage: 4.15 V
+Current: 98.00 mA
+Power: 406.68 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.79 mV
+Load Voltage: 4.15 V
+Current: 97.90 mA
+Power: 406.26 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 97.60 mA
+Power: 405.02 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.79 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.85 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.85 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.43 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.43 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.79 mV
+Load Voltage: 4.15 V
+Current: 98.00 mA
+Power: 406.68 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.82 mV
+Load Voltage: 4.15 V
+Current: 98.00 mA
+Power: 406.29 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.80 mV
+Load Voltage: 4.15 V
+Current: 97.90 mA
+Power: 406.27 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.81 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.85 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.80 mV
+Load Voltage: 4.15 V
+Current: 98.00 mA
+Power: 406.68 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.43 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 98.10 mA
+Power: 407.09 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.79 mV
+Load Voltage: 4.15 V
+Current: 98.10 mA
+Power: 407.09 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 98.10 mA
+Power: 407.09 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.43 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.43 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 98.00 mA
+Power: 406.68 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 4.15 V
+Current: 97.60 mA
+Power: 405.02 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 4.15 V
+Current: 98.00 mA
+Power: 406.68 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.43 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.80 mV
+Load Voltage: 4.15 V
+Current: 97.90 mA
+Power: 406.27 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.85 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.80 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.44 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 98.00 mA
+Power: 406.68 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 97.90 mA
+Power: 406.26 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 97.60 mA
+Power: 405.02 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.46 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 97.90 mA
+Power: 406.26 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.79 mV
+Load Voltage: 4.15 V
+Current: 98.00 mA
+Power: 406.68 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.79 mV
+Load Voltage: 4.15 V
+Current: 97.90 mA
+Power: 406.26 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.80 mV
+Load Voltage: 4.15 V
+Current: 98.30 mA
+Power: 407.93 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 8.39 mV
+Load Voltage: 4.15 V
+Current: 84.20 mA
+Power: 349.63 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.13 mV
+Load Voltage: 4.15 V
+Current: 91.20 mA
+Power: 378.40 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.14 mV
+Load Voltage: 4.15 V
+Current: 91.00 mA
+Power: 377.57 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 8.44 mV
+Load Voltage: 4.15 V
+Current: 84.20 mA
+Power: 349.64 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 8.48 mV
+Load Voltage: 4.15 V
+Current: 85.20 mA
+Power: 353.79 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 8.87 mV
+Load Voltage: 4.15 V
+Current: 88.80 mA
+Power: 368.42 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 8.84 mV
+Load Voltage: 4.15 V
+Current: 88.70 mA
+Power: 368.00 mW
+
+Bus Voltage: 4.15 V
+Shunt Voltage: 6.89 mV
+Load Voltage: 4.15 V
+Current: 68.20 mA
+Power: 283.36 mW
+
+Bus Voltage: 4.15 V
+Shunt Voltage: 6.81 mV
+Load Voltage: 4.15 V
+Current: 68.40 mA
+Power: 284.19 mW
+
+Bus Voltage: 4.15 V
+Shunt Voltage: 6.86 mV
+Load Voltage: 4.15 V
+Current: 68.50 mA
+Power: 284.61 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.75 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.43 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 97.50 mA
+Power: 404.60 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 4.15 V
+Current: 97.50 mA
+Power: 404.60 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.75 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.04 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.85 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 98.00 mA
+Power: 406.29 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 4.15 V
+Current: 98.10 mA
+Power: 407.09 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 4.15 V
+Current: 98.00 mA
+Power: 406.28 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.81 mV
+Load Voltage: 4.15 V
+Current: 97.50 mA
+Power: 404.61 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 4.15 V
+Current: 98.00 mA
+Power: 407.07 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 97.90 mA
+Power: 406.26 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.79 mV
+Load Voltage: 4.15 V
+Current: 97.50 mA
+Power: 404.60 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.79 mV
+Load Voltage: 4.15 V
+Current: 97.90 mA
+Power: 406.26 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 98.00 mA
+Power: 407.07 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.73 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.84 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.81 mV
+Load Voltage: 4.15 V
+Current: 97.50 mA
+Power: 404.61 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 97.40 mA
+Power: 404.19 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 98.00 mA
+Power: 406.68 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 4.15 V
+Current: 98.20 mA
+Power: 407.11 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 4.15 V
+Current: 98.00 mA
+Power: 406.68 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.85 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.79 mV
+Load Voltage: 4.15 V
+Current: 98.00 mA
+Power: 406.29 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.85 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 4.15 V
+Current: 98.00 mA
+Power: 406.68 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 4.15 V
+Current: 97.60 mA
+Power: 404.63 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 97.90 mA
+Power: 405.87 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.43 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.79 mV
+Load Voltage: 4.15 V
+Current: 97.60 mA
+Power: 405.41 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 4.15 V
+Current: 98.10 mA
+Power: 407.09 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 97.50 mA
+Power: 404.60 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.80 mV
+Load Voltage: 4.15 V
+Current: 97.60 mA
+Power: 405.02 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 4.15 V
+Current: 98.00 mA
+Power: 406.68 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 97.60 mA
+Power: 404.63 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.75 mV
+Load Voltage: 4.15 V
+Current: 97.90 mA
+Power: 406.26 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.79 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.43 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.85 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.75 mV
+Load Voltage: 4.15 V
+Current: 97.50 mA
+Power: 404.60 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 97.90 mA
+Power: 406.26 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.80 mV
+Load Voltage: 4.15 V
+Current: 97.60 mA
+Power: 405.02 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.79 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.85 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 98.00 mA
+Power: 406.68 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 97.90 mA
+Power: 406.26 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 97.90 mA
+Power: 406.26 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.80 mV
+Load Voltage: 4.15 V
+Current: 97.60 mA
+Power: 404.63 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.43 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.85 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.43 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.79 mV
+Load Voltage: 4.15 V
+Current: 98.00 mA
+Power: 406.68 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.79 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.85 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 97.60 mA
+Power: 405.02 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.79 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.43 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.79 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.85 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 4.15 V
+Current: 98.00 mA
+Power: 406.28 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.85 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 4.15 V
+Current: 97.90 mA
+Power: 406.26 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.85 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.04 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.79 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.43 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.79 mV
+Load Voltage: 4.15 V
+Current: 97.90 mA
+Power: 406.26 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.04 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.04 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 98.10 mA
+Power: 406.70 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.80 mV
+Load Voltage: 4.15 V
+Current: 97.90 mA
+Power: 405.87 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.79 mV
+Load Voltage: 4.15 V
+Current: 97.60 mA
+Power: 405.02 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.04 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.79 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.43 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.82 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.46 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.79 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.85 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.74 mV
+Load Voltage: 4.15 V
+Current: 97.50 mA
+Power: 404.60 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 98.00 mA
+Power: 406.68 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.75 mV
+Load Voltage: 4.15 V
+Current: 97.90 mA
+Power: 406.26 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 97.30 mA
+Power: 403.77 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 97.50 mA
+Power: 404.60 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.73 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.43 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 4.15 V
+Current: 97.90 mA
+Power: 405.87 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.81 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.05 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 98.00 mA
+Power: 406.68 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 4.15 V
+Current: 97.40 mA
+Power: 404.19 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 98.10 mA
+Power: 407.09 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.80 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.44 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.79 mV
+Load Voltage: 4.15 V
+Current: 98.20 mA
+Power: 407.51 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 97.60 mA
+Power: 405.02 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 97.90 mA
+Power: 406.26 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 4.15 V
+Current: 97.50 mA
+Power: 404.60 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.85 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.79 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.46 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.80 mV
+Load Voltage: 4.15 V
+Current: 98.00 mA
+Power: 406.68 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.46 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.46 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 97.60 mA
+Power: 405.02 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.80 mV
+Load Voltage: 4.15 V
+Current: 97.60 mA
+Power: 405.02 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.46 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 98.00 mA
+Power: 406.68 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 98.00 mA
+Power: 406.29 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.80 mV
+Load Voltage: 4.15 V
+Current: 98.00 mA
+Power: 406.68 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 97.50 mA
+Power: 404.21 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.46 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.75 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.04 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.79 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.46 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.79 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.46 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.79 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.43 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 4.15 V
+Current: 97.90 mA
+Power: 405.87 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 4.15 V
+Current: 98.00 mA
+Power: 406.68 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.74 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.84 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 97.60 mA
+Power: 405.02 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 97.90 mA
+Power: 406.26 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.73 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.43 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 4.15 V
+Current: 98.00 mA
+Power: 406.28 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.79 mV
+Load Voltage: 4.15 V
+Current: 97.90 mA
+Power: 406.26 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.85 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.43 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 98.00 mA
+Power: 406.68 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 98.10 mA
+Power: 407.09 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.43 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.75 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.85 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 97.60 mA
+Power: 405.02 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.75 mV
+Load Voltage: 4.15 V
+Current: 98.10 mA
+Power: 407.09 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.43 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.80 mV
+Load Voltage: 4.15 V
+Current: 98.00 mA
+Power: 406.68 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.75 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.85 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 4.15 V
+Current: 97.90 mA
+Power: 406.26 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 98.10 mA
+Power: 407.48 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.46 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.80 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.46 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.80 mV
+Load Voltage: 4.15 V
+Current: 97.90 mA
+Power: 406.27 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.04 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.85 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.81 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.85 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.80 mV
+Load Voltage: 4.15 V
+Current: 98.10 mA
+Power: 407.10 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 97.90 mA
+Power: 406.26 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.75 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.43 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.75 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.43 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.73 mV
+Load Voltage: 4.15 V
+Current: 97.90 mA
+Power: 406.26 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.43 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.80 mV
+Load Voltage: 4.15 V
+Current: 97.60 mA
+Power: 405.02 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 4.15 V
+Current: 97.90 mA
+Power: 405.87 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 97.90 mA
+Power: 406.26 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.04 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.75 mV
+Load Voltage: 4.15 V
+Current: 97.60 mA
+Power: 404.63 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.43 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.04 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.46 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.46 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 4.15 V
+Current: 97.90 mA
+Power: 405.87 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.43 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.75 mV
+Load Voltage: 4.15 V
+Current: 98.00 mA
+Power: 406.68 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.83 mV
+Load Voltage: 4.15 V
+Current: 97.60 mA
+Power: 405.02 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.43 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.79 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.46 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.74 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.45 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.75 mV
+Load Voltage: 4.15 V
+Current: 97.90 mA
+Power: 406.26 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.85 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 97.30 mA
+Power: 403.77 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 98.00 mA
+Power: 406.68 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.74 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.45 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.85 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 97.50 mA
+Power: 404.21 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.81 mV
+Load Voltage: 4.15 V
+Current: 97.90 mA
+Power: 406.27 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 97.90 mA
+Power: 406.26 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.75 mV
+Load Voltage: 4.15 V
+Current: 97.50 mA
+Power: 404.21 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.80 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.85 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.75 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.85 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.74 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.84 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 97.50 mA
+Power: 404.21 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.43 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 98.00 mA
+Power: 406.68 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.74 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.43 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.43 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 97.50 mA
+Power: 404.60 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.82 mV
+Load Voltage: 4.15 V
+Current: 97.50 mA
+Power: 404.61 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.75 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.85 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 97.90 mA
+Power: 406.26 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.43 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 97.50 mA
+Power: 404.60 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.80 mV
+Load Voltage: 4.15 V
+Current: 97.60 mA
+Power: 404.63 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.79 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.85 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.46 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.80 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.44 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.04 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.43 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.04 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.80 mV
+Load Voltage: 4.15 V
+Current: 97.50 mA
+Power: 404.61 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.43 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 4.15 V
+Current: 97.90 mA
+Power: 405.87 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.80 mV
+Load Voltage: 4.15 V
+Current: 97.60 mA
+Power: 405.02 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.80 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.46 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.79 mV
+Load Voltage: 4.15 V
+Current: 98.00 mA
+Power: 406.68 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 97.40 mA
+Power: 404.19 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 97.90 mA
+Power: 406.26 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.75 mV
+Load Voltage: 4.15 V
+Current: 98.00 mA
+Power: 406.28 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.79 mV
+Load Voltage: 4.15 V
+Current: 97.50 mA
+Power: 404.60 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.46 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.43 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 97.40 mA
+Power: 404.19 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.79 mV
+Load Voltage: 4.15 V
+Current: 97.50 mA
+Power: 404.21 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 97.90 mA
+Power: 405.87 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 97.60 mA
+Power: 405.02 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 98.00 mA
+Power: 406.68 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.46 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 4.15 V
+Current: 97.90 mA
+Power: 405.87 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.04 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.75 mV
+Load Voltage: 4.15 V
+Current: 97.50 mA
+Power: 404.21 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 97.90 mA
+Power: 405.87 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.79 mV
+Load Voltage: 4.15 V
+Current: 98.00 mA
+Power: 406.29 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 97.60 mA
+Power: 404.63 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.75 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.04 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.80 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.04 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.04 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 97.30 mA
+Power: 403.38 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.46 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 97.90 mA
+Power: 405.87 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.79 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.85 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.85 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.04 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.79 mV
+Load Voltage: 4.15 V
+Current: 97.90 mA
+Power: 406.26 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 97.60 mA
+Power: 405.02 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.74 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.45 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.85 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 4.15 V
+Current: 97.60 mA
+Power: 405.02 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.79 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.04 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.43 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.80 mV
+Load Voltage: 4.15 V
+Current: 97.50 mA
+Power: 404.61 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.85 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.74 mV
+Load Voltage: 4.15 V
+Current: 97.90 mA
+Power: 406.26 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.85 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 97.90 mA
+Power: 405.87 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.73 mV
+Load Voltage: 4.15 V
+Current: 98.00 mA
+Power: 406.28 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.74 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.04 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 97.50 mA
+Power: 404.60 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.04 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.43 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.79 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.43 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 4.15 V
+Current: 97.90 mA
+Power: 406.26 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.80 mV
+Load Voltage: 4.15 V
+Current: 97.50 mA
+Power: 404.61 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.46 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.80 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.46 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 4.15 V
+Current: 97.30 mA
+Power: 403.77 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.04 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.74 mV
+Load Voltage: 4.15 V
+Current: 97.60 mA
+Power: 404.62 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.75 mV
+Load Voltage: 4.15 V
+Current: 97.90 mA
+Power: 406.26 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.72 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.45 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.46 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.82 mV
+Load Voltage: 4.15 V
+Current: 97.90 mA
+Power: 405.88 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 97.60 mA
+Power: 404.63 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.82 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.05 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.46 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.74 mV
+Load Voltage: 4.15 V
+Current: 98.00 mA
+Power: 406.28 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 97.40 mA
+Power: 404.19 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 4.15 V
+Current: 97.60 mA
+Power: 404.63 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.46 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 4.15 V
+Current: 97.30 mA
+Power: 403.38 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 97.50 mA
+Power: 404.60 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 97.50 mA
+Power: 404.60 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.04 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.79 mV
+Load Voltage: 4.15 V
+Current: 98.10 mA
+Power: 407.09 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 98.00 mA
+Power: 406.68 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 97.60 mA
+Power: 404.63 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.43 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.79 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.85 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.80 mV
+Load Voltage: 4.15 V
+Current: 98.10 mA
+Power: 406.70 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 98.10 mA
+Power: 406.70 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 4.15 V
+Current: 97.30 mA
+Power: 403.77 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.43 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 97.50 mA
+Power: 404.21 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.80 mV
+Load Voltage: 4.15 V
+Current: 97.60 mA
+Power: 405.02 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.79 mV
+Load Voltage: 4.15 V
+Current: 98.00 mA
+Power: 406.29 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.79 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.46 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.43 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.81 mV
+Load Voltage: 4.15 V
+Current: 98.00 mA
+Power: 406.29 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.43 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 4.15 V
+Current: 97.40 mA
+Power: 404.19 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 97.40 mA
+Power: 403.80 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.46 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 97.60 mA
+Power: 404.63 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.46 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.46 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.79 mV
+Load Voltage: 4.15 V
+Current: 98.00 mA
+Power: 406.68 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 97.60 mA
+Power: 405.02 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.75 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.04 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.46 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.04 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.79 mV
+Load Voltage: 4.15 V
+Current: 97.60 mA
+Power: 404.63 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.73 mV
+Load Voltage: 4.15 V
+Current: 97.60 mA
+Power: 404.62 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.04 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.75 mV
+Load Voltage: 4.15 V
+Current: 97.60 mA
+Power: 405.02 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 4.15 V
+Current: 97.40 mA
+Power: 404.19 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.81 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.44 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.73 mV
+Load Voltage: 4.15 V
+Current: 97.50 mA
+Power: 404.60 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.85 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 97.90 mA
+Power: 405.87 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.46 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.79 mV
+Load Voltage: 4.15 V
+Current: 98.00 mA
+Power: 406.29 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 4.15 V
+Current: 97.50 mA
+Power: 404.21 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.46 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.80 mV
+Load Voltage: 4.15 V
+Current: 98.00 mA
+Power: 406.29 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.85 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.04 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 98.10 mA
+Power: 406.70 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 4.15 V
+Current: 98.00 mA
+Power: 406.28 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.46 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.74 mV
+Load Voltage: 4.15 V
+Current: 97.40 mA
+Power: 403.80 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.80 mV
+Load Voltage: 4.15 V
+Current: 97.60 mA
+Power: 405.02 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.04 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.74 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.45 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.75 mV
+Load Voltage: 4.15 V
+Current: 97.60 mA
+Power: 404.63 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.75 mV
+Load Voltage: 4.15 V
+Current: 97.60 mA
+Power: 404.63 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 4.15 V
+Current: 98.10 mA
+Power: 406.70 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 97.40 mA
+Power: 403.80 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 97.90 mA
+Power: 405.87 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 4.15 V
+Current: 97.60 mA
+Power: 404.63 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 4.15 V
+Current: 97.60 mA
+Power: 404.63 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.74 mV
+Load Voltage: 4.15 V
+Current: 97.90 mA
+Power: 406.26 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.04 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 97.90 mA
+Power: 405.87 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 98.10 mA
+Power: 406.70 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.74 mV
+Load Voltage: 4.15 V
+Current: 98.00 mA
+Power: 406.28 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.80 mV
+Load Voltage: 4.15 V
+Current: 98.00 mA
+Power: 406.29 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.81 mV
+Load Voltage: 4.15 V
+Current: 97.60 mA
+Power: 404.63 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 97.50 mA
+Power: 404.21 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.75 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.04 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 97.50 mA
+Power: 404.21 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 97.30 mA
+Power: 403.38 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.79 mV
+Load Voltage: 4.15 V
+Current: 97.60 mA
+Power: 404.63 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.46 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.81 mV
+Load Voltage: 4.15 V
+Current: 98.00 mA
+Power: 406.29 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 97.90 mA
+Power: 405.87 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.74 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.45 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.43 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 97.50 mA
+Power: 404.60 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.83 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.05 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.04 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 4.15 V
+Current: 97.90 mA
+Power: 405.87 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 97.60 mA
+Power: 405.02 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.46 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 97.90 mA
+Power: 405.87 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.46 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 97.60 mA
+Power: 405.02 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 4.15 V
+Current: 97.50 mA
+Power: 404.60 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.80 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.04 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.70 mV
+Load Voltage: 4.15 V
+Current: 97.90 mA
+Power: 406.26 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.80 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.85 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.04 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.73 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.45 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 97.50 mA
+Power: 404.21 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.04 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.04 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.73 mV
+Load Voltage: 4.15 V
+Current: 98.00 mA
+Power: 406.67 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.79 mV
+Load Voltage: 4.15 V
+Current: 98.00 mA
+Power: 406.68 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.46 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 4.15 V
+Current: 98.00 mA
+Power: 406.28 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.85 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.80 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.46 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 97.90 mA
+Power: 405.87 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.74 mV
+Load Voltage: 4.15 V
+Current: 97.90 mA
+Power: 405.87 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.04 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.79 mV
+Load Voltage: 4.15 V
+Current: 98.00 mA
+Power: 406.29 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.04 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.75 mV
+Load Voltage: 4.15 V
+Current: 97.50 mA
+Power: 404.21 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 4.15 V
+Current: 97.60 mA
+Power: 405.02 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.79 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.46 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.46 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 4.15 V
+Current: 97.60 mA
+Power: 404.63 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.04 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 4.15 V
+Current: 97.50 mA
+Power: 404.21 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.46 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.74 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.45 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.46 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.79 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.85 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.75 mV
+Load Voltage: 4.15 V
+Current: 97.60 mA
+Power: 404.63 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.04 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 4.15 V
+Current: 97.60 mA
+Power: 404.63 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 98.10 mA
+Power: 406.70 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 97.90 mA
+Power: 405.87 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.46 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.75 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.45 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.73 mV
+Load Voltage: 4.15 V
+Current: 97.20 mA
+Power: 402.96 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.46 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 98.00 mA
+Power: 406.29 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 97.90 mA
+Power: 405.87 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.46 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.80 mV
+Load Voltage: 4.15 V
+Current: 97.60 mA
+Power: 405.02 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.85 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.79 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.04 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.79 mV
+Load Voltage: 4.15 V
+Current: 97.50 mA
+Power: 404.60 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.79 mV
+Load Voltage: 4.15 V
+Current: 98.00 mA
+Power: 406.29 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.80 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.44 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 97.60 mA
+Power: 404.63 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.79 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.04 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.04 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 97.90 mA
+Power: 405.87 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 97.60 mA
+Power: 404.63 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.85 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.74 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.04 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 97.90 mA
+Power: 405.87 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.75 mV
+Load Voltage: 4.15 V
+Current: 97.50 mA
+Power: 404.21 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 97.50 mA
+Power: 404.21 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.43 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.46 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.74 mV
+Load Voltage: 4.15 V
+Current: 97.50 mA
+Power: 404.21 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 97.60 mA
+Power: 404.63 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.81 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.85 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.43 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 4.15 V
+Current: 97.90 mA
+Power: 405.87 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.75 mV
+Load Voltage: 4.15 V
+Current: 97.50 mA
+Power: 404.21 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.75 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.04 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.79 mV
+Load Voltage: 4.15 V
+Current: 97.50 mA
+Power: 404.21 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.04 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.75 mV
+Load Voltage: 4.15 V
+Current: 97.90 mA
+Power: 405.87 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.46 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 97.60 mA
+Power: 404.63 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 97.40 mA
+Power: 403.80 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.74 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.45 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 97.60 mA
+Power: 404.63 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.74 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.45 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.80 mV
+Load Voltage: 4.15 V
+Current: 97.90 mA
+Power: 405.87 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 97.40 mA
+Power: 403.80 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 98.00 mA
+Power: 406.29 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.79 mV
+Load Voltage: 4.15 V
+Current: 97.90 mA
+Power: 405.87 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 97.50 mA
+Power: 404.21 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.80 mV
+Load Voltage: 4.15 V
+Current: 97.60 mA
+Power: 404.63 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.80 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.46 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.79 mV
+Load Voltage: 4.15 V
+Current: 97.20 mA
+Power: 402.97 mW
+
+Bus Voltage: 4.13 V
+Shunt Voltage: 9.74 mV
+Load Voltage: 4.14 V
+Current: 97.50 mA
+Power: 403.82 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.79 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.04 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.79 mV
+Load Voltage: 4.15 V
+Current: 98.00 mA
+Power: 406.29 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 97.60 mA
+Power: 404.63 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 97.50 mA
+Power: 404.21 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 4.15 V
+Current: 98.00 mA
+Power: 406.28 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.79 mV
+Load Voltage: 4.15 V
+Current: 98.00 mA
+Power: 406.68 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.79 mV
+Load Voltage: 4.15 V
+Current: 97.50 mA
+Power: 404.21 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.04 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.46 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 98.00 mA
+Power: 406.29 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 4.15 V
+Current: 98.10 mA
+Power: 406.70 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 98.10 mA
+Power: 406.70 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.46 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.79 mV
+Load Voltage: 4.15 V
+Current: 97.60 mA
+Power: 404.63 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 97.40 mA
+Power: 403.80 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 4.15 V
+Current: 97.60 mA
+Power: 404.63 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.79 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.04 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.46 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.81 mV
+Load Voltage: 4.15 V
+Current: 97.50 mA
+Power: 404.22 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 98.00 mA
+Power: 406.29 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.71 mV
+Load Voltage: 4.15 V
+Current: 97.60 mA
+Power: 404.62 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.79 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.04 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 97.50 mA
+Power: 404.21 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 98.00 mA
+Power: 406.29 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 97.60 mA
+Power: 404.63 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.04 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 97.60 mA
+Power: 404.63 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.04 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.72 mV
+Load Voltage: 4.15 V
+Current: 98.00 mA
+Power: 406.28 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.74 mV
+Load Voltage: 4.15 V
+Current: 97.90 mA
+Power: 405.87 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 4.15 V
+Current: 97.90 mA
+Power: 406.26 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.04 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.46 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 98.00 mA
+Power: 406.29 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 97.60 mA
+Power: 405.02 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.80 mV
+Load Voltage: 4.15 V
+Current: 97.40 mA
+Power: 403.80 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.75 mV
+Load Voltage: 4.15 V
+Current: 97.50 mA
+Power: 404.21 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 97.40 mA
+Power: 404.19 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.04 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.77 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.04 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 4.15 V
+Current: 97.60 mA
+Power: 404.63 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.75 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.04 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 4.15 V
+Current: 97.50 mA
+Power: 404.21 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.79 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.04 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.74 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.45 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.80 mV
+Load Voltage: 4.15 V
+Current: 98.00 mA
+Power: 406.29 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.81 mV
+Load Voltage: 4.15 V
+Current: 98.00 mA
+Power: 406.29 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.75 mV
+Load Voltage: 4.15 V
+Current: 97.60 mA
+Power: 404.63 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 97.80 mA
+Power: 405.46 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.80 mV
+Load Voltage: 4.15 V
+Current: 97.30 mA
+Power: 403.39 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.81 mV
+Load Voltage: 4.15 V
+Current: 97.50 mA
+Power: 404.22 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.79 mV
+Load Voltage: 4.15 V
+Current: 97.50 mA
+Power: 404.21 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.04 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.78 mV
+Load Voltage: 4.15 V
+Current: 97.50 mA
+Power: 404.21 mW
+
+Bus Voltage: 4.14 V
+Shunt Voltage: 9.76 mV
+Load Voltage: 4.15 V
+Current: 97.70 mA
+Power: 405.04 mW
+
+Bus Voltage: 4.13 V
+Shunt Voltage: 9.79 mV
+Load Voltage: 4.14 V
+Current: 98.20 mA
+Power: 406.72 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 4.16 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: 0.01 mV
+Load Voltage: 4.16 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 4.16 V
+Current: -0.10 mA
+Power: -0.42 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 4.16 V
+Current: -0.10 mA
+Power: -0.42 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 4.16 V
+Current: -0.10 mA
+Power: -0.42 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 4.16 V
+Current: -0.20 mA
+Power: -0.83 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 4.16 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 4.16 V
+Current: 0.10 mA
+Power: 0.42 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 4.16 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 4.16 V
+Current: 0.10 mA
+Power: 0.42 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 4.16 V
+Current: -0.20 mA
+Power: -0.83 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 4.16 V
+Current: 0.10 mA
+Power: 0.42 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 4.16 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 4.16 V
+Current: -0.20 mA
+Power: -0.83 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 4.16 V
+Current: -0.30 mA
+Power: -1.25 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 4.16 V
+Current: -0.20 mA
+Power: -0.83 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 4.16 V
+Current: -0.10 mA
+Power: -0.42 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 4.16 V
+Current: -0.10 mA
+Power: -0.42 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 4.16 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: 0.01 mV
+Load Voltage: 4.16 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 4.16 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 4.16 V
+Current: -0.20 mA
+Power: -0.83 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 4.16 V
+Current: -0.30 mA
+Power: -1.25 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 4.16 V
+Current: -0.10 mA
+Power: -0.42 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 4.16 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 4.16 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 4.16 V
+Current: -0.20 mA
+Power: -0.83 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: 0.01 mV
+Load Voltage: 4.16 V
+Current: -0.10 mA
+Power: -0.42 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 4.16 V
+Current: -0.10 mA
+Power: -0.42 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 4.16 V
+Current: -0.10 mA
+Power: -0.42 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 4.16 V
+Current: 0.10 mA
+Power: 0.42 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 4.16 V
+Current: -0.20 mA
+Power: -0.83 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 4.16 V
+Current: -0.30 mA
+Power: -1.25 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 4.16 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 4.16 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: 0.02 mV
+Load Voltage: 4.16 V
+Current: -0.10 mA
+Power: -0.42 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 4.16 V
+Current: -0.10 mA
+Power: -0.42 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: 0.01 mV
+Load Voltage: 4.16 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 4.16 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 4.16 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 4.16 V
+Current: -0.20 mA
+Power: -0.83 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 4.16 V
+Current: -0.10 mA
+Power: -0.42 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: 0.01 mV
+Load Voltage: 4.16 V
+Current: -0.10 mA
+Power: -0.42 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 4.16 V
+Current: 0.10 mA
+Power: 0.42 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 4.16 V
+Current: -0.30 mA
+Power: -1.25 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 4.16 V
+Current: -0.20 mA
+Power: -0.83 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 4.16 V
+Current: -0.10 mA
+Power: -0.42 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 4.16 V
+Current: -0.30 mA
+Power: -1.25 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 4.16 V
+Current: -0.10 mA
+Power: -0.42 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 4.16 V
+Current: -0.10 mA
+Power: -0.42 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 4.16 V
+Current: 0.10 mA
+Power: 0.42 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 4.16 V
+Current: -0.10 mA
+Power: -0.42 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 4.16 V
+Current: 0.10 mA
+Power: 0.42 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: 0.01 mV
+Load Voltage: 4.16 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 4.16 V
+Current: -0.30 mA
+Power: -1.25 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 4.16 V
+Current: -0.10 mA
+Power: -0.42 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 4.16 V
+Current: -0.20 mA
+Power: -0.83 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: 0.01 mV
+Load Voltage: 4.16 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 4.16 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: 0.01 mV
+Load Voltage: 4.16 V
+Current: -0.10 mA
+Power: -0.42 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 4.16 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 4.16 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 4.16 V
+Current: -0.10 mA
+Power: -0.42 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 4.16 V
+Current: -0.30 mA
+Power: -1.25 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 4.16 V
+Current: -0.10 mA
+Power: -0.42 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 4.16 V
+Current: -0.30 mA
+Power: -1.25 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 4.16 V
+Current: -0.10 mA
+Power: -0.42 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: 0.01 mV
+Load Voltage: 4.16 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 4.16 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 4.16 V
+Current: -0.20 mA
+Power: -0.83 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 4.16 V
+Current: -0.10 mA
+Power: -0.42 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: 0.01 mV
+Load Voltage: 4.16 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 4.16 V
+Current: -0.10 mA
+Power: -0.42 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 4.16 V
+Current: -0.10 mA
+Power: -0.42 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 4.16 V
+Current: -0.20 mA
+Power: -0.83 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 4.16 V
+Current: 0.10 mA
+Power: 0.42 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 4.16 V
+Current: -0.20 mA
+Power: -0.83 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 4.16 V
+Current: -0.10 mA
+Power: -0.42 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 4.16 V
+Current: 0.10 mA
+Power: 0.42 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 4.16 V
+Current: -0.10 mA
+Power: -0.42 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 4.16 V
+Current: -0.10 mA
+Power: -0.42 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 4.16 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: 0.01 mV
+Load Voltage: 4.16 V
+Current: -0.40 mA
+Power: -1.66 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 4.16 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 4.16 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 4.16 V
+Current: -0.20 mA
+Power: -0.83 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: 0.01 mV
+Load Voltage: 4.16 V
+Current: -0.30 mA
+Power: -1.25 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 4.16 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 4.16 V
+Current: -0.40 mA
+Power: -1.66 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 4.16 V
+Current: -0.20 mA
+Power: -0.83 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 4.16 V
+Current: -0.20 mA
+Power: -0.83 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 4.16 V
+Current: -0.10 mA
+Power: -0.42 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 4.16 V
+Current: 0.20 mA
+Power: 0.83 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 4.16 V
+Current: -0.20 mA
+Power: -0.83 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 4.16 V
+Current: -0.10 mA
+Power: -0.42 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 4.16 V
+Current: -0.10 mA
+Power: -0.42 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 4.16 V
+Current: -0.20 mA
+Power: -0.83 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 4.16 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 4.16 V
+Current: -0.10 mA
+Power: -0.42 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 4.16 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 4.16 V
+Current: -0.20 mA
+Power: -0.83 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: 0.01 mV
+Load Voltage: 4.16 V
+Current: -0.20 mA
+Power: -0.83 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 4.16 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 4.16 V
+Current: -0.20 mA
+Power: -0.83 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 4.16 V
+Current: -0.10 mA
+Power: -0.42 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 4.16 V
+Current: -0.10 mA
+Power: -0.42 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: 0.02 mV
+Load Voltage: 4.16 V
+Current: -0.10 mA
+Power: -0.42 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 4.16 V
+Current: 0.10 mA
+Power: 0.42 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 4.16 V
+Current: 0.10 mA
+Power: 0.42 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 4.16 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 4.16 V
+Current: -0.10 mA
+Power: -0.42 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: 0.01 mV
+Load Voltage: 4.16 V
+Current: -0.30 mA
+Power: -1.25 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 4.16 V
+Current: 0.10 mA
+Power: 0.42 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 4.16 V
+Current: -0.10 mA
+Power: -0.42 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 4.16 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 4.16 V
+Current: -0.20 mA
+Power: -0.83 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 4.16 V
+Current: -0.10 mA
+Power: -0.42 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 4.16 V
+Current: -0.20 mA
+Power: -0.83 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 4.16 V
+Current: -0.30 mA
+Power: -1.25 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 4.16 V
+Current: -0.20 mA
+Power: -0.83 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 4.16 V
+Current: -0.30 mA
+Power: -1.25 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 4.16 V
+Current: -0.30 mA
+Power: -1.25 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 4.16 V
+Current: -0.20 mA
+Power: -0.83 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: 0.01 mV
+Load Voltage: 4.16 V
+Current: -0.20 mA
+Power: -0.83 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.03 mV
+Load Voltage: 4.16 V
+Current: -0.20 mA
+Power: -0.83 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 4.16 V
+Current: -0.10 mA
+Power: -0.42 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 4.16 V
+Current: -0.20 mA
+Power: -0.83 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 4.16 V
+Current: -0.20 mA
+Power: -0.83 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 4.16 V
+Current: 0.00 mA
+Power: 0.00 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: 0.01 mV
+Load Voltage: 4.16 V
+Current: -0.10 mA
+Power: -0.42 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.01 mV
+Load Voltage: 4.16 V
+Current: 0.10 mA
+Power: 0.42 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: 0.00 mV
+Load Voltage: 4.16 V
+Current: 0.10 mA
+Power: 0.42 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: 0.01 mV
+Load Voltage: 4.16 V
+Current: -0.30 mA
+Power: -1.25 mW
+
+Bus Voltage: 4.16 V
+Shunt Voltage: -0.02 mV
+Load Voltage: 4.16 V
+Current: -0.10 mA
+Power: -0.42 mW
+
