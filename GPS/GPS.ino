@@ -32,49 +32,13 @@ void displayInfo()
 {
   if (gps.location.isValid())
   {
-    Serial.print(gps.location.lat(), 3);
-    Serial.print(",");
-    Serial.print(gps.location.lng(), 3);
-    Serial.print(":");
+    Serial.println(gps.location.lat(), 3);
+    Serial.println(gps.location.lng(), 3);
   }
   else
   {
-<<<<<<< Updated upstream
+
     Serial.print(F("******, ******"));
-  }
-Serial.print(F(", "));
-  if (gps.date.isValid())
-  {
-    Serial.print(gps.date.month());
-    Serial.print(F("/"));
-    Serial.print(gps.date.day());
-    Serial.print(F("/"));
-    Serial.print(gps.date.year());
-  }
-  else
-  {
-    Serial.print(F("**/**/****"));
-  }
-Serial.print(F(", "));
-  
-  if (gps.time.isValid())
-  {
-    if (gps.time.hour() < 10) Serial.print(F("0"));
-    Serial.print(gps.time.hour());
-    Serial.print(F(":"));
-    if (gps.time.minute() < 10) Serial.print(F("0"));
-    Serial.print(gps.time.minute());
-    Serial.print(F(":"));
-    if (gps.time.second() < 10) Serial.print(F("0"));
-    Serial.print(gps.time.second());
- 
-  }
-  else
-  {
-    Serial.print(F("**:**:**"));
-=======
-    Serial.print(F("****,****:"));
->>>>>>> Stashed changes
   }
 
 }

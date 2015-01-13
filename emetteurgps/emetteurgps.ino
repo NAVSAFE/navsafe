@@ -38,7 +38,7 @@ delay(500);
 //Set up
 void setup()
 {
-  Serial.begin(38400);
+  Serial.begin(9600);
   ss.begin(GPSBaud);
   Serial.println("Test emetteur");
 // setup the blinker output
@@ -46,8 +46,8 @@ pinMode(LED, OUTPUT);
 digitalWrite(LED, LOW);
 // blink once to signal the setup
 blinker();
-lati=1.9;
-longi=1.8;
+lati=0;
+longi=0;
 // initialize the RF Chip
 Serial.println("initializing...");
 cc1101.init();
@@ -85,23 +85,6 @@ Serial.println("sent failed !");
 }
 }
 
-
-
-void displayInfo()
-{
-  if (gps.location.isValid())
-  {
-    lati=gps.location.lat();
-    longi=gps.location.lng();
-    Serial.println("Donnees recuperees");
-  }
-  else
-  {
-    Serial.println("Out of Service");
-  }
-
-}
-
 //Loop
 void loop()
 {
@@ -109,17 +92,31 @@ void loop()
 // This sketch displays information every time a new sentence is correctly encoded.
   while (ss.available() > 0)
   if (gps.encode(ss.read()))
-  displayInfo();
+  {displayInfo();}
 
   if (millis() > 5000 && gps.charsProcessed() < 10)
   {
     Serial.println(F("No GPS detected: check wiring."));
     while(true);
   }  
-  
-send_data();
-lati++; longi++;
-delay(4000);
+Serial.println("coucou");
+
 }
 
+void displayInfo()
+{
+Serial.println("hello");
+  if (gps.location.isValid())
+  {
+    Serial.println("GPS LOCATION AVAILABLE !");
+    lati=gps.location.lat();
+    longi=gps.location.lng();
+    send_data();
+  }
+  else
+  {
+    Serial.println("GPS Out of Service, please wait...");
+  }
+
+}
 
