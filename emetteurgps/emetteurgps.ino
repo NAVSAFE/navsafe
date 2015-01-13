@@ -69,8 +69,6 @@ int j=6; int h=12;
 //Recupérations des coordonnees
 float latitude=lati;
 float longitude=longi;
-Serial.println(latitude);
-Serial.println(longitude);
 for(int l=0;l<data.length;l++)
 {data.data[l]=0;}
 //Traitement latitude
@@ -124,13 +122,11 @@ void loop()
     Serial.println(F("No GPS detected: check wiring."));
     while(true);
   }  
-Serial.println("coucou");
 
 }
 
 void displayInfo()
 {
-Serial.println("hello");
   if (gps.location.isValid())
   {
     Serial.println("GPS LOCATION AVAILABLE !");

@@ -72,23 +72,15 @@ Serial.println("crc not ok");
 }
 
 if(packet.length > 0){
-/*Serial.print("packet: len ");
-Serial.println(packet.length);
-Serial.print(" data: ");
-for(int j=0; j<packet.length; j++){
-Serial.print(packet.data[j],DEC);
-Serial.print(" ");
-}
-Serial.println(".");*/
 Serial.print("latitude: ");
 for(int j=0; j<7; j++){
 Serial.print(packet.data[j]);
-Serial.print(" ");
+if(j==2){Serial.print(",");}
 }
 Serial.print("longitude: ");
 for(int k=7; k<packet.length; k++){
 Serial.print(packet.data[k]);
-Serial.print(" ");
+if(k==8){Serial.print(",");}
 }
 }
 }
