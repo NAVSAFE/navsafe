@@ -80,8 +80,10 @@ Serial.print(packet.data[j],DEC);
 Serial.print(" ");
 }
 Serial.println(".");*/
-float latitude=(packet.data[1])/1000;
-float longitude=(packet.data[4])/1000;
+float latitude=packet.data[1];
+latitude=latitude/1000;
+float longitude=packet.data[4];
+longitude=longitude/1000;
 Serial.print("latitude: ");
 Serial.println(latitude);
 Serial.print("longitude: ");
