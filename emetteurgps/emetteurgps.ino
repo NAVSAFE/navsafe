@@ -109,8 +109,8 @@ Serial.println("hello");
   if (gps.location.isValid())
   {
     Serial.println("GPS LOCATION AVAILABLE !");
-    lati=gps.location.lat();
-    longi=gps.location.lng();
+    lati=(gps.location.lat(),3)*1000;
+    longi=(gps.location.lng(),3)*1000;
     send_data();
   }
   else
