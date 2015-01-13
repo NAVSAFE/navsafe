@@ -73,14 +73,30 @@ Serial.println("crc not ok");
 
 if(packet.length > 0){
 Serial.print("latitude: ");
-for(int j=0; j<7; j++){
-Serial.print(packet.data[j]);
+if(packet.data[0]==0)
+{for(int j=1; j<7; j++){
+Serial.println(packet.data[j]);
 if(j==2){Serial.print(",");}
 }
+}
+else
+{for(int j=0; j<7; j++){
+Serial.println(packet.data[j]);
+if(j==2){Serial.print(",");}
+}
+}
 Serial.print("longitude: ");
-for(int k=7; k<packet.length; k++){
-Serial.print(packet.data[k]);
+if(packet.data[7]==0)
+{for(int k=8; k<packet.length; k++){
+Serial.println(packet.data[k]);
 if(k==8){Serial.print(",");}
+}
+}
+else
+{for(int k=7; k<packet.length; k++){
+Serial.println(packet.data[k]);
+if(k==8){Serial.print(",");}
+}
 }
 }
 }

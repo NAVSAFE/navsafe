@@ -92,13 +92,13 @@ if(cc1101.sendData(data)){
 Serial.print("latitude ");
 for(int i=0; i<7; i++){
 Serial.print(data.data[i]);
-Serial.print(" ");
+if(i==2){Serial.print(",");}
 }
 Serial.println(" sent ok !!");
 Serial.print("longitude ");
 for(int k=7; k<13; k++){
 Serial.print(data.data[k]);
-Serial.print(" ");
+if(k==8){Serial.print(",");}
 }
 Serial.println(" sent ok !!");
 
