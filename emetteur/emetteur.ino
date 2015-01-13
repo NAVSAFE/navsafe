@@ -37,6 +37,7 @@ blinker();
 // reset the counter
 counter=1.9;
 
+
 // initialize the RF Chip
 Serial.println("initializing...");
 cc1101.init();

@@ -18,8 +18,8 @@ TinyGPSPlus gps;
 // The serial connection to the GPS device
 SoftwareSerial ss(RXPin, TXPin);
 //Declaration variables
-float longitude=1.9;
-float latitude=1.9;
+float longi;
+float lati;
 
 
 
@@ -35,33 +35,10 @@ digitalWrite(LED, LOW);
 delay(500);
 }
 
-void send_data() {
-CCPACKET data;
-data.length=10;
-data.data[0]=5;
-data.data[1]=latitude;data.data[2]=5;
-data.data[3]=5;data.data[4]=longitude;
-data.data[5]=5;data.data[6]=5;
-data.data[7]=5;data.data[8]=5;
-data.data[9]=5;
-//cc1101.flushTxFifo ();
-if(cc1101.sendData(data)){
-Serial.print(latitude,DEC);
-Serial.println(" sent ok !!");
-Serial.print(longitude,DEC);
-Serial.println(" sent ok !!");
-
-blinker();
-}else{
-Serial.println("sent failed !");
-}
-}
-
-
 //Set up
 void setup()
 {
-  Serial.begin(9600);
+  Serial.begin(38400);
   ss.begin(GPSBaud);
   Serial.println("Test emetteur");
 // setup the blinker output
@@ -69,6 +46,8 @@ pinMode(LED, OUTPUT);
 digitalWrite(LED, LOW);
 // blink once to signal the setup
 blinker();
+lati=1.9;
+longi=1.8;
 // initialize the RF Chip
 Serial.println("initializing...");
 cc1101.init();
@@ -80,13 +59,40 @@ delay(1000);
 Serial.println("device initialized");
 }
 
+void send_data() {
+CCPACKET data;
+data.length=10;
+float latitude=lati;
+float longitude=longi;
+data.data[0]=5;
+data.data[1]=latitude;data.data[2]=5;
+data.data[3]=5;data.data[4]=longitude;
+data.data[5]=5;data.data[6]=5;
+data.data[7]=5;data.data[8]=5;
+data.data[9]=5;
+//cc1101.flushTxFifo ();
+if(cc1101.sendData(data)){
+Serial.print("latitude ");
+Serial.print(latitude);
+Serial.println(" sent ok !!");
+Serial.print("longitude ");
+Serial.print(longitude);
+Serial.println(" sent ok !!");
+
+blinker();
+}else{
+Serial.println("sent failed !");
+}
+}
+
+
 
 void displayInfo()
 {
   if (gps.location.isValid())
   {
-    latitude=gps.location.lat();
-    longitude=gps.location.lng();
+    lati=gps.location.lat();
+    longi=gps.location.lng();
     Serial.println("Donnees recuperees");
   }
   else
@@ -112,7 +118,7 @@ void loop()
   }  
   
 send_data();
-latitude++; longitude++;
+lati++; longi++;
 delay(4000);
 }
 
