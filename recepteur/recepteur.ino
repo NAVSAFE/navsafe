@@ -81,9 +81,9 @@ Serial.print(" ");
 }
 Serial.println(".");
 Serial.print("latitude: ");
-Serial.print(packet.data[1]);
+Serial.println(packet.data[1]);
 Serial.print("longitude: ");
-Serial.print(packet.data[4]);
+Serial.println(packet.data[4]);
 }
 }
 // Enable wireless reception interrupt
