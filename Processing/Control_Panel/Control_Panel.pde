@@ -22,14 +22,15 @@ void setup()
 {
   //importation des images 
   PImage fond;
-  fond = loadImage("fond.png");
+  //fond = loadImage("fond.png");
+  fond = loadImage("01.jpg");
   image(fond,0,0);
   PImage navsafe;
   navsafe = loadImage("navsafewhite.png");
   image(navsafe,900,530);
   PImage map;
-  map = loadImage("map.png");
-  //map = loadImage("mapbis.png");
+  //map = loadImage("map.png");
+  map = loadImage("mapbis.png");
   image(map,600,70);
   PImage solar;
   solar = loadImage("solar.png");
@@ -67,7 +68,7 @@ void setup()
   text("• Weather Conditions :", 20, 160);
 
   //trame reçue des capteurs
-  String msg="1025;28.3;calm;48;10;2.5;74;6;3.1";
+  String msg="1025;28.3;calm;48;10;2.5;78;6;3.1;1";
   String [] meteo=split(msg, ';');
   
   float pressure=Float.parseFloat(meteo[0]);
@@ -79,32 +80,21 @@ void setup()
   float percent2=Float.parseFloat(meteo[6]);
   float volt2=Float.parseFloat(meteo[7]);
   float amp2=Float.parseFloat(meteo[8]);
+  int weather=Integer.parseInt(meteo[9]);
   
-  //changement de l'image condition météo
-  int i = second();
-  if ( (i % 2) == 0) {
-     // nbre pair
-     image(storm,400,105);
-  } else {
-     // nbre impair
-     image(solar,400,105);
-  }
-  
-  /*
   //conditions météo
-  if (weather == "sun") {
+  if (weather == 1) {
      // beau temps
      image(solar,400,105);
   } 
-  else if (weather == "cloud") {
+  else if (weather == 2) {
      // temps moyen
      image(orange,400,105);
   }
-  else if (weather == "storm") {
+  else if (weather == 3) {
     // tempete
     image(storm, 400, 105);
   }
-  */
   
   //police du sous-sous titre
   textFont (police, 25); 
@@ -188,7 +178,7 @@ void setup()
   //mettre les coordonnées à l'échelle de l'image  
   x=((x-2.2510)*a)/0.166;
   y=((y-48.9030)*b)/0.0845;
-  y=-y;
+  y=-y;  //inverser l'axe des ordonnées
   //déplacer par rapport à l'origine du repère
   x=x+600;
   y=y+70;
@@ -198,8 +188,8 @@ void setup()
   rect(x+10, y+5, 75, 30, 10);
   fill(255,255,255);  //couleur de la police
   textFont (police, 11); 
-  text("x : "+coord[0], x+23, y+17);
-  text("y : "+coord[1], x+20, y+30);
+  text("lat : "+coord[0], x+22, y+17);
+  text("long : "+coord[1], x+17, y+30);
   
   //afficher les coordonnées sur la carte
   int c=logo.width;  //taille de l'image pour la centrer sur la position
