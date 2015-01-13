@@ -75,28 +75,32 @@ if(packet.length > 0){
 Serial.print("latitude: ");
 if(packet.data[0]==0)
 {for(int j=1; j<7; j++){
-Serial.println(packet.data[j]);
+Serial.print(packet.data[j]);
 if(j==2){Serial.print(",");}
 }
+Serial.println(" ");
 }
 else
 {for(int j=0; j<7; j++){
-Serial.println(packet.data[j]);
+Serial.print(packet.data[j]);
 if(j==2){Serial.print(",");}
 }
+Serial.println(" ");
 }
 Serial.print("longitude: ");
 if(packet.data[7]==0)
 {for(int k=8; k<packet.length; k++){
-Serial.println(packet.data[k]);
+Serial.print(packet.data[k]);
 if(k==8){Serial.print(",");}
 }
+Serial.println(" ");
 }
 else
 {for(int k=7; k<packet.length; k++){
-Serial.println(packet.data[k]);
+Serial.print(packet.data[k]);
 if(k==8){Serial.print(",");}
 }
+Serial.println(" ");
 }
 }
 }
