@@ -61,22 +61,47 @@ Serial.println("device initialized");
 
 void send_data() {
 CCPACKET data;
-data.length=10;
+data.length=13;
+//Variables
+int unit; int unite;
+//Delimitations des coordonnes
+int j=6; int h=12;
+//Recupérations des coordonnees
 float latitude=lati;
 float longitude=longi;
-data.data[0]=5;
-data.data[1]=latitude;data.data[2]=5;
-data.data[3]=5;data.data[4]=longitude;
-data.data[5]=5;data.data[6]=5;
-data.data[7]=5;data.data[8]=5;
-data.data[9]=5;
+Serial.println(latitude);
+Serial.println(longitude);
+for(int l=0;l<data.length;l++)
+{data.data[l]=0;}
+//Traitement latitude
+while(latitude>10)
+{unit=(int)latitude%10;
+data.data[j]=unit;
+latitude=latitude/10;
+j--;
+if(latitude<10){data.data[j]=latitude;}
+}
+//Traitement longitude
+while(longitude>10)
+{unite=(int)longitude%10;
+data.data[h]=unite;
+longitude=longitude/10;
+h--;
+if(longitude<10){data.data[h]=longitude;}
+}
 //cc1101.flushTxFifo ();
 if(cc1101.sendData(data)){
 Serial.print("latitude ");
-Serial.print(latitude);
+for(int i=0; i<7; i++){
+Serial.print(data.data[i]);
+Serial.print(" ");
+}
 Serial.println(" sent ok !!");
 Serial.print("longitude ");
-Serial.print(longitude);
+for(int k=7; k<13; k++){
+Serial.print(data.data[k]);
+Serial.print(" ");
+}
 Serial.println(" sent ok !!");
 
 blinker();
@@ -109,8 +134,8 @@ Serial.println("hello");
   if (gps.location.isValid())
   {
     Serial.println("GPS LOCATION AVAILABLE !");
-    lati=gps.location.lat()*1000;
-    longi=gps.location.lng()*1000;
+    lati=gps.location.lat()*10000;
+    longi=gps.location.lng()*10000;
     send_data();
   }
   else

@@ -80,14 +80,16 @@ Serial.print(packet.data[j],DEC);
 Serial.print(" ");
 }
 Serial.println(".");*/
-float latitude=packet.data[1];
-latitude=latitude/1000;
-float longitude=packet.data[4];
-longitude=longitude/1000;
 Serial.print("latitude: ");
-Serial.println(latitude);
+for(int j=0; j<7; j++){
+Serial.print(packet.data[j]);
+Serial.print(" ");
+}
 Serial.print("longitude: ");
-Serial.println(longitude);
+for(int k=7; k<packet.length; k++){
+Serial.print(packet.data[k]);
+Serial.print(" ");
+}
 }
 }
 // Enable wireless reception interrupt
