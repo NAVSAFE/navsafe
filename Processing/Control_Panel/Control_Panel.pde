@@ -28,8 +28,8 @@ void setup()
   navsafe = loadImage("navsafewhite.png");
   image(navsafe,900,530);
   PImage map;
-  //map = loadImage("map.png");
-  map = loadImage("mapbis.png");
+  map = loadImage("map.png");
+  //map = loadImage("mapbis.png");
   image(map,600,70);
   PImage solar;
   solar = loadImage("solar.png");
@@ -39,12 +39,16 @@ void setup()
   orange = loadImage("orange.png");
   PImage logo;
   logo = loadImage("navsafemini.png");
-  PImage battery100;
-  battery100 = loadImage("battery100.png");
-  PImage battery50;
-  battery50 = loadImage("battery50.png");
   PImage battery10;
   battery10 = loadImage("battery10.png");
+  PImage battery20;
+  battery20 = loadImage("battery20.png");
+  PImage battery40;
+  battery40 = loadImage("battery40.png");
+  PImage battery60;
+  battery60 = loadImage("battery60.png");
+  PImage battery90;
+  battery90 = loadImage("battery90.png");
   
   //importation de la police helvetica neue
   PFont police;
@@ -63,20 +67,30 @@ void setup()
   text("• Weather Conditions :", 20, 160);
 
   //trame reçue des capteurs
-  String msg="sun;1025;28.3;calm;8;10;2.5;8;6;3.1";
+  String msg="1025;28.3;calm;48;10;2.5;74;6;3.1";
   String [] meteo=split(msg, ';');
   
-  float pressure=Float.parseFloat(meteo[1]);
-  float temp=Float.parseFloat(meteo[2]);
-  String sea=meteo[3];
-  float percent1=Float.parseFloat(meteo[4]);
-  float volt1=Float.parseFloat(meteo[5]);
-  float amp1=Float.parseFloat(meteo[6]);
-  float percent2=Float.parseFloat(meteo[7]);
-  float volt2=Float.parseFloat(meteo[8]);
-  float amp2=Float.parseFloat(meteo[9]);
-  String weather=meteo[0];
+  float pressure=Float.parseFloat(meteo[0]);
+  float temp=Float.parseFloat(meteo[1]);
+  String sea=meteo[2];
+  float percent1=Float.parseFloat(meteo[3]);
+  float volt1=Float.parseFloat(meteo[4]);
+  float amp1=Float.parseFloat(meteo[5]);
+  float percent2=Float.parseFloat(meteo[6]);
+  float volt2=Float.parseFloat(meteo[7]);
+  float amp2=Float.parseFloat(meteo[8]);
   
+  //changement de l'image condition météo
+  int i = second();
+  if ( (i % 2) == 0) {
+     // nbre pair
+     image(storm,400,105);
+  } else {
+     // nbre impair
+     image(solar,400,105);
+  }
+  
+  /*
   //conditions météo
   if (weather == "sun") {
      // beau temps
@@ -90,9 +104,7 @@ void setup()
     // tempete
     image(storm, 400, 105);
   }
-  else {
-    text(weather, 400, 105);
-  }
+  */
   
   //police du sous-sous titre
   textFont (police, 25); 
@@ -113,14 +125,20 @@ void setup()
   text("Ampere : "+amp1+" A", 60, 390);
   textFont (police, 35);
   text(percent1+" %", 430, 385);
-  if (0<=percent1 && percent1<=30) {
+  if (0<=percent1 && percent1<=15) {
     image(battery10, 300, 325);
   }
-  else if (30<percent1 && percent1<=60) {
-    image(battery50, 300, 325);
+  else if (15<percent1 && percent1<=35) {
+    image(battery20, 300, 325);
+  }
+  else if (35<percent1 && percent1<50) {
+    image(battery40, 300, 325);
+  }
+  else if (50<=percent1 && percent1<=75) {
+    image(battery60, 300, 325);
   }
   else {
-    image(battery100, 300, 325);
+    image(battery90, 300, 325);
   }
   
   
@@ -134,14 +152,20 @@ void setup()
   text("Ampere : "+amp2+" A", 60, 520);
   textFont (police, 35);
   text(percent2+" %", 430, 505);
-  if (0<=percent2 && percent2<=30) {
+  if (0<=percent2 && percent2<=15) {
     image(battery10, 300, 450);
   }
-  else if (30<percent2 && percent2<=60) {
-    image(battery50, 300, 450);
+  else if (15<percent2 && percent2<=35) {
+    image(battery20, 300, 450);
+  }
+  else if (35<percent2 && percent2<50) {
+    image(battery40, 300, 450);
+  }
+  else if (50<=percent2 && percent2<=75) {
+    image(battery60, 300, 450);
   }
   else {
-    image(battery100, 300, 450);
+    image(battery90, 300, 450);
   }
   
 
