@@ -159,7 +159,7 @@ if(q==26){Serial.print(",");}
 }
 Serial.println(" V");
 // Reception CSA Intensité
-Serial.print("ARDUINO-Intensité: ");
+Serial.print("ARDUINO-Intensite: ");
 for(int r=29; r<33; r++)
 {
 Serial.print(packet.data[r]);
@@ -175,7 +175,7 @@ if(s==34){Serial.print(",");}
 }
 Serial.println(" V");
 // Reception CSE Intensité
-Serial.print("EMETTEUR-Intensité: ");
+Serial.print("EMETTEUR-Intensite: ");
 for(int t=37; t<packet.length; t++)
 {
 Serial.print(packet.data[t]);

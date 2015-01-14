@@ -82,7 +82,7 @@ data.length=41;
 int unit; int unite; int unita;
 char sep=';'; 
 //Delimitations des coordonnees
-int h=7; int n=10;
+int h=7; int n=27;
 data.data[4]=sep;
 // Initialisation de la chaîne à une chaîne de 0
 for(int u=0;u<data.length;u++)
@@ -159,20 +159,15 @@ void loop()
 {
   
 // This sketch displays information every time a new sentence is correctly encoded.
- /* while (ss.available() > 0)
-  if (gps.encode(ss.read()))
-  {displayInfo();}
+while (ss.available() > 0)
+if (gps.encode(ss.read()))
+{displayInfo();}
 
-  if (millis() > 5000 && gps.charsProcessed() < 10)
+if (millis() > 5000 && gps.charsProcessed() < 10)
   {
     Serial.println(F("No GPS detected: check wiring."));
     while(true);
   }  
-*/
-
- send_data();
- delay(2000);
-
 }
 
 void displayInfo()
@@ -183,6 +178,7 @@ void displayInfo()
     lati=gps.location.lat()*10000;
     longi=gps.location.lng()*10000;
     send_data();
+    delay(2000);
   }
   else
   {
