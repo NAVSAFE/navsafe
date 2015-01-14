@@ -78,7 +78,7 @@ void loop()
 {
  // Attestation de réception des données
 if(packetAvailable){
-Serial.println("DONNEES RECUES");
+Serial.println("DATA RECEIVED");
 blinker();
 // Détacher interruption
 detachInterrupt(0);
@@ -111,7 +111,7 @@ if(k==5){Serial.print(",");}
 }
 Serial.println(" ");
 // Reception Pression
-Serial.print("Pression: ");
+Serial.print("Pressure: ");
 for(int l=9; l<12; l++)
 {
 Serial.print(packet.data[l]);
@@ -119,13 +119,13 @@ if(l==10){Serial.print(",");}
 }
 Serial.println(" HPa.");
 // Reception Temperature
-Serial.print("Température: ");
+Serial.print("Temperature: ");
 for(int m=13; m<16; m++)
 {
 Serial.print(packet.data[m]);
 if(m==14){Serial.print(",");}
 }
-Serial.println("°C");
+Serial.println("C");
 // Reception Acc X
 Serial.print("Acc X: ");
 for(int n=17; n<19; n++)
@@ -151,7 +151,7 @@ if(p==23){Serial.print(",");}
 }
 Serial.println(" ");
 // Reception CSA Voltage
-Serial.print("ARDUINO-Tension: ");
+Serial.print("ARDUINO-Voltage: ");
 for(int q=26; q<28; q++)
 {
 Serial.print(packet.data[q]);
@@ -159,7 +159,7 @@ if(q==26){Serial.print(",");}
 }
 Serial.println(" V");
 // Reception CSA Intensité
-Serial.print("ARDUINO-Intensite: ");
+Serial.print("ARDUINO-Current: ");
 for(int r=29; r<33; r++)
 {
 Serial.print(packet.data[r]);
@@ -167,7 +167,7 @@ if(r==31){Serial.print(",");}
 }
 Serial.println(" mA");
 // Reception CSE Voltage
-Serial.print("EMETTEUR-Tension: ");
+Serial.print("Transmitter-Voltage: ");
 for(int s=34; s<36; s++)
 {
 Serial.print(packet.data[s]);
@@ -175,7 +175,7 @@ if(s==34){Serial.print(",");}
 }
 Serial.println(" V");
 // Reception CSE Intensité
-Serial.print("EMETTEUR-Intensite: ");
+Serial.print("TRANMITTER-Current: ");
 for(int t=37; t<packet.length; t++)
 {
 Serial.print(packet.data[t]);
