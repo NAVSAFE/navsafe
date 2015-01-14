@@ -4,6 +4,10 @@
 #include "EEPROM.h"
 #include "cc1101.h"
 CC1101 cc1101;
+//Library current sensor
+#include <Wire.h>
+#include <Adafruit_INA219.h>
+
 
 //Declaration emetteur
 // The LED is wired to the Arduino Output 4 (physical panStamp pin 19)
@@ -17,6 +21,9 @@ static const uint32_t GPSBaud = 9600;
 TinyGPSPlus gps;
 // The serial connection to the GPS device
 SoftwareSerial ss(RXPin, TXPin);
+//Declaration CSA
+Adafruit_INA219 ina219; // Current sensor de la batterie Arduino
+int batterieArduino = 0;
 //Declaration variables
 float longi;
 float lati;
@@ -40,6 +47,7 @@ void setup()
 {
   Serial.begin(9600);
   ss.begin(GPSBaud);
+  ina219.begin();
   Serial.println("Test emetteur");
 // setup the blinker output
 pinMode(LED, OUTPUT);
@@ -61,11 +69,11 @@ Serial.println("device initialized");
 
 void send_data() {
 CCPACKET data;
-data.length=60;
+data.length=11;
 //Variables
-int unit; int unite; char sep=';';
+int unit; int unite; char sep=';'; int unita;
 //Delimitations des coordonnes
-int j=3; int h=7;
+int j=3; int h=7; int n=10;
 //Recupérations des coordonnees
 float latitude=lati;
 float longitude=longi;
@@ -92,12 +100,25 @@ data.data[4]=sep;
 //Traitement Temperature
 //Traitement Accelerometre
 //Traitement Current Sensor Arduino
+float busvoltageA = 0;
+  busvoltageA = ina219.getBusVoltage_V();
+  Serial.println(busvoltageA);
+  busvoltageA=busvoltageA*100;
+  Serial.println(busvoltageA);
+while(busvoltageA>100)
+{unita=(int)busvoltageA%100;
+data.data[n]=unita;
+busvoltageA=busvoltageA/100;
+n--;
+if(busvoltageA<100){data.data[n]=busvoltageA;}
+}
+
+
+data.data[9]=(int)busvoltageA;
 //Traitement Current Sensor Emission
 //Traitement des séparateurs
-/*data.data[7]=data.data[14]=data.data[20]=data.data[24]=sep;
-data.data[28]=data.data[32]=data.data[36]=data.data[40]=sep;
-data.data[45]=data.data[48]=data.data[52]=data.data[57]=sep;
-*/
+data.data[4]=sep;
+data.data[8]=sep;
 //cc1101.flushTxFifo ();
 if(cc1101.sendData(data)){
 Serial.print("latitude ");
@@ -112,9 +133,17 @@ Serial.print(data.data[k]);
 if(k==5){Serial.print(",");}
 }
 Serial.println(" sent ok !!");
+Serial.print("Voltage: ");
+Serial.print(data.data[9]);
+Serial.print(data.data[10]);
+Serial.println(" V");
+
+Serial.print((char)data.data[4]);
+
 
 blinker();
-}else{
+}
+else{
 Serial.println("sent failed !");
 }
 }
@@ -124,7 +153,7 @@ void loop()
 {
   
 // This sketch displays information every time a new sentence is correctly encoded.
-  while (ss.available() > 0)
+ /* while (ss.available() > 0)
   if (gps.encode(ss.read()))
   {displayInfo();}
 
@@ -133,6 +162,10 @@ void loop()
     Serial.println(F("No GPS detected: check wiring."));
     while(true);
   }  
+*/
+
+ send_data();
+ delay(2000);
 
 }
 
