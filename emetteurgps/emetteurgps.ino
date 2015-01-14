@@ -123,7 +123,6 @@ busvoltageA=busvoltageA/100;
 n--;
 if(busvoltageA<100){data.data[n]=busvoltageA;}
 }
-data.data[9]=(int)busvoltageA;
 //Traitement Current Sensor Emission
 // Envoi des données
 if(cc1101.sendData(data))

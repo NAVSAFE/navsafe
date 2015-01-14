@@ -32,18 +32,18 @@ float referenceVoltBatterie = 1023.0;
 const int vSolaire_pin=0;
 float referenceTensionSolaire = 4.0;
 
-//_______________________________________________________________________________________________Declaration Induction____
+//_______________________________________________________________________Declaration Induction____
 int inductionState = 9;
 
-//_______________________________________________________________________________________________Declaration Bouton Navsafe____
+//_______________________________________________________________________Declaration Bouton Navsafe____
 int bouton = 2;
 
-//_______________________________________________________________________________________________Declaration Sleep Mode____
+//_______________________________________________________________________Declaration Sleep Mode____
   int sleepmode=0;
   int pulse = 3;
 
 
-//_________________________________________________________________________________________Declaration capteur Accelerometre_____
+//_____________________________________________________________________Declaration capteur Accelerometre_____
 #define MMA8452_ADDRESS 0x1D // 0x1D if SA0 is high, 0x1C if low
 
 //Define a few of the registers that we will be accessing on the MMA8452
@@ -58,14 +58,14 @@ int accelCount[3]; // Stores the 12-bit signed value
 float accelG[3]; // Stores the real accel value in g's
 float seuilVague=0.6;
 
-//_________________________________________________________________________________________Declaration LEDs_____
+//_________________________________________________________________________Declaration LEDs_____
 
 int leda = 5;
 int ledb = 6;
 int ledc = 7;
 int ledBouton = 8;
 
-//______________________________________________________________________________________________Declaration capteur Pression_____
+//______________________________________________________________________Declaration capteur Pression_____
 #define NWS_BARO 29.92 
 
 // Pin definitions
@@ -109,13 +109,13 @@ float temperature_c= 0;
 long altitude_ft = 0;
     
 
-//_____________________________________________________________________________________________Declaration current sensor + batteries___________________________________________________________
+//_______________________________________________________________________Declaration current sensor + batteries__
 Adafruit_INA219 ina219_A; // Current sensor de la batterie Arduino
 Adafruit_INA219 ina219_E(0x41); // Current sensor de la batterie Emission
 int batterieArduino = 0;
 int batterieEmission = 0;
 
-//_____________________________________________________________________________________________Declaration GPS___________________________________________________________
+//______________________________________________________________________Declaration GPS__
 static const int RXPin = 4, TXPin = 3;
 static const uint32_t GPSBaud = 9600;
 // The TinyGPS++ object
@@ -123,7 +123,7 @@ TinyGPSPlus gps;
 // The serial connection to the GPS device
 SoftwareSerial ss(RXPin, TXPin);
 
-//_______________________________________________________________________________________________Declaration Emetteur____
+//______________________________________________________________________Declaration Emetteur____
 CC1101 cc1101;
 int counter;
 byte syncWord = 199;
@@ -135,7 +135,7 @@ byte syncWord = 199;
 //___________________________________________________________FONCTIONS_______________________________________________________________
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-//___________________________________________________________________________________________________________Fonction pour le Sleep Mode____
+//____________________________________________________________________Fonction pour le Sleep Mode____
 void Light(void)
 {
   //Allumer la LED du bouton
@@ -160,7 +160,7 @@ void enterSleep(void)
   sleep_disable();}
 
 
-//___________________________________________________________________________________________________________Fonction LEDs____
+//___________________________________________________________________Fonction LEDs____
 void blinkLed(int i, int intensite)
 {
   int j=0;
@@ -213,7 +213,6 @@ void Led ()
         blinkLed(2, 85);
       }
   }   
-  
   // Si batterie Arduino en état critique
   if (batterieArduino == 1)
     {
@@ -223,7 +222,7 @@ void Led ()
   
 }
 
-//___________________________________________________________________________________________________________Fonction Etat de la batterie Arduino____
+//_________________________________________________________________________Fonction Etat de la batterie Arduino____
 void StatebatterieArduino ()
 {
   float busvoltageA = 0;
@@ -245,7 +244,7 @@ void StatebatterieArduino ()
   if (busvoltageA > 3.70) {batterieArduino == 0;}
 }
 
-//___________________________________________________________________________________________________________Fonction Etat de la batterie Emission____
+//___________________________________________________________________Fonction Etat de la batterie Emission____
 void StatebatterieEmission ()
 {
   float busvoltageE = 0;
@@ -268,7 +267,7 @@ void StatebatterieEmission ()
 }
 
 
-//___________________________________________________________________________________________________________Fonction estimation de survie____
+//_____________________________________________________________________Fonction estimation de survie____
 int estimationVie(float temperature, float pression, float soleil, int alerteVague) //estimer le temps de survie de l utilisateur
 {
   int estimation=0;
@@ -329,21 +328,20 @@ int estimationVie(float temperature, float pression, float soleil, int alerteVag
 
 
 
-//___________________________________________________________________________________________________________Fonction panneau solaire____
+//_____________________________________________________________________Fonction panneau solaire____
 float voltageSolaire()
 {
   
   float voltage = analogRead(vSolaire_pin);
-  
   Serial.print("Tension panneau solaire: ");
-  Serial.println(voltage);
-  
+  Serial.print(voltage);
+  Serial.print(" V");
   return voltage;
 }
 
 
 
- //_______________________________________________________________________________________________________Fonctions capteur Pression_____
+ //________________________________________________________________Fonctions capteur Pression_____
  long calculateAltitudeFt(float pressure_kPa)
 {    
     float delta;
@@ -597,7 +595,7 @@ void Pression ()
 }
 
 
-//_______________________________________________________________________________________________Fonctions capteur Accelerometre___
+//________________________________________________________________________Fonctions capteur Accelerometre___
 void readAccelData(int *destination)
 {
   byte rawData[6]; // x/y/z accel register data stored here
@@ -781,7 +779,7 @@ blinkLed(1,50);
 
 
 
-//_______________________________________________________________________________________________Fonctions GPS___ 
+//________________________________________________________Fonctions GPS___ 
  void displayInfo()
 {
   if (gps.location.isValid())
@@ -829,7 +827,7 @@ Serial.print(F(", "));
   Serial.println();
 }
  
-//_______________________________________________________________________________________________Fonction Induction___
+//___________________________________________________________________Fonction Induction___
 void CheckInduction ()
 {
     if (inductionState == HIGH)
@@ -844,7 +842,7 @@ void CheckInduction ()
   }
 }
 
-//_______________________________________________________________________________________________Fonction Emetteur___
+//_________________________________________________________________Fonction Emetteur___
  void emetteur() {
 CCPACKET data;
 data.length=10;
@@ -874,24 +872,24 @@ void setup()
 {
   Serial.begin(38400);
   
-//______________________________________________________________________________________________________Setup Induction____
+//_______________________________________________Setup Induction____
 pinMode(inductionState, INPUT);
 
-//______________________________________________________________________________________________________Setup Sleep Mode____  
+//_______________________________________________Setup Sleep Mode____  
   pinMode(ledBouton, OUTPUT);
   digitalWrite (ledBouton, HIGH);
-//______________________________________________________________________________________________________Setup Bouton____  
+//______________________________________________Setup Bouton____  
     pinMode(pulse, INPUT);
     pinMode(bouton, INPUT);
     pinMode(bouton, HIGH);
-//_______________________________________________________________________________________________________Setup LEDs____
+//________________ _____________________________Setup LEDs____
 
     pinMode(leda, OUTPUT);  
     pinMode(ledb, OUTPUT);
     pinMode(ledc, OUTPUT);
     pinMode(ledBouton, OUTPUT);
 
-//_____________________________________________________________________________________________________Setup capteur Pression____
+//_________________________________________Setup capteur Pression____
    // initialize SPI interface
     SPI.begin();
     
@@ -907,20 +905,20 @@ pinMode(inductionState, INPUT);
     // set the chip select inactive, select signal is CS LOW
     digitalWrite(MPL115A1_SELECT_PIN, HIGH);
 
-//_______________________________________________________________________________________________________Setup capteur Accelerometre____
+//______________________    _________________________Setup capteur Accelerometre____
     Wire.begin(); //Join the bus as a master
 
   initMMA8452(); //Test and intialize the MMA8452
 
-//_____________________________________________________________________________________________________Setup current sensor____
+//___________________________________________________Setup current sensor____
   uint32_t currentFrequency;
   ina219_A.begin(); // Current sensor de la batterie Arduino
   ina219_E.begin(); // Current sensor de la batterie Emission
   
 
-//_____________________________________________________________________________________________________Setup GPS____
+//_____________________________________________________Setup GPS____
   ss.begin(GPSBaud);
-//_____________________________________________________________________________________________________Setup GPS____
+//_____________________________________________________Setup Emetteur__
 Serial.println("Test emetteur");
 // blink once to signal the setup
 blinkLed(4, 255);
@@ -969,6 +967,8 @@ void loop()
   StatebatterieArduino();
 // Etat de la batterie Emission 
   StatebatterieEmission();
+// Etat panneau solaire
+voltageSolaire();
 // Etat de la pression
   Pression ();
 // Etat Accelerometre
