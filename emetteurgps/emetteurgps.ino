@@ -10,9 +10,8 @@ CC1101 cc1101;
 
 
 //Declaration emetteur
-// The LED is wired to the Arduino Output 4 (physical panStamp pin 19)
+// LED
 #define LED 5
-// counter to get increment in each loop
 byte syncWord = 199;
 //Declaration GPS
 static const int RXPin = 4, TXPin = 3;
@@ -21,16 +20,18 @@ static const uint32_t GPSBaud = 9600;
 TinyGPSPlus gps;
 // The serial connection to the GPS device
 SoftwareSerial ss(RXPin, TXPin);
-//Declaration CSA
-Adafruit_INA219 ina219; // Current sensor de la batterie Arduino
+//Declaration Current Sensor
+Adafruit_INA219 ina219_A; // Current sensor de la batterie Arduino
+Adafruit_INA219 ina219_E(0x41); // Current sensor de la batterie Emission
 int batterieArduino = 0;
+int batterieEmission = 0;
 //Declaration variables
 float longi;
 float lati;
 
 
 
-//Functions
+//Functions (à adapter dans Navsafe)
 void blinker(){
 digitalWrite(LED, HIGH);
 delay(500);
@@ -45,49 +46,62 @@ delay(500);
 //Set up
 void setup()
 {
-  Serial.begin(9600);
-  ss.begin(GPSBaud);
-  ina219.begin();
-  Serial.println("Test emetteur");
+// Initialisation
+Serial.begin(9600);
+ss.begin(GPSBaud);
+// Current Sensors
+uint32_t currentFrequency;
+ina219_A.begin(); // Current sensor de la batterie Arduino
+ina219_E.begin(); // Current sensor de la batterie Emission
+// Depart
+Serial.println("Test emetteur");
 // setup the blinker output
 pinMode(LED, OUTPUT);
 digitalWrite(LED, LOW);
-// blink once to signal the setup
+// Signal LED du setup
 blinker();
 lati=0;
 longi=0;
-// initialize the RF Chip
-Serial.println("initializing...");
+// Initialisation du RF Chip
+Serial.println("INITIALISATION...");
 cc1101.init();
 cc1101.setSyncWord(&syncWord, false);
 cc1101.setCarrierFreq(CFREQ_433);
 cc1101.disableAddressCheck();
 //cc1101.setTxPowerAmp(PA_LowPower);
 delay(1000);
-Serial.println("device initialized");
+Serial.println("EMETTEUR INITIALISE");
 }
 
-void send_data() {
+void send_data() 
+{
+// Initialisation de l'émission  
 CCPACKET data;
-data.length=11;
+data.length=41;
 //Variables
-int unit; int unite; char sep=';'; int unita;
-//Delimitations des coordonnes
-int j=3; int h=7; int n=10;
+int unit; int unite; int unita;
+char sep=';'; 
+//Delimitations des coordonnees
+int h=7; int n=10;
+data.data[4]=sep;
+// Initialisation de la chaîne à une chaîne de 0
+for(int u=0;u<data.length;u++)
+{data.data[u]=0;}
+//Traitement des séparateurs
+data.data[4]=sep;
+data.data[8]=sep;
+//Traitement latitude
 //Recupérations des coordonnees
 float latitude=lati;
-float longitude=longi;
-for(int l=0;l<data.length;l++)
-{data.data[l]=0;}
-//Traitement latitude
-while(latitude>100)
+// Préparation à l'envoi
+for (int j=3; j>0; j--)
 {unit=(int)latitude%100;
 data.data[j]=unit;
 latitude=latitude/100;
-j--;
-if(latitude<100){data.data[j]=latitude;}
+if(latitude<100){data.data[j-1]=latitude;}
 }
 //Traitement longitude
+float longitude=longi;
 while(longitude>100)
 {unite=(int)longitude%100;
 data.data[h]=unite;
@@ -95,16 +109,13 @@ longitude=longitude/100;
 h--;
 if(longitude<100){data.data[h]=longitude;}
 }
-data.data[4]=sep;
 //Traitement Pression
 //Traitement Temperature
 //Traitement Accelerometre
 //Traitement Current Sensor Arduino
 float busvoltageA = 0;
-  busvoltageA = ina219.getBusVoltage_V();
-  Serial.println(busvoltageA);
-  busvoltageA=busvoltageA*100;
-  Serial.println(busvoltageA);
+busvoltageA = ina219_A.getBusVoltage_V();
+busvoltageA=busvoltageA*100;
 while(busvoltageA>100)
 {unita=(int)busvoltageA%100;
 data.data[n]=unita;
@@ -112,34 +123,29 @@ busvoltageA=busvoltageA/100;
 n--;
 if(busvoltageA<100){data.data[n]=busvoltageA;}
 }
-
-
 data.data[9]=(int)busvoltageA;
 //Traitement Current Sensor Emission
-//Traitement des séparateurs
-data.data[4]=sep;
-data.data[8]=sep;
-//cc1101.flushTxFifo ();
-if(cc1101.sendData(data)){
-Serial.print("latitude ");
+// Envoi des données
+if(cc1101.sendData(data))
+{
+// Afficher Latitude
+Serial.print("Latitude: ");
 for(int i=0; i<4; i++){
 Serial.print(data.data[i]);
 if(i==1){Serial.print(",");}
 }
 Serial.println(" sent ok !!");
-Serial.print("longitude ");
+Serial.print("Longitude: ");
 for(int k=5; k<8; k++){
 Serial.print(data.data[k]);
 if(k==5){Serial.print(",");}
 }
 Serial.println(" sent ok !!");
-Serial.print("Voltage: ");
+Serial.print("ARDUINO-Tension: ");
 Serial.print(data.data[9]);
+Serial.print(",");
 Serial.print(data.data[10]);
-Serial.println(" V");
-
-Serial.print((char)data.data[4]);
-
+Serial.println(" sent ok !!");
 
 blinker();
 }
