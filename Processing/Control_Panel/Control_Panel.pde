@@ -22,17 +22,8 @@ void setup()
 {
   //importation des images 
   PImage fond;
-  //fond = loadImage("fond.png");
-  //fond = loadImage("01.jpg");
   fond = loadImage("interface003.png");
   image(fond,0,0);
-  PImage navsafe;
-  navsafe = loadImage("navsafewhite.png");
-  image(navsafe,900,530);
-  PImage map;
-  //map = loadImage("map.png");
-  map = loadImage("mapbis.png");
-  //image(map,600,70);
   PImage solar;
   solar = loadImage("solar.png");
   PImage storm;
