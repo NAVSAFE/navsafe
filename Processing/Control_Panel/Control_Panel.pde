@@ -50,15 +50,24 @@ void setup()
   //couleur police
   fill(255,255,255);
   
+  //date et heure
+  String sec = str(second());
+  if (second()<10) {
+    sec = "0"+sec;
+  }
+  String min = str(minute());
+  if (minute()<10) {
+    min = "0"+min;
+  }
+  String heure = str(hour());
+  if (hour()<10) {
+    heure = "0"+heure;
+  }
   //police du sous titre
   textFont (police, 50); 
-  text(hour()+" : "+minute()+" : "+second(), 880, 160);
+  text(heure+" : "+min+" : "+sec, 880, 160);
   text(day()+"/"+month()+"/"+year(), 570, 160);
  
-  //police du sous titre
-  //textFont (police, 35); 
-  //text("Weather Conditions :", 20, 160);
-
   //trame reçue des capteurs
   String msg="1.05;28.3;calm;20;10;2.5;78;6;3.1;1";
   String [] meteo=split(msg, ';');
@@ -100,10 +109,6 @@ void setup()
   
   //informations batteries
   
-  //police du sous titre
-  //textFont (police, 35); 
-  //text("Battery smart :", 20, 320);
-  
   //police du sous-sous titre
   textFont (police, 20); 
   text(volt1+" V", 140, 554);
@@ -126,11 +131,6 @@ void setup()
     image(battery90, 400, 515);
   }
   
-  /*
-  //police du sous titre
-  textFont (police, 35); 
-  text("Battery emission :", 20, 450);
-  */
   //police du sous-sous titre
   textFont (police, 25); 
   text(volt2+" V", 140, 722);
@@ -155,18 +155,10 @@ void setup()
 
   //localisation
   
-  //taille de la carte
-  //int a=map.width;
-  //int b=map.height;
+  //taille de la carte : 792x474, placée en x=555 et y=326
   int a = 792;
   int b = 474;
-  //792x474
-  //placée en x=555 et y=326
-  
-  //taille de l'image
-  //latitude (y) : entre 48.9030 et 48.8140 (0.089 de longueur)
-  //longitude (x) : entre 2.2510 et 2.4170 (0.166 de longueur)
-  
+ 
   //new carte
   //latitude (y) : entre 48.9023 et 48.8190 (0.0833 de longueur)
   //longitude (x) : entre 2.2415 et 2.4585 (0.217 de longueur)
@@ -179,14 +171,10 @@ void setup()
   float y=Float.parseFloat(coord[1]);
   
   //mettre les coordonnées à l'échelle de l'image  
-  //x=((x-2.2510)*a)/0.166;
-  //y=((y-48.9030)*b)/0.0845;
   x=((x-2.2415)*a)/0.217;
   y=((y-48.9023)*b)/0.0833;
   y=-y;  //inverser l'axe des ordonnées
   //déplacer par rapport à l'origine du repère
-  //x=x+600;
-  //y=y+70;
   x=x+555;
   y=y+326;
   
