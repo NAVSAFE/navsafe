@@ -61,23 +61,23 @@ Serial.println("device initialized");
 
 void send_data() {
 CCPACKET data;
-data.length=13;
+data.length=60;
 //Variables
-int unit; int unite;
+int unit; int unite; char sep=';';
 //Delimitations des coordonnes
-int j=6; int h=12;
+int j=3; int h=12;
 //Recupérations des coordonnees
 float latitude=lati;
 float longitude=longi;
 for(int l=0;l<data.length;l++)
 {data.data[l]=0;}
 //Traitement latitude
-while(latitude>10)
-{unit=(int)latitude%10;
+while(latitude>100)
+{unit=(int)latitude%100;
 data.data[j]=unit;
-latitude=latitude/10;
+latitude=latitude/100;
 j--;
-if(latitude<10){data.data[j]=latitude;}
+if(latitude<100){data.data[j]=latitude;}
 }
 //Traitement longitude
 while(longitude>10)
@@ -87,6 +87,15 @@ longitude=longitude/10;
 h--;
 if(longitude<10){data.data[h]=longitude;}
 }
+//Traitement Pression
+//Traitement Temperature
+//Traitement Accelerometre
+//Traitement Current Sensor Arduino
+//Traitement Current Sensor Emission
+//Traitement des séparateurs
+data.data[7]=data.data[14]=data.data[20]=data.data[24]=sep;
+data.data[28]=data.data[32]=data.data[36]=data.data[40]=sep;
+data.data[45]=data.data[48]=data.data[52]=data.data[57]=sep;
 //cc1101.flushTxFifo ();
 if(cc1101.sendData(data)){
 Serial.print("latitude ");
