@@ -112,11 +112,9 @@ if(k==5){Serial.print(",");}
 Serial.println(" ");
 // Reception Pression
 Serial.print("Pressure: ");
-<<<<<<< HEAD
+
 Serial.print(packet.data[9]+800);
-=======
-Serial.print(packet.data[9]);
->>>>>>> FETCH_HEAD
+
 Serial.println(" HPa.");
 // Reception Temperature
 Serial.print("Temperature: ");
@@ -188,8 +186,3 @@ Serial.println(" mA");
 attachInterrupt(0, cc1101signalsInterrupt, FALLING);
 }
 }
-<<<<<<< HEAD
-
-=======
-
->>>>>>> FETCH_HEAD
