@@ -112,80 +112,76 @@ if(k==5){Serial.print(",");}
 Serial.println(" ");
 // Reception Pression
 Serial.print("Pressure: ");
-for(int l=9; l<12; l++)
-{
-Serial.print(packet.data[l]);
-if(l==10){Serial.print(",");}
-}
+Serial.print(packet.data[9]+800);
 Serial.println(" HPa.");
 // Reception Temperature
 Serial.print("Temperature: ");
-for(int m=13; m<16; m++)
+for(int m=11; m<14; m++)
 {
 Serial.print(packet.data[m]);
-if(m==14){Serial.print(",");}
+if(m==12){Serial.print(",");}
 }
 Serial.println("C");
 // Reception Acc X
 Serial.print("Acc X: ");
-for(int n=17; n<19; n++)
+for(int n=15; n<17; n++)
 {
 Serial.print(packet.data[n]);
-if(n==17){Serial.print(",");}
+if(n==15){Serial.print(",");}
 }
 Serial.println(" ");
 // Reception Acc Y
 Serial.print("Acc y: ");
-for(int o=20; o<22; o++)
+for(int o=18; o<20; o++)
 {
 Serial.print(packet.data[o]);
-if(o==20){Serial.print(",");}
+if(o==18){Serial.print(",");}
 }
 Serial.println(" ");
 // Reception Acc Z
 Serial.print("Acc Z: ");
-for(int p=23; p<25; p++)
+for(int p=21; p<23; p++)
 {
 Serial.print(packet.data[p]);
-if(p==23){Serial.print(",");}
+if(p==21){Serial.print(",");}
 }
 Serial.println(" ");
 // Reception CSA Voltage
 Serial.print("ARDUINO-Voltage: ");
-for(int q=26; q<28; q++)
+for(int q=24; q<26; q++)
 {
 Serial.print(packet.data[q]);
-if(q==26){Serial.print(",");}
+if(q==24){Serial.print(",");}
 }
 Serial.println(" V");
 // Reception CSA Intensité
 Serial.print("ARDUINO-Current: ");
-for(int r=29; r<33; r++)
+for(int r=27; r<31; r++)
 {
 Serial.print(packet.data[r]);
-if(r==31){Serial.print(",");}
+if(r==29){Serial.print(",");}
 }
 Serial.println(" mA");
 // Reception CSE Voltage
 Serial.print("Transmitter-Voltage: ");
-for(int s=34; s<36; s++)
+for(int s=32; s<34; s++)
 {
 Serial.print(packet.data[s]);
-if(s==34){Serial.print(",");}
+if(s==32){Serial.print(",");}
 }
 Serial.println(" V");
 // Reception CSE Intensité
 Serial.print("TRANMITTER-Current: ");
-for(int t=37; t<packet.length; t++)
+for(int t=35; t<packet.length; t++)
 {
 Serial.print(packet.data[t]);
-if(t==39){Serial.print(",");}
+if(t==37){Serial.print(",");}
 }
 Serial.println(" mA");
 }
 }
-}
 // Enable wireless reception interrupt
 attachInterrupt(0, cc1101signalsInterrupt, FALLING);
+}
 }
 
