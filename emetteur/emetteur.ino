@@ -51,7 +51,7 @@ Serial.println("device initialized");
 
 void send_data() {
 CCPACKET data;
-data.length=10;
+data.length=41;
 float blinkCount=counter++;
 data.data[0]=5;
 data.data[1]=blinkCount;data.data[2]=5;
