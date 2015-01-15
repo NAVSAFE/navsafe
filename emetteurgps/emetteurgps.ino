@@ -333,13 +333,12 @@ void send_data()
 {
 // Initialisation de l'émission  
 CCPACKET data;
-data.length=41;
+data.length=39;
 //Variables
-int unit; int unite; int unita;
+int unit; int unite; int unita; int unitb;
 char sep=';'; 
 //Delimitations des coordonnees
-int h=7; int n=27;
-data.data[4]=sep;
+int h=7; int n=25;
 // Initialisation de la chaîne à une chaîne de 0
 for(int u=0;u<data.length;u++)
 {data.data[u]=0;}
@@ -371,14 +370,20 @@ float pressure_pKa = 0;
 digitalWrite(MPL115A1_ENABLE_PIN, HIGH);
 delay(20);  // give the chip a few ms to wake up
 pressure_pKa = calculatePressurekPa();
-Serial.print("Pression: ");
-Serial.println(pressure_pKa);
+data.data[9]= pressure_pKa;
    
 //Traitement Temperature
 float temperature_c= 0;
 temperature_c = calculateTemperatureC();
-Serial.print("Temperature: ");
-Serial.println(temperature_c);
+temperature_c = temperature_c*10;
+
+for (int p=13; p>11; p--)
+{unitb=(int)temperature_c%10;
+data.data[p]=unitb;
+temperature_c=temperature_c/10;
+if(temperature_c<10){data.data[p-1]=temperature_c;}
+}
+
 
 // put the MPL115A1 to sleep, it has this feature why not use it
 // while in shutdown the part draws ~1uA
@@ -407,17 +412,30 @@ Serial.print(data.data[i]);
 if(i==1){Serial.print(",");}
 }
 Serial.println(" sent ok !!");
+//Afficher longitude
 Serial.print("Longitude: ");
 for(int k=5; k<8; k++){
 Serial.print(data.data[k]);
 if(k==5){Serial.print(",");}
 }
 Serial.println(" sent ok !!");
+//Afficher CSA tension
 Serial.print("ARDUINO-Tension: ");
-Serial.print(data.data[9]);
+Serial.print(data.data[24]);
 Serial.print(",");
-Serial.print(data.data[10]);
+Serial.print(data.data[25]);
 Serial.println(" sent ok !!");
+// Afficher pression
+Serial.print("Pression: ");
+Serial.print(data.data[24]);
+Serial.println(" sent ok !!");
+// Afficher temperature
+Serial.print("Temperature: ");
+for(int q=11; q<14; q++){
+Serial.print(data.data[q]);
+if(q==12){Serial.print(",");}
+}
+
 
 blinker();
 }
@@ -456,7 +474,6 @@ else
 Serial.println("GPS Out of Service, please wait...");
 send_data();
 delay(2000);
-
 }
 }
 
