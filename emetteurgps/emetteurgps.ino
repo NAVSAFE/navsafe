@@ -93,12 +93,28 @@ data.data[8]=sep;
 //Traitement latitude
 //Recupérations des coordonnees
 float latitude=lati;
+<<<<<<< Updated upstream
 // Préparation à l'envoi
 for (int j=3; j>0; j--)
 {unit=(int)latitude%100;
 data.data[j]=unit;
 latitude=latitude/100;
 if(latitude<100){data.data[j-1]=latitude;}
+=======
+float longitude=longi;
+Serial.println(longitude);
+Serial.println(latitude);
+for(int l=0;l<data.length;l++)
+{data.data[l]=0;}
+//Traitement latitude
+while(latitude>100)
+{unit=(int)latitude%100;
+data.data[j]=unit;
+latitude=latitude/100;
+Serial.println(latitude);
+j--;
+if(latitude<100){data.data[j]=latitude;}
+>>>>>>> Stashed changes
 }
 //Traitement longitude
 float longitude=longi;
@@ -106,6 +122,7 @@ while(longitude>100)
 {unite=(int)longitude%100;
 data.data[h]=unite;
 longitude=longitude/100;
+Serial.println(longitude);
 h--;
 if(longitude<100){data.data[h]=longitude;}
 }

@@ -37,7 +37,7 @@
 
 // Pin definitions
 #define MPL115A1_ENABLE_PIN 9
-#define MPL115A1_SELECT_PIN 10
+#define MPL115A1_SELECT_PIN 7
 
 // Masks for MPL115A1 SPI i/o
 #define MPL115A1_READ_MASK  0x80

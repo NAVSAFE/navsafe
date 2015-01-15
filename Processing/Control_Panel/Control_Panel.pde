@@ -22,7 +22,7 @@ void setup()
 {
   //importation des images 
   PImage fond;
-  fond = loadImage("interface003.png");
+  fond = loadImage("interface005.png");
   image(fond,0,0);
   PImage solar;
   solar = loadImage("solar.png");
@@ -69,10 +69,10 @@ void setup()
   text(day()+"/"+month()+"/"+year(), 570, 160);
  
   //trame reçue des capteurs
-  String msg="1.05;28.3;calm;20;10;2.5;78;6;3.1;1";
+  String msg="1013;28.3;calm;20;10;2.5;78;6;3.1;1";
   String [] meteo=split(msg, ';');
   
-  float pressure=Float.parseFloat(meteo[0]);
+  int pressure=(int)Float.parseFloat(meteo[0]);
   float temp=Float.parseFloat(meteo[1]);
   String sea=meteo[2];
   float percent1=Float.parseFloat(meteo[3]);
@@ -100,7 +100,7 @@ void setup()
   //police du sous-sous titre
   textFont (police, 50);
   //pression
-  text(pressure+" hPa", 305, 200);
+  text(pressure+"hPa", 305, 200);
   //température
   text(temp+" °C", 85, 200);
   //sea state
@@ -205,11 +205,3 @@ void setup()
   */
 
 }
-
-
-
-
-
-
-
-
