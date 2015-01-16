@@ -48,14 +48,14 @@ void setup()
 {
 // Initialisation
 Serial.begin(9600);
-Serial.println("TEST RECEPTEUR");
+//Serial.println("TEST RECEPTEUR");
 // Setup LED
 pinMode(LED, OUTPUT);
 digitalWrite(LED, LOW);
 // blink once to signal the setup
 blinker();
 // Initialize the RF Chip
-Serial.println("INITIALISATION...");
+//Serial.println("INITIALISATION...");
 cc1101.init();
 cc1101.setSyncWord(&syncWord, false);
 cc1101.setCarrierFreq(CFREQ_433);
@@ -63,7 +63,7 @@ cc1101.disableAddressCheck(); //if not specified, will only display "packet rece
 //cc1101.setTxPowerAmp(PA_LowPower);
 attachInterrupt(0, cc1101signalsInterrupt, FALLING);
 delay(1000);
-Serial.println("RECEPTEUR INITIALISE");
+//Serial.println("RECEPTEUR INITIALISE");
 }
 
 
@@ -92,7 +92,11 @@ Serial.println("crc not ok");
 // Traitement des données reçues
 if(packet.length > 0)
 {
-// Reception Latitude
+// Reception de toute la chaîne
+for (int a=0;a<packet.length;a++)
+{Serial.println(packet.data[a]);}
+Serial.println(" ");
+ //Reception Latitude
 Serial.print("Latitude: ");
 for(int j=0; j<4; j++)
 {
@@ -100,7 +104,7 @@ Serial.print(packet.data[j]);
 if(j==1){Serial.print(",");}
 }
 Serial.println(" ");
-// Reception Longitude
+ //Reception Longitude
 Serial.print("Longitude: ");
 for(int k=5; k<8; k++)
 {
@@ -129,7 +133,7 @@ Serial.print(packet.data[n]);
 if(n==16){Serial.print(",");}
 }
 Serial.println(" ");
-// Reception Acc Y
+//Reception Acc Y
 Serial.print("Acc y: ");
 Serial.print((char)packet.data[20]);
 for(int o=21; o<24; o++)
@@ -138,7 +142,7 @@ Serial.print(packet.data[o]);
 if(o==21){Serial.print(",");}
 }
 Serial.println(" ");
-// Reception Acc Z
+ //Reception Acc Z
 Serial.print("Acc Z: ");
 Serial.print((char)packet.data[25]);
 for(int p=26; p<29; p++)
@@ -155,7 +159,7 @@ Serial.print(packet.data[q]);
 if(q==30){Serial.print(",");}
 }
 Serial.println(" V");
-// Reception CSA Intensité
+ //Reception CSA Intensité
 Serial.print("ARDUINO-Current: ");
 for(int r=33; r<37; r++)
 {
@@ -163,7 +167,7 @@ Serial.print(packet.data[r]);
 if(r==35){Serial.print(",");}
 }
 Serial.println(" mA");
-// Reception CSE Voltage
+//Reception CSE Voltage
 Serial.print("Transmitter-Voltage: ");
 for(int s=38; s<40; s++)
 {
@@ -171,7 +175,7 @@ Serial.print(packet.data[s]);
 if(s==38){Serial.print(",");}
 }
 Serial.println(" V");
-// Reception CSE Intensité
+//Reception CSE Intensité
 Serial.print("TRANMITTER-Current: ");
 for(int t=41; t<packet.length; t++)
 {
@@ -185,4 +189,6 @@ Serial.println(" mA");
 attachInterrupt(0, cc1101signalsInterrupt, FALLING);
 }
 }
+//}
+//}
 
