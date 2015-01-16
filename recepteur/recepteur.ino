@@ -49,13 +49,11 @@ void setup()
 // Initialisation
 Serial.begin(9600);
 Serial.println("TEST RECEPTEUR");
-
 // Setup LED
 pinMode(LED, OUTPUT);
 digitalWrite(LED, LOW);
 // blink once to signal the setup
 blinker();
-
 // Initialize the RF Chip
 Serial.println("INITIALISATION...");
 cc1101.init();
@@ -112,9 +110,7 @@ if(k==5){Serial.print(",");}
 Serial.println(" ");
 // Reception Pression
 Serial.print("Pressure: ");
-
 Serial.print(packet.data[9]+800);
-
 Serial.println(" HPa.");
 // Reception Temperature
 Serial.print("Temperature: ");
@@ -126,58 +122,61 @@ if(m==12){Serial.print(",");}
 Serial.println("C");
 // Reception Acc X
 Serial.print("Acc X: ");
-for(int n=15; n<17; n++)
+Serial.print((char)packet.data[15]);
+for(int n=16; n<19; n++)
 {
 Serial.print(packet.data[n]);
-if(n==15){Serial.print(",");}
+if(n==16){Serial.print(",");}
 }
 Serial.println(" ");
 // Reception Acc Y
 Serial.print("Acc y: ");
-for(int o=18; o<20; o++)
+Serial.print((char)packet.data[20]);
+for(int o=21; o<24; o++)
 {
 Serial.print(packet.data[o]);
-if(o==18){Serial.print(",");}
+if(o==21){Serial.print(",");}
 }
 Serial.println(" ");
 // Reception Acc Z
 Serial.print("Acc Z: ");
-for(int p=21; p<23; p++)
+Serial.print((char)packet.data[25]);
+for(int p=26; p<29; p++)
 {
 Serial.print(packet.data[p]);
-if(p==21){Serial.print(",");}
+if(p==26){Serial.print(",");}
 }
 Serial.println(" ");
 // Reception CSA Voltage
 Serial.print("ARDUINO-Voltage: ");
-for(int q=24; q<26; q++)
+for(int q=30; q<32; q++)
 {
 Serial.print(packet.data[q]);
-if(q==24){Serial.print(",");}
+if(q==30){Serial.print(",");}
 }
 Serial.println(" V");
 // Reception CSA Intensité
 Serial.print("ARDUINO-Current: ");
-for(int r=27; r<31; r++)
+for(int r=33; r<37; r++)
 {
 Serial.print(packet.data[r]);
-if(r==29){Serial.print(",");}
+if(r==35){Serial.print(",");}
 }
 Serial.println(" mA");
 // Reception CSE Voltage
 Serial.print("Transmitter-Voltage: ");
-for(int s=32; s<34; s++)
+for(int s=38; s<40; s++)
 {
 Serial.print(packet.data[s]);
-if(s==32){Serial.print(",");}
+if(s==38){Serial.print(",");}
 }
 Serial.println(" V");
 // Reception CSE Intensité
 Serial.print("TRANMITTER-Current: ");
-for(int t=35; t<packet.length; t++)
+for(int t=41; t<packet.length; t++)
 {
 Serial.print(packet.data[t]);
-if(t==37){Serial.print(",");}
+if(t==43){Serial.print(",");}
 }
 Serial.println(" mA");
 }
@@ -186,3 +185,4 @@ Serial.println(" mA");
 attachInterrupt(0, cc1101signalsInterrupt, FALLING);
 }
 }
+
